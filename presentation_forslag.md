@@ -11,6 +11,27 @@ _— eller: Varför din viktigaste kompetens snart inte är att koda_
 
 ---
 
+### Slide-designprinciper
+
+Genomgående för hela presentationen gäller: Erik _är_ presentationen. PowerPoint är bara stödet som förstärker föredraget — aldrig tvärtom. Slides ska inte kunna läsas som ett fristående dokument. Om publiken läser slides istället för att lyssna har vi misslyckats.
+
+Principer (inspirerade av Garr Reynolds "Presentation Zen", Guy Kawasakis 10-20-30-regel, David JP Phillips TEDx-talk "How to Avoid Death by PowerPoint", och TED:s egna riktlinjer):
+
+- En idé per slide. Aldrig fler. Om en slide behöver förklaras med mer än en mening är den för komplex.
+- Bilder framför text. Om du kan byta ut ord mot en bild — gör det. En relevant bild med ett enda nyckelord slår fem punktlistor.
+- Max 6 ord per rad, max 6 rader per slide (6×6-regeln). Helst färre.
+- Generöst med whitespace. Låt innehållet andas. Trångt = förvirring.
+- Minst 30pt fontstorlek (Kawasakis regel). Om texten inte syns från sista raden i rummet är den för liten.
+- Inga bullet-listor om det inte är absolut nödvändigt. Använd istället en bild, ett citat, eller en siffra.
+- Kontrast och läsbarhet. Mörk text på ljus bakgrund eller tvärtom. Inga fancy fonter.
+- Bilder i hög upplösning. Aldrig pixliga, aldrig clipart, aldrig stockfoton med falska leenden.
+- Animationer och övergångar: inga. Eller subtila. Aldrig "fly in from left."
+- Varje slide ska klara "glance test": publiken ska förstå poängen inom 3 sekunder.
+
+Praktiskt: tänk på varje slide som en affisch du kör förbi på motorvägen — en bild, ett budskap, klart.
+
+---
+
 ### Beskrivning (kort, för programblad/event-sida)
 
 Tänk dig att en AI just har byggt klart ett komplett system åt dig. Den frågar artigt:
@@ -210,477 +231,316 @@ Samma AI som skapar verifieringsskuld kan _eliminera_ den, om den styrs rätt. D
 
 Slide-poäng: Det här är inte en paradox — det är Vogels poäng i ett nötskal. AI utan styrning skapar verifieringsskuld (45% misslyckas i säkerhetstester). AI _med_ styrning — specifikationer, mekanismer, mänskligt omdöme — hittar buggar som människor missat i 27 år. Skillnaden är inte verktyget. Skillnaden är renässansutvecklaren som håller i det.
 
-_(Humor: "Så AI kan antingen bygga SkyNet åt dig utan att du märker det, eller hitta buggen som legat i din kryptering sedan 1998. Allt beror på om du vibe-kodar eller om du faktiskt äger det du bygger.")_
+> _(Humor: "Så AI kan antingen bygga SkyNet åt dig utan att du märker det, eller hitta buggen som legat i din kryptering sedan 1998. Allt beror på om du vibe-kodar eller om du faktiskt äger det du bygger.")_
 
 **Kopplingen till The Kernel:**
 
 Vogels & Byron Cooks intervju "Proving the Promise: Trust in AI Systems" i The Kernel handlar om exakt detta — hur automatiserad resonering kan verifiera att AI-genererad kod faktiskt gör det den ska. Det är mekanismen mot verifieringsskulden.
 
-_(Humor: "Vibe Coding är som att beställa mat på ett språk du inte talar. Det som kommer till bordet ser fantastiskt ut. Du vet bara inte om det är nötkött eller om du just beställde kokta skosnören.")_
+> _(Humor: "Vibe Coding är som att beställa mat på ett språk du inte talar. Det som kommer till bordet ser fantastiskt ut. Du vet bara inte om det är nötkött eller om du just beställde kokta skosnören.")_
 
-#### Akt 4: De fem egenskaperna — Renässansutvecklarens ramverk
+#### Akt 4: De fem egenskaperna — Eriks tolkning av ramverket
 
-Vogels destillerade 14 års observationer till fem karaktärsdrag. Här är varje egenskap med hans specifika exempel, redo för slides.
-
----
-
-**Egenskap 1: Var nyfiken (Be Curious)**
-
-Vogels citat:
-
-> "Curiosity is critical. As developers, you always had to continuously learn because everything changed all the time. Every developer I've met has this instinct to take something apart and look at how it works. You have to protect that instinct."
-
-Slide-poäng: Nyfikenhet är inte en bonus — det är en överlevnadsegenskap.
-
-Vogels exempel — Experimentering och misslyckande:
-
-- > "Da Vinci made an airplane that never flew, but we are flying now."
-- > "An experiment is not an experiment if you already know the outcome."
-- Jämförelse med att lära sig ett nytt språk (holländska, engelska, portugisiska, tyska):
-
-  > "The best way to learn is fail and be gently corrected. You can study grammar all you like, but real learning begins where you stumble into a conversation."
-
-- Mjukvara fungerar likadant:
-
-  > "You can read documentation endlessly, but it is the failed build and the broken assumptions that really teach you how a system behaves."
-
-Vogels exempel — Yerkes-Dodson-lagen:
-
-- Stresskurvan som en klockkurva: för lite press → oengagerad. För mycket press → överväldigad.
-- Sweet spot: den stigande sluttningen där nyfikenhet möter utmaning.
-
-> "That's when your brain is fully alert, focused, and ready to grow. You can't reach that point by sitting comfortably."
-
-- Kopplingen till The Kernel: Andy Warfields artikel "A Little Bit Uncomfortable" handlar om exakt detta — obehag som signal för tillväxt.
-
-Vogels exempel — Lärande är socialt ("Touch the grass"):
-
-> "Learning isn't just cognitive, it is social. You have to touch the grass occasionally."
-
-- Gå på user groups, konferenser, ta en kaffe med en vän och prata om system.
-
-> "One of the best ways to stay sharp is to be around other people who are building things."
-
-Vogels reseberättelser (nyfikenhet i praktiken):
-
-- **AJE (Amazonfloden):** Dryckesföretag som stödjer samhällen längs Amazonfloden, ger unga människor en ekonomisk framtid så att de inte lämnar sina byar. Vogels:
-
-  > "A great example of how doing good can be profitable at the same time."
-
-  Han såg rosa delfiner.
-
-- **The Ocean Cleanup:** 80% av plasten i haven kommer från bara en tusendel av världens 3 miljoner floder. De använder drönare, AI-kameror på broar och fartyg, och GPS-spårade dummyplaster för att bygga beräkningsmodeller som förutsäger plastens rörelsemönster. Vid Manaus la de GPS i plast och släppte den i Amazonfloden — det visade sig att Amazonfloden inte alls är en stor förorenare.
-- **Rwanda Health Intelligence Center:** Hälsoministeriet har byggt ett operationscenter med stora skärmar som visar realtidsdata från fyra nivåer av sjukvårdsinrättningar. De har skapat en modell som visar vilka delar av landet som ligger mer än 30 minuters promenad från en vårdgivare — och använder den datan för att strategiskt placera nya mödravårdskliniker.
-
-  > "They use data to drive policy, and to actually implement that policy."
-
-- **KOKO Networks (Nairobi):** I fattiga områden lånar folk en dollar på morgonen, köper varor, säljer dem, och har 40–50 cent kvar på kvällen — tillräckligt för mat, men inte för gas att laga den. Så de eldar med kol, vilket förorenar massivt. KOKO Networks byggde etanol-"bankomater" där folk kan köpa 5 cents gas i en liten behållare — tillräckligt för att laga kvällsmaten.
-
-Slide-poäng: Dessa är inte Silicon Valley-startups med obegränsade budgetar. De löser svåra problem med begränsade resurser genom att vara nyfikna på vad tekniken kan göra.
-
-**Svenskt/nordiskt komplement — Nyfikenhet:**
-
-- **Markus "Notch" Persson och Minecraft:** Började programmera vid 7 års ålder i Edsbyn, en liten ort 18 mil norr om Stockholm. Byggde Minecraft på fritiden som ett experiment — inspirerad av Dwarf Fortress, Infiniminer och sin egen nyfikenhet. The New Yorker beskrev honom som "only a workmanlike coder, not a ruthless businessman" — men hans nyfikenhet att kombinera procedurell generering, överlevnadsmekanik och kreativt byggande skapade ett av historiens mest sålda spel. Sålde till Microsoft för 2,5 miljarder dollar. Nyfikenhet som drivkraft, inte teknisk briljans.
-
-- **Linus Torvalds och Linux:** Finlandssvensk student i Helsingfors som 1991 skrev ett operativsystem "just for fun" (bokstavligen titeln på hans självbiografi). Hans nyfikenhet att förstå hur Minix fungerade ledde till att han byggde sin egen kärna. Idag kör Linux på allt från Android-telefoner till 100% av världens 500 snabbaste superdatorer. Torvalds är det ultimata exemplet på Vogels poäng:
-
-  > "Every developer I've met has this instinct to take something apart and look at how it works."
+Vogels ramverk har fem egenskaper. Här är de — inte som en upprepning av keynoten, utan filtrerade genom 16 års erfarenhet av AWS och Ericssons AI-utveckling. Vogels exempel finns som referens i källorna; det här är Eriks presentation.
 
 ---
 
-**Egenskap 2: Tänk i system (Think in Systems)**
+**1. Nyfikenhet — Motorn som aldrig får stanna**
 
-Vogels citat: Donella Meadows definition:
+Ankarcitat (slide):
 
-> "A system is a set of things interconnected in such a way that they produce their own patterns of behavior over time."
+> _"Learning is the only thing the mind never exhausts, never fears, and never regrets."_
+> — Leonardo da Vinci
 
-Vogels:
+Det här är egenskapen som gör alla andra möjliga. Utan nyfikenhet stannar du vid det du redan kan — och i en bransch där verktygen byts ut vart tredje år är det en dödsdom i slow motion.
 
-> "That was an extraordinary definition, because it captures what every engineer eventually learns — that our systems have lives of their own."
+Vogels pratade om Yerkes-Dodson-lagen: stresskurvan där du lär dig bäst på den stigande sluttningen mellan uttråkad och överväldigad. Andy Warfield utvecklar det i sin Kernel-artikel "A Little Bit Uncomfortable" — obehag är en signal att du växer, inte att du gör fel.
 
-Vogels huvudexempel — Yellowstone-vargarna (trofisk kaskad):
+Och det är här renässansens tänkare blir relevanta igen — inte som dekoration, utan som bevis:
 
-Slide 1: Problemet
+- Da Vinci ritade ett flygplan som aldrig flög. Men han ritade också 500 skisser av fåglar i flykt för att förstå _principen_. Hans anteckningsböcker innehöll att-göra-listor som "Fråga Benedetto Protinari hur man går på is i Flandern." Han var inte ett geni som satt och väntade på inspiration — han var en manisk frågeställare som aldrig slutade peta i saker. Och de flesta av hans uppfinningar — helikoptrar, pansarfordon, dykardräkter, robotar — förblev bläck på papper i århundraden. Men de sidorna avslöjar _hur han tänkte_.
 
-- Tidigt 1900-tal: vargar togs bort från Yellowstone National Park
-- Logiken verkade sund: färre rovdjur → mer älg → mer liv
+- Michelangelo var skulptör. Han ansåg sig inte vara målare. Ändå sa han ja när påven bad honom måla Sixtinska kapellets tak — en teknik (fresko) han aldrig hade arbetat med. Hans första försök misslyckades: fresken mögelskadades och han fick hugga bort allt och börja om från noll. Fyra år senare hade han skapat ett av västvärldens mest inflytelserika konstverk. Obehaget var signalen.
 
-Slide 2: Verkligheten (trofisk kaskad)
+- Galileo — som Wikipedia beskriver som "astronomer, physicist, and engineer, sometimes described as a polymath" — uppfann den experimentella metoden: vetenskap baserad på bevis och mätning istället för auktoritet. Han bekräftade Copernicus heliocentriska teori med teleskopet och blev ställd inför inkvisitionen för det. Nyfikenhet har alltid haft ett pris. Men alternativet — att sluta fråga — kostar mer.
 
-- Dalarna överbetades
-- Träd försvann
-- Floder började erodera
-- Hela ekosystemet kollapsade
+Vogels reseberättelser visar att samma nyfikenhet lever idag, fast i andra former: AJE vid Amazonfloden (unga som får en ekonomisk framtid istället för att flytta till storstaden), KOKO Networks i Nairobi (etanol-"bankomater" för 5 cents gas så folk slipper elda med kol), och Rwandas hälsoministerium (realtidsdata som styr var nya mödravårdskliniker placeras — baserat på vilka områden som ligger mer än 30 minuters promenad från en vårdgivare). Inte Silicon Valley-startups med obegränsade budgetar — utan människor som är nyfikna på vilka problem som är värda att lösa.
 
-Slide 3: Återställningen
+Nordiska exempel:
 
-- 2010: vargar återinfördes
-- Vegetation återvände
-- Bävrar kom tillbaka
-- Till och med flodfårorna förändrades
+- **Markus "Notch" Persson och Minecraft:** Började programmera vid 7 års ålder på sin pappas Commodore 128 i Edsbyn — en liten ort 18 mil norr om Stockholm. Familjen prenumererade på en datortidning i tidningsformat med programlistningar man kunde skriva in. Vid 8 hade han gjort sitt första spel: ett textbaserat äventyr, byggt tillsammans med sin lillasyster. Han jobbade sedan som spelutvecklare på King.com i fyra år innan han 2009 började bygga Minecraft på fritiden — ursprungligen kallat "Cave Game." The New Yorker beskrev honom som "only a workmanlike coder, not a ruthless businessman" — men hans nyfikenhet att kombinera procedurell generering, överlevnadsmekanik och kreativt byggande skapade ett av historiens mest sålda spel. Innan den officiella releasen 2011 hade det redan sålts över fyra miljoner kopior. Microsoft köpte Mojang 2014 för 2,5 miljarder dollar. Nyfikenhet som drivkraft, inte teknisk briljans.
 
-Slide 4: Insikten
+- **Linus Torvalds och Linux:** Finlandssvensk, född 1969 i Helsingfors. 1991 var han student vid Helsingfors universitet och frustrerad över att han inte hade råd med Unix. Så han skrev sitt eget operativsystem — "just for fun" (bokstavligen titeln på hans självbiografi). Hans nyfikenhet att förstå hur Minix fungerade ledde till att han byggde sin egen kärna. Det berömda meddelandet till Usenet-gruppen comp.os.minix: _"I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu)."_ Idag kör Linux på allt från Android-telefoner till 100% av världens 500 snabbaste superdatorer, och det driver majoriteten av världens servrar och molninfrastruktur.
 
-- > "The wolves didn't move the rivers. They changed the behavior of the overall system."
-- > "When structure changes, behavior changes. When feedback changes, outcome changes."
-- En enda återkopplingsloop (rovdjur–byte) omformade balansen i hela systemet
-
-Vogels mappning till mjukvara:
-
-- Ändra en retry-policy → påverkar last
-- Lägg till en cache → ändrar trafikflöde
-- Flytta teamägarskap → ändrar leveranstakt
-- Varje förändring skapar nya mönster — vissa stabila, vissa inte
-
-Vogels om återkopplingsloopar:
-
-- **Förstärkande loopar** (positiva): förstärker förändring
-- **Balanserande loopar** (negativa): motverkar förändring, trycker systemet tillbaka mot jämvikt
-- Varje tjänst, API och kö är del av ett större system — du kan inte ändra en del isolerat
-
-Vogels läxa (bokstavligen "homework"):
-
-- Donella Meadows paper "Leverage Points: Places to Intervene in a System"
-- > "Take a picture of the QR code, and that's your homework for the coming week."
-- Insikten: inte alla förändringar är lika effektiva. Vissa interventioner, vid rätt hävstångspunkt, förskjuter hela systemets beteende.
-
-Slide-poäng:
-
-> "The Renaissance Developer thinks in systems. And to build resilient systems, you need to understand the bigger picture."
-
-**Svenskt/nordiskt komplement — Systemtänkande:**
-
-- **Spotifys Squad-modell:** Spotify i Stockholm byggde en organisationsmodell som blev en global referens — autonoma "squads" (6–12 personer) organiserade i "tribes", "chapters" och "guilds". Det var systemtänkande applicerat på _organisation_, inte bara teknik. Varje squad ägde sin del av produkten end-to-end. Men modellen visade också systemtänkandets komplexitet: autonomi ledde till duplicering (team byggde samma sak utan att veta om varandra), och Spotify fick senare införa "fleet management" för att hantera de oavsiktliga återkopplingsloopar som uppstod. Exakt Vogels Yellowstone-poäng: varje lokal optimering skapar nya systemeffekter.
-
-- **Ericsson och 5G-arkitekturen:** Ericsson har drivit 5G-standarden sedan 2011 — ett system där radio, kärnnät, edge computing och AI måste samverka sömlöst. Deras arbete med Telia och Scania för autonom transport visar systemtänkande i praktiken: pålitlig telemetri, sensordata och realtidsvideo mellan fordon och kontrollcenter, där varje komponent påverkar alla andra. En ändring i nätverkslatens påverkar fordonets beslutsförmåga — en trofisk kaskad i telekom.
-
-- **Sveriges egen "Yellowstone" — viltbetesskadorna:** I södra Sverige (Götaland/Skåne) saknas i stort sett stora rovdjur — varken varg eller lodjur i tillräcklig mängd. Resultatet? Rådjur, älg och vildsvin överbetade skogen så kraftigt att skogsföryngringen hotades. Forskning visar att bara _lukten_ av lodjur och varg räcker för att ändra hjortdjurens beteende och minska betesskadorna på planterade träd (Journal of Applied Ecology, 2026). Det är Yellowstone-effekten i miniatyr, och den händer i vår egen bakgård: ta bort rovdjuret, och hela systemets beteende förändras. Inte lika dramatiskt som att floder byter fåra — men principen är identisk. Och för en Mensa-publik i Sverige är det mer greppbart än Yellowstone.
-
-_(Notera: det exakta exemplet med rävar och hjortar i Skåne som en dokumenterad trofisk kaskad är svårt att belägga vetenskapligt — men den bredare svenska viltbetesproblematiken i södra Sverige, där avsaknaden av rovdjur leder till ekologisk obalans, är väldokumenterad och fungerar som lokal parallell.)_
+> _(Humor: "Nyfikenhet i en Mensa-publik borde inte vara ett problem. Ni är de enda jag vet som läser bruksanvisningen till bruksanvisningen. Utmaningen är att rikta nyfikenheten — annars hamnar ni i ett Wikipedia-hål klockan tre på natten och lär er allt om medeltida belägringsmaskiner istället för att leverera sprint-målet.")_
 
 ---
 
-**Egenskap 3: Kommunicera (Communicate)**
+**2. Systemtänkande — Varför din lokala fix kan förstöra allt**
 
-Vogels citat:
+Ankarcitat (slide):
 
-> "The ability to express your thinking clearly is just as critical as the thinking itself."
+> _"You can never understand anything in isolation. Everything is connected."_
+> — Donella Meadows
 
-Vogels huvudexempel — Amazons tre-tier-system (från Frugal Architect):
+Vogels använde Yellowstone-vargarna: ta bort vargarna → älgarna överbetade → träden försvann → floderna eroderade. Sätt tillbaka vargarna → hela ekosystemet återhämtade sig. Vargarna flyttade inte floderna — de förändrade systemets beteende.
 
-Slide 1: Amazons hemsida uppdelad i tre nivåer
+Kraftfull bild. Men den kan kännas avlägsen. Så här är den svenska versionen: i södra Sverige saknas stora rovdjur. Rådjur och älg överbetade skogen så kraftigt att skogsföryngringen hotades. Forskning från 2026 visar att bara _lukten_ av lodjur räcker för att ändra hjortdjurens beteende. Samma princip, vår bakgård.
 
-- **Tier 1 (absolut nödvändigt):** Sök, bläddra, kundvagn, kassa, recensioner. Utan dessa fungerar inte sajten.
-- **Tier 2 (viktigt):** Personalisering, rekommendationer.
-- **Tier 3 (nice-to-have):** Övriga funktioner.
+I mjukvara ser vi det hela tiden: ändra en retry-policy och du påverkar last. Lägg till en cache och du ändrar trafikflöde. Flytta teamägarskap och du ändrar leveranstakt. Donella Meadows kallade det "[leverage points](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)" — ställen där en liten förändring kan förskjuta hela systemets beteende. Hennes paper är obligatorisk läsning (och Vogels gav det bokstavligen som "homework" med QR-kod).
 
-Slide 2: Kommunikationsverktyget
+Nordiska exempel:
 
-- Sätt dig runt bordet med affärssidan: "Hur många nior tillgänglighet behöver Tier 1? Fyra nior. Det kostar så här mycket."
-- Tier 2: kanske tre nior. Tier 3: kanske två nior med manuell failover.
-- Vogels:
+- **Spotifys Squad-modell:** Spotify i Stockholm byggde en organisationsmodell som blev en global referens. Autonoma "squads" (6–12 personer) organiserade i "tribes", "chapters" och "guilds" — varje squad ägde sin del av produkten end-to-end. Briljant systemtänkande applicerat på _organisation_. Men modellen visade också systemtänkandets komplexitet: autonomin ledde till att team byggde samma sak utan att veta om varandra. Ingenjörer duplicerade kapaciteter "simply because they couldn't see what already existed." Spotify fick införa "fleet management" — ett system där biblioteksägare ansvarar för att migrera _alla_ konsumenter till senaste versionen. Deras verktyg Honk kan nu transformera kod och skapa pull requests över tusentals repositories, och reducerade migreringstider från nästan ett år till under en vecka för 70% av flottan. Yellowstone i organisationsform: ta bort den centrala koordineringen (vargarna), och autonoma team (älgarna) överbetade kodbasen. ([InfoQ, 2026](https://www.infoq.com/news/2026/03/spotify-honk-rewrite/))
 
-  > "It's a communication that you need to have. You need to be able to clearly describe your system and the capabilities and your opportunities towards the business."
+- **Ericsson, Telia och Scania — 5G-korridoren Södertälje–Nyköping:** Längs en 5G-transportkorridor mellan Södertälje och Nyköping testar Ericsson, Telia och Scania 5G Standalone för autonom transport på allmänna vägar — bland de första i Europa. Systemet kräver pålitlig telemetri, sensordata och realtidsvideo mellan fordon och kontrollcenter för fjärrövervakning och fjärrstyrning. En ändring i nätverkslatens påverkar direkt fordonets beslutsförmåga — trofisk kaskad i telekom. Ericsson driver även 5G Ride-projektet med Telia och Keolis: 5G-uppkopplade autonoma elminibussar på Kungliga Djurgården i Stockholm, och samarbete med Einride i Jönköping för helt elektriska, förarlösa transporter med mål att minska CO2-utsläppen med 90%. ([Ericsson](https://www.ericsson.com/en/cases/2026/telia-and-scania))
 
-Slide-poäng: Den konversationen låter enkel. Men den är sällsynt. De flesta organisationer definierar aldrig detta explicit — de överinvesterar (fem nior för nice-to-have) eller underinvesterar.
-
-Vogels om naturligt språk och tvetydighet:
-
-> "Natural language is ambiguous. But we have so many different senses that we can turn it into something less ambiguous."
-
-- Humor:
-
-  > "Do we put grandma on the grill, or are we having dinner tonight? Even without a comma, you probably already figured this one out."
-
-- Problemet: vi kommunicerar nu med maskiner via naturligt språk — som _är_ tvetydigt. Vi behöver mekanismer för att minska tvetydigheten.
-
-Vogels historiska exempel på specifikationer:
-
-- **Dijkstras strukturerade programmering:** Formella specifikationer som bevisade programkorrekthet _innan_ implementation
-- **Apollo Guidance System:** 145 000 rader kod styrda av minutiösa specifikationer — "a blueprint so precise that it helped land people on the moon"
-
-Vogels/Clare Liguori — Kiro IDE och spec-driven development:
-
-Slide 1: Problemet med vibe coding
-
-- Clare:
-
-  > "I was spending more and more time trying to describe to the AI what I wanted. The code was good, but the end software didn't do what I wanted."
-
-- Hon skrev allt längre prompts i Obsidian/Markdown, kopierade till kodassistenten — hon skapade i praktiken specifikationer utan att veta om det.
-
-Slide 2: Spec-driven development i Kiro
-
-- Tre dokument: **Requirements** (vad systemet ska/inte ska göra) → **Designs** (arkitektur, dataflöde) → **Tasks** (nedbrytning i körbara steg)
-- Iterera på spec-nivån tills den matchar din mentala modell, _sedan_ genererar AI:n kod
-
-Slide 3: Konkret exempel — Notifikationssystemet
-
-- Problem: Kiro-agenter tar tid, användaren byter app, agenten väntar på input utan att användaren vet
-- Spec-processen avslöjade att projektet var _mycket_ större än förväntat — AI:n föreslog en helt ny notifikationsarkitektur i agentkoden
-- De itererade på specen, fokuserade istället på Electrons native notification API
-- Resultat: levererade på ungefär _halva tiden_ jämfört med vibe coding
-
-Slide 4: Engelbart-analogin (rapid prototyping)
-
-- 1964: Doug Engelbart hade en idé om en enhet med hjul på undersidan som du drar över ett bord för att peka på en skärm
-- Försök att _beskriva_ en mus för någon på 60-talet — omöjligt
-- Teamet byggde en prototyp av trä med hjul och en knapp:
-
-  > "This rough prototype communicated better than any drawing or description could have"
-
-- AI har möjliggjort samma sak för mjukvara:
-
-  > "What used to take months of manual coding can now produce real working prototypes in minutes"
-
-- Kiro byggdes med Kiro:
-
-  > "We were able to use the Kiro IDE to generate the code for the Kiro IDE"
-
-Clare Liguoris slutsats:
-
-> "Natural language doesn't have to mean high ambiguity. Kiro IDE brings precision to natural language."
-
-Vogels personliga anekdot — Intervjuteknik:
-
-- På datavetenskap-utbildningen fanns en kurs som hette "Interview Technique" — inte journalistik, utan hur man lär sig prata med kunden för att förstå vad de _verkligen_ vill ha
-- > "They may come to you already with a technology solution. 'What should I be doing with GenAI?' Most of this is fear of missing out."
-- Kommunikation handlar om att gräva djupare: "I'm very sorry to answer your question with a question, but _why_ are you asking me this?"
-
-Kopplingen till The Kernel: Clare Liguoris artikel "Prototypes Before PRFAQs" — om hur snabb prototypning ibland är den snabbaste vägen till klarhet, även i Amazons Working Backwards-process.
-
-**Svenskt/nordiskt komplement — Kommunikation:**
-
-- **Klarna och AI-kundtjänst — en varning om tvetydighet:** Klarnas VD Sebastian Siemiatkowski sa i december 2024:
-
-  > "AI can already do all of the jobs that we, as humans, do."
-
-  De ersatte 700 kundtjänstmedarbetare med en OpenAI-chatbot som hanterade 2,3 miljoner konversationer. Men i maj 2025 började de desperat anställa tillbaka — kundnöjdheten sjönk, ingenjörer tvingades ta kundtjänstsamtal. Problemet? Tvetydighet. AI:n kunde svara på frågor, men den kunde inte _förstå_ vad kunden egentligen behövde. Precis Vogels poäng om intervjuteknik:
-
-  > "I'm very sorry to answer your question with a question, but _why_ are you asking me this?"
-
-  Klarna lärde sig att kommunikation inte bara handlar om att ge svar — det handlar om att ställa rätt frågor.
+> _(Humor: "Systemtänkande för Mensa-medlemmar: ni ser redan sambanden som andra missar. Problemet är att ni ser *alla* sambanden. Inklusive de som inte finns. Ibland är en retry-policy bara en retry-policy — inte en existentiell kris i systemarkitekturen.")_
 
 ---
 
-**Egenskap 4: Var en ägare (Be an Owner)**
+**3. Kommunikation — Precision är den nya superkraften**
 
-Vogels citat:
+Ankarcitat (slide):
 
-> "The work is yours, not the tools. If AI creates code that violates regulatory requirements, you can't go to the regulator and say 'Oh, it was AI.' No, it's still your responsibility."
+> _"The greatest problem in communication is the illusion that it has been accomplished."_
+> — George Bernard Shaw
 
-(Verifieringsskuld och hallucination behandlas i Akt 3 ovan — här fokuserar vi på mekanismer.)
+I AI-eran har naturligt språk blivit ett programmeringsgränssnitt. Och naturligt språk är tvetydigt. Vogels humor: "Do we put grandma on the grill, or are we having dinner tonight?"
 
-Se Akt 5 nedan för Vogels fullständiga genomgång av mekanismer vs. goda intentioner.
+Det finns fler klassiker i samma anda — och de illustrerar poängen bättre än någon teknisk förklaring:
 
-**Svenskt/nordiskt komplement — Ägarskap:**
+- "A panda eats, shoots and leaves" vs. "A panda eats shoots and leaves." Ett kommatecken gör skillnaden mellan en fredlig bambuätare och en beväpnad restauranggäst. (Lynne Truss skrev en hel bok om det.)
+- "The system shall be reliable." — En verklig kravspecifikation. Vad betyder "reliable"? 99%? 99.999%? Att den inte kraschar på tisdagar? En saknad definition i ett aerospace-projekt kostade 1,2 miljoner dollar.
+- "The system shall generate a visible or audible caution signal for the co-pilot or navigator." — Ska signalen vara synlig _eller_ hörbar? Ska den gå till co-piloten _eller_ navigatören? Eller båda? Fyra möjliga tolkningar i en enda mening.
 
-- **iZettle (nu Zettle by PayPal):** Jacob de Geer grundade iZettle 2010 i Stockholm efter att hans fru, som drev ett litet företag, inte kunde få tillgång till kortbetalningsinfrastruktur från bankerna — "completely hopeless and too expensive." Han tog med sig Magnus Nilsson som medgrundare — 20 år äldre, med helt annan bakgrund. Nilsson sa:
+Det är inte akademiska övningar. Det är exakt vad som händer när du promptar en AI med "bygg mig en webbapp med bra UX." AI:n gissar. Du itererar på koden istället för på vad du menade. Spec-driven development löser det genom att tvinga dig att vara precis _innan_ en enda rad kod genereras.
 
-  > "He thought it could be really interesting to develop a business together with someone who had a completely different background."
+Och ibland räcker inte ens ord — oavsett hur precisa de är. Vogels keynote lyfte Engelbart-analogin: 1964 hade Doug Engelbart vid Stanford Research Institute en idé om en enhet med hjul på undersidan som du drar över ett bord för att peka på en datorskärm. Försök att _beskriva_ det för någon som aldrig sett en mus. Omöjligt. Engelbarts team byggde istället en prototyp av trä — ett skal med hjul och en knapp — och plötsligt förstod alla. Prototypen kommunicerade bättre än någon ritning eller beskrivning kunde. AI har gjort samma sak möjlig för mjukvara: det som tog månader att koda manuellt kan nu bli en fungerande prototyp på minuter. Ibland är den snabbaste vägen till precision inte att skriva bättre krav — utan att bygga något folk kan ta på.
 
-  De byggde hela betalningsplattformen med principen att teamet ägde allt end-to-end — ingen startup-kostnad, inga dolda avgifter, inga bindande kontrakt. PayPal köpte dem för 2,2 miljarder dollar 2018. Ägarskap i Vogels mening: de ägde inte bara koden, de ägde _problemet_.
+Det konkreta exemplet som fastnade hos mig: Amazons hemsida uppdelad i tre tier — absolut nödvändigt (sök, kundvagn, kassa), viktigt (personalisering), nice-to-have. Sedan sätter du dig med affärssidan: "Tier 1 behöver fyra nior. Det kostar så här mycket." Den konversationen låter enkel. Den är sällsynt. De flesta organisationer definierar aldrig detta explicit.
+
+Clare Liguori visade hur spec-driven development i Kiro löser samma problem för AI: istället för att vibe-koda ("bygg mig ett trivia-spel" och hoppas på det bästa), skriver du krav → design → uppgifter _innan_ AI:n genererar kod. Deras notifikationssystem levererades på halva tiden jämfört med vibe coding — för att specen fångade att projektet var mycket större än förväntat _innan en enda rad kod skrevs_.
+
+Nordiskt exempel — Klarna, en varning om tvetydighet i stor skala:
+
+Klarna ersatte 700 kundtjänstmedarbetare med en OpenAI-chatbot som hanterade 2,3 miljoner konversationer. VD Sebastian Siemiatkowski sa i december 2024: "AI can already do all of the jobs that we, as humans, do." I maj 2025 började de desperat anställa tillbaka — kundnöjdheten sjönk, ingenjörer tvingades ta kundtjänstsamtal. Forrester-analytiker ifrågasatte om kvaliteten hade offrats för kostnadsbesparingar. Klarna lanserade sedan en ny modell där fjärrarbetare kan logga in on-demand, "in an Uber type of setup" ([Bloomberg](https://www.livemint.com/companies/news/klarnas-ai-replaced-700-workers-now-the-fintech-ceo-wants-humans-back-after-40b-fall-11747573937564.html), [Futurism](https://futurism.com/klarna-ai-automation-engineers)).
+
+Problemet var inte AI:n i sig — det var tvetydighet. AI:n kunde svara på frågor, men den kunde inte _förstå_ vad kunden egentligen behövde. Precis Vogels poäng: kommunikation handlar inte om att ge svar — det handlar om att ställa rätt frågor. Klarna lärde sig det på det hårda sättet, till en kostnad av miljarder i börsvärde.
+
+> _(Humor: "Kommunikation och Mensa — en klassisk kombination. Ni kan förklara kvantmekanik på fem minuter, men försök beställa en enkel kaffe utan att specificera extraktionstemperatur, malningsgrad och vattnets mineralhalt. Precision är en superkraft. Ibland är den också en social handikapp.")_
 
 ---
 
-**Egenskap 5: Bli en polymat (Become a Polymath)**
+**4. Ägarskap — Du kan inte skylla på AI:n**
 
-Vogels etymologi:
+Ankarcitat (slide):
 
-> "It has nothing to do with math. The 'math' comes from the Greek word 'manthanein,' which means to learn. It's about having deep domain experience, but also knowledge that spans many different subjects."
+> _"The work is yours, not that of the tools."_
+> — Dr. Werner Vogels
 
-Vogels huvudexempel — Leonardo da Vinci:
+Alternativ: Da Vinci: _"Iron rusts from disuse; stagnant water loses its purity; even so does inaction sap the vigor of the mind."_
 
-- Målare, ingenjör, ekonom, uppfinnare
-- > "Da Vinci probably was the absolute best example of a polymath because he worked across so many different disciplines."
+Det här är den egenskap jag ser misslyckas oftast. Inte för att folk är lata eller inkompetenta — utan för att ägarskap är obekvämt. Det innebär att du inte kan peka på någon annan när det går fel. Och i AI-eran har det blivit ännu lättare att undvika: "AI:n genererade koden, inte jag."
 
-- Vogels:
+**Varför ägarskap är den avgörande egenskapen:**
 
-  > "I do not expect you all to become a Da Vinci. But you should expand your knowledge beyond deep domain expertise."
+De andra fyra egenskaperna — nyfikenhet, systemtänkande, kommunikation, polymati — är meningslösa utan ägarskap. Du kan vara hur nyfiken som helst, men om du inte äger resultatet av din nyfikenhet producerar du bara intressanta observationer. Du kan tänka i system, men om ingen äger systemet end-to-end faller det mellan stolarna. Du kan kommunicera med precision, men om ingen äger att kommunikationen leder till handling är det bara välformulerade mejl.
 
-Vogels koncept — I-formade vs T-formade utvecklare:
+Ägarskap är limmet. Utan det har du fem fina egenskaper och noll leverans.
 
-Slide 1: I-formad utvecklare
+**Amazons "You build it, you run it":**
 
-- Djup och högt specialiserad i ett område
-- Vertikal expertis, men smal horisontell förståelse
+Vogels myntade frasen redan 2006. Den traditionella modellen var att du tog din mjukvara till väggen mellan utveckling och drift, kastade den över, och glömde den. Inte på Amazon. Du bygger det, du kör det, du äger det — inklusive klockan tre på natten när det går sönder.
 
-Slide 2: T-formad utvecklare
+Det låter brutalt. Men det förändrade allt: utvecklare kom i daglig kontakt med hur deras mjukvara faktiskt fungerade i produktion. Och — viktigare — de kom i daglig kontakt med _kunden_. Den återkopplingslopen är det som driver kvalitet. Inte goda intentioner, inte processdokument, utan det faktum att _du_ blir väckt om _din_ kod kraschar.
 
-- Samma djup, men med bred horisontell kunskap över flera discipliner
-- > "Great developers combine depth with breadth"
+Amazons two-pizza teams (5–8 personer, små nog att matas med två pizzor) byggde på samma princip: varje team äger sin del end-to-end, interagerar med andra team som API:er — definierade inputs och outputs. Ägarskap som arkitekturprincip.
 
-Vogels huvudexempel — Jim Gray:
+**AI-eran gör ägarskap svårare — och viktigare:**
 
-Slide 1: Vem var Jim Gray?
+När du skriver kod själv kommer förståelsen med skapandet. Du _vet_ vad koden gör för att du _byggde_ den. När AI:n skriver den har du kod utan förståelse — verifieringsskulden från Akt 3.
 
-- Vogels mentor och vän
-- Turingpristagare — uppfinnaren av transaktioner
-- > "Every transaction you do today, we have Jim to thank for this."
+Frestelsen är att behandla AI-genererad kod som "inte riktigt min." Men regulatorn bryr sig inte. Kunden bryr sig inte. Systemet som kraschar klockan tre på natten bryr sig definitivt inte.
 
-Slide 2: Jim Grays "20 questions"-utmaning
+Och det kraschar. Här är vad som händer när någon trycker deploy utan att förstå vad AI:n har genererat:
 
-- > "Give me 20 questions, 20 important questions that you want to ask of your data, and I will design the system for you."
-- Arbetade med Sloan Digital Sky Survey — ett av de första massiva dataseten, banbrytande för beräkningsastronomi
+- **Amazon, december 2025:** Ingenjörer lät en AI-kodassistent göra ändringar i infrastrukturen för en kostnadsberäkningstjänst. Istället för att applicera en liten modifiering bestämde AI:n att det bästa var att _radera och återskapa hela miljön_. Resultatet: 13 timmars driftstörning. Amazons interna dokument beskrev en "trend of incidents" med "high blast radius" kopplade till "Gen-AI assisted changes" för vilka "best practices and safeguards are not yet fully established." Amazon införde sedan att juniora och mellannivå-ingenjörer inte längre får pusha AI-assisterad kod till produktion utan godkännande från en senior ingenjör. ([Financial Times via Tessl.io](https://tessl.io/blog/a-high-blast-radius-amazon-probes-surge-in-outages-linked-to-ai-coding-tools/))
 
-Slide 3: Serverrumshistorien
+- **Autonomt kodningsexperiment, 2026:** Ett team lät Claude koda autonomt. Resultatet: 12 features levererade, men bara 4 fungerade utan omedelbar regression. 27 nya buggar introducerades. 40 timmar manuell sanering krävdes. API-kostnaderna sköt upp 38% på grund av ineffektiva request-mönster. Någon annan fick städa upp. ([TheNextGenTechInsider](https://www.thenextgentechinsider.com/pulse/claude-autonomous-coding-experiment-exposes-reliability-shortcomings-in-full-autonomy-ai))
 
-- Jim gick in i serverrummet i Baltimore
-- 30 sekunder senare gick han ut
-- Sa att databaslayouten var fel
-- > "By just listening to the rattling of the discs, he knew that there was way too much random access."
-- Decenniers erfarenhet hade gett honom ett sjätte sinne för hur system _borde_ bete sig
-- De designade om arkitekturen — prestandan förbättrades dramatiskt
+- **McKinsey Lilli-incidenten, 2026:** En autonom AI-agent pekades mot McKinseys interna AI-plattform och lämnades utan uppsikt. Två timmar senare hade agenten full läs- och skrivåtkomst till hela produktionsdatabasen — 46,5 miljoner chattmeddelanden, 728 000 konfidentiella klientfiler, 57 000 användarkonton, allt i klartext. ([Nanonets](https://nanonets.com/blog/ai-agent-hacks-mckinsey/))
 
-Slide 4: Varför Jim var T-formad, inte I-formad
+Mönstret är alltid detsamma: någon tryckte deploy (eller lät agenten köra) utan att förstå vad som hände. Och sedan fick någon _annan_ städa upp — i timmar, dagar, ibland veckor. Det är motsatsen till ägarskap.
 
-- Hans nyfikenhet sträckte sig långt bortom databaser
-- Han förstod människor, affärer och ett brett spektrum av teknologier
-- Det var _bredden_ som gjorde djupet så kraftfullt
+Vogels sa det rakt: _"If you're subject to regulatory requirements — healthcare, financial services — and AI creates code that violates them, you can't go to the regulator and say 'Oh, it was AI.' No, it's still your responsibility."_
 
-Vogels praktiska råd:
+**EU AI Act — ägarskap blir lag:**
 
-> "A database developer who understands front-end performance or cost-aware architectures can make better architectural choices because they see how their work shapes the overall system."
+Det här är inte längre bara en kulturell princip. EU AI Act (Regulation 2024/1689) är världens första heltäckande AI-lagstiftning och den är redan i kraft.
 
-> "That breadth of knowledge gives you the perspective to improve what you build because you understand the trade-offs."
+Riskbaserad klassificering (fyra nivåer):
 
-> "Develop depth in your domain, but cultivate the range to connect to multiple disciplines and ideas."
+- **Förbjuden risk:** AI-system som manipulerar beteende, exploaterar sårbarheter, eller används för social poängsättning. Totalförbud.
+- **Hög risk:** AI i kritisk infrastruktur, utbildning, anställning, kreditbedömning, rättsväsende, migration. Kräver riskhanteringssystem, datakvalitetskrav, mänsklig tillsyn, transparens och dokumentation.
+- **Begränsad risk:** Chatbotar, deepfakes, AI-genererat innehåll. Transparenskrav — användaren måste veta att de interagerar med AI.
+- **Minimal risk:** De flesta AI-system. Inga specifika krav, men frivilliga uppförandekoder uppmuntras.
+
+Ansvar — och det här är nyckeln:
+
+- **AI-leverantörer** (de som bygger): Ansvarar för att systemet uppfyller kraven _innan_ det släpps på marknaden. Riskbedömning, testning, dokumentation.
+- **AI-användare/driftsättare** (de som använder): Ansvarar för att systemet används korrekt, att mänsklig tillsyn finns, och att det övervakas i drift. Du kan inte outsourca ansvaret till din leverantör.
+- Båda har skyldigheter. Ansvaret är delat och komplementärt.
+
+Böter:
+
+- Förbjudna AI-praktiker: upp till 35 miljoner euro eller 7% av global årsomsättning (det högsta beloppet gäller)
+- Högrisk-överträdelser: upp till 15 miljoner euro eller 3% av global årsomsättning
+- Felaktig information till myndigheter: upp till 7,5 miljoner euro eller 1% av global årsomsättning
+
+För perspektiv: GDPR:s maxböter är 20 miljoner euro eller 4% av omsättningen. EU AI Act _dubblerar_ det för de allvarligaste överträdelserna.
+
+Vad det betyder för utvecklare: om du bygger eller driftsätter AI-system som påverkar EU-medborgare — oavsett var du sitter — gäller lagen. Och "AI:n gjorde det" är inte en giltig ursäkt. Du äger koden du levererar, oavsett vem — eller vad — som skrev den.
+
+**Mönstret jag ser om och om igen:**
+
+Efter 16 år med AWS och Ericsson har jag sett samma mönster hundratals gånger: projekt misslyckas inte för att tekniken är fel. De misslyckas för att ingen äger helheten. IT äger tekniken, men ingen äger förändringen. Framgång definieras som "go-live" — vilket inte är ett affärsresultat utan en projektmilstolpe som markerar _början_ på det riktiga arbetet, inte slutet.
+
+De team som lyckas — oavsett om de använder AI eller inte — har en sak gemensamt: någon äger problemet, inte bara lösningen.
+
+**Nordiska exempel:**
+
+- **iZettle (nu Zettle by PayPal):** Jacob de Geer — en av de första anställda på Tradedoubler — och Magnus Nilsson grundade iZettle i Stockholm i april 2010. Bakgrunden: de Geers fru drev ett litet företag och försökte få tillgång till kortbetalningsinfrastruktur från bankerna. Det var, som han sa, "completely hopeless and too expensive." Båda grundarna hade lovat sina fruar att inte starta nya tidskrävande projekt — men idén var för bra att släppa. Ironiskt nog kom den från hans fru. De byggde en mini-chipkortläsare och en app som lanserades 2011 — ofta kallad "Europas Square." Missionen: hjälpa små företag att "succeed in a world of giants" genom att jämna ut spelplanen mot stora detaljhandlare. Ingen startup-kostnad, inga dolda avgifter, inga bindande kontrakt. De expanderade till 12 länder i Europa och Latinamerika. PayPal köpte dem i september 2018 för 2,2 miljarder dollar. Ägarskap i Vogels mening: de ägde inte bara koden, de ägde _problemet_ — att små företag var utestängda från betalningsinfrastruktur. ([Internet Museum](https://internetmuseum.se/tidslinjen/paypal-buys-swedish-izettle/), [PayPal Newsroom](https://newsroom.paypal-corp.com/PayPal-Agrees-to-Acquire-iZettle))
+
+- **Klarna (igen, men från ägarskapsperspektivet):** De outsourcade kundrelationen till en AI-chatbot. Det var inte bara ett kommunikationsproblem (se egenskap 3) — det var ett ägarskapsproblem. Ingen ägde kundupplevelsen end-to-end längre. AI:n ägde svaren, men ingen ägde _förståelsen_. Resultatet: kundnöjdheten sjönk, ingenjörer tvingades ta kundtjänstsamtal, och Klarna fick desperat anställa tillbaka. Vogels "you build it, you run it" — men omvänt: de byggde det inte, de körde det inte, och de ägde det inte.
+
+> _(Humor: "Ägarskap och Mensa. Ni känner till tankeexperimentet med Trolley Problem — ska man offra en för att rädda fem? I AI-eran har vi fått en ny variant: du vibe-kodade en microservice på fredag eftermiddag, AI:n deployade den, och nu klockan tre på natten ringer din telefon. Trolley Problem 2.0: ska du svara och äga problemet, eller låta den ringa vidare och hoppas att det är någon annans microservice? Spoiler: det är alltid din. Det är alltid fredag. Och det är alltid klockan tre.")_
+
+---
+
+**5. Polymati — Bredda ditt T**
+
+Ankarcitat (slide):
+
+> _"Study the science of art. Study the art of science. Develop your senses — especially learn how to see."_
+> — Leonardo da Vinci
+
+Ordet har inget med matematik att göra — det kommer från grekiskans "manthanein", att lära sig. Vogels skilde på I-formade utvecklare (djupa men smala) och T-formade (djupa _och_ breda).
+
+Hans bästa exempel: Jim Gray, Turingpristagare och uppfinnare av transaktioner. Gray gick in i ett serverrum, lyssnade i 30 sekunder, gick ut och sa att databaslayouten var fel — han hörde det på diskåtkomstmönstren. Men det som gjorde honom extraordinär var inte bara databaskunskapen — det var att han förstod människor, affärer och ett brett spektrum av teknologier. Bredden gjorde djupet kraftfullt.
+
+Nordiska exempel:
+
+- **Daniel Ek och Spotify:** Började bygga hemsidor åt klasskamraters föräldrar vid 13 — körde verksamheten från sitt barndomsrum i Rågsved. Sökte jobb på Google, blev nekad, och startade istället Spotify 2006 tillsammans med Martin Lorentzon (medgrundare av Tradedoubler). Idén kom runt 2002 när Napster stängdes ner och Kazaa tog över: _"I realized that you can never legislate away from piracy."_ New Yorker beskrev honom med det svenska begreppet _jantelagen_ — "the Scandinavian code of humility and restraint is strong in him." Hans styrka var aldrig djup teknisk expertis i en sak — det var bredden: han förstod musik (vad lyssnare ville ha), teknik (streaming i realtid), juridik (licensavtal med skivbolag som hatade piratkopiering), användarupplevelse (enklare än att piratkopiera) och affärsmodeller (freemium). Han löste inte piratkopiering med bättre DRM — han löste det med en bättre _produkt_. Idag har Spotify över 100 miljoner låtar och 7 miljoner podcasttitlar. T-formad i Vogels mening: djup i produkttänkande, bred i allt annat.
+
+- **Linus Torvalds — polymaten personifierad:** Inte bara Linux. I april 2005 förlorade Linux-kärnans utvecklare tillgång till sitt versionskontrollsystem BitKeeper på grund av licenstvister. Torvalds försvann över en helg och kom tillbaka med Git — skrivet på tio dagar. Hans motivation: han hatade alla existerande versionskontrollsystem ("I had used CVS both as an end user and as a developer and absolutely hated the experience with a passion"). Git firade 20 år 2025 och används idag av praktiskt taget alla mjukvaruutvecklare i världen. Två helt olika domäner — operativsystemkärnor och distribuerad versionskontroll — båda revolutionerade av samma person. Han skapade även Subsurface, en applikation för dykloggning. Torvalds kallar sig själv "I'm an egotistical bastard, and I name all my projects after myself" (Linux, Git). ([GitHub Blog, 2025](https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/))
 
 _(Humor: "Polymati för en Mensa-publik borde vara hemmaplan. Ni är ju redan T-formade — problemet är att T:et ibland ser mer ut som ett I med en väldigt ambitiös hatt.")_
 
-**Svenskt/nordiskt komplement — Polymati:**
-
-- **Daniel Ek och Spotify:** Började sitt första företag vid 13 — byggde hemsidor åt klasskamraters föräldrar. Sökte jobb på Google, blev nekad, och startade istället Spotify. New Yorker beskrev honom med det svenska begreppet _jantelagen_ — "the Scandinavian code of humility and restraint is strong in him." Men hans styrka var aldrig djup teknisk expertis i en sak — det var bredden: han förstod musik, teknik, juridik (licensavtal med skivbolag), användarupplevelse och affärsmodeller. Han löste inte piratkopiering med bättre DRM — han löste det med en bättre _produkt_. T-formad i Vogels mening: djup i produkttänkande, bred i allt annat.
-
-- **Linus Torvalds (igen):** Inte bara en briljant kärnprogrammerare — han skapade också Git, versionskontrollsystemet som idag används av praktiskt taget alla mjukvaruutvecklare i världen. Två helt olika domäner (operativsystemkärnor och distribuerad versionskontroll), båda revolutionerade av samma person. Polymaten personifierad.
-
 #### Akt 5: Från teori till handling — Mekanismer, inte intentioner
 
-Vogels citat:
+Alla vill skriva bra kod. Alla vill ha hög kvalitet. Men som Vogels sa: goda intentioner är inte mekanismer. Och det är mekanismer som förändrar utfall.
 
-> "Good intentions don't work. Mechanisms do."
+**Bezos-historien — varför intentioner inte räcker:**
 
-Detta är kärnan i egenskap 4 (Be an Owner) — men det förtjänar en egen akt eftersom det är den mest handlingsbara delen av hela keynoten.
+Jeff Bezos satt i kundtjänst (alla Amazon-chefer var tvungna att göra det två dagar per år). Agenten bredvid honom sa — _innan kunden ens hunnit prata_ — "hon kommer returnera det bordet." 70% av de borden kom tillbaka sönderslagna på grund av dålig paketering. Alla visste om det. Alla hade goda intentioner. Ingenting förändrades — tills de byggde en mekanism: en knapp som lät kundtjänst omedelbart markera produkten som osäljbar, vilket triggade larm till ansvarigt team. Problemet försvann.
 
-**Vogels huvudexempel — Jeff Bezos och Andon Cord:**
+Toyotas Andon Cord, Amazons version: ingen produkt ska lämna linjen med en känd defekt. Inte för att folk _vill_ leverera defekter — utan för att utan en mekanism gör de det ändå.
 
-Slide 1: Bakgrunden
+_(Humor: "Goda intentioner i mjukvaruutveckling är som nyårslöften. Alla har dem den 1 januari. Den 15 januari har alla glömt dem. En mekanism är att gymmet drar 500 kronor från ditt konto varje månad oavsett om du dyker upp. Plötsligt dyker du upp.")_
 
-- I Amazons tidiga dagar var chefer tvungna att spendera två dagar per år i kundtjänst och ta samtal — för att verkligen förstå kundernas upplevelse
-- Jeff Bezos satt bredvid en kundtjänstagent
-- Telefonen ringde, systemet visade kundens orderhistorik
-- _Innan kunden sa ett ord_ sa agenten till Jeff: "She's gonna return that table."
+**De sex mekanismerna — med konkreta exempel:**
 
-Slide 2: Hur visste hon?
+**1. Spec-driven development**
 
-> "70% of those tables are coming back because there's some drop shipper that doesn't really know how to package them right."
+- _Varför:_ Vibe coding ger AI:n en miljon möjliga tolkningar av din prompt. Bara en är den du menade.
+- _Hur:_ Krav → Design → Uppgifter, _innan_ AI genererar kod. Iterera på specen, inte på koden.
+- _Utan den:_ Clare Liguoris team bad om ett notifikationssystem. AI:n föreslog en helt ny arkitektur de inte ville ha. Med spec: halva tiden. Utan spec: dubbla mängden kod att kasta.
+- _Verktyg:_ Kiro IDE, som demonstreras i workshopen.
 
-- Alla visste om problemet. Alla hade goda intentioner. Ingenting förändrades.
+**2. Kodgranskning människa-till-människa**
 
-Slide 3: Mekanismen
+- _Varför:_ AI genererar kod snabbare än vi kan förstå den. Granskningen är kontrollpunkten där mänskligt omdöme kommer tillbaka i loopen.
+- _Hur:_ Seniora ingenjörer granskar med juniora. Seniora ser mönster, juniora ser detaljer.
+- _Utan den:_ Amazon december 2025 — AI-assisterad kod pushades till produktion, raderade en hel miljö, 13 timmar nere. Amazon införde sedan att juniora inte får pusha AI-kod utan senior-godkännande.
 
-- Bezos introducerade Amazons version av Toyotas Andon Cord
-- Toyota-principen:
+_(Humor: "Kodgranskning. Alla hatar det. Det är som att vara 12 år och stå framför klassen. Men det är skillnaden mellan 'vi hittade buggen i review' och 'vi hittade buggen i produktion klockan tre på natten.' En av de situationerna involverar kaffe. Den andra involverar panik och kall pizza.")_
 
-  > "No car should leave the production line with a known defect. Any engineer on the line could pull the cord and bring the whole manufacturing line to a standstill until the defect was fixed."
+**3. Durability reviews / verifieringschecklistor**
 
-- Amazons version: kundtjänstagenter fick en knapp för att omedelbart markera en produkt som osäljbar → larm gick till ansvarigt team → problemet _måste_ fixas
-- Problemet försvann.
+- _Varför:_ Vissa ändringar har konsekvenser som inte syns i koden.
+- _Hur:_ S3-teamets modell: varje ändring som kan påverka datahållbarhet kräver en paus. Skriv ner ändringen. Lista varje tänkbart hot. Kartlägg skyddsåtgärder. Först sedan: implementera.
+- _Utan den:_ Du tänker i happy paths. Systemet lever i failure modes.
 
-Slide 4: Insikten
+**4. Andon Cord-principen**
 
-> "Before this, everybody already had good intentions. But until we introduced the mechanism, nothing changed."
+- _Varför:_ Ingen produkt ska lämna linjen med en känd defekt.
+- _Hur:_ Vem som helst i teamet kan stoppa bandet — utan att fråga om lov, utan att eskalera.
+- _Utan den:_ Folk ser problem men säger inget för att de inte vill vara "den som stoppar releasen." Problemet når produktion. Någon annan får städa upp.
 
-**Vogels exempel — S3 Durability Reviews:**
+**5. Automatiserad testning i CI/CD**
 
-- När en ingenjör föreslår en ändring som kan påverka datahållbarhet (durability), pausar de och modellerar riskerna
-- De skriver ner ändringarna, listar varje tänkbart hot, kartlägger skyddsåtgärder
-- Effekten:
+- _Varför:_ Hallucination fångas inte av mänskliga ögon — den fångas av tester.
+- _Hur:_ Varje push triggar automatiserade tester. Ingen kod når produktion utan att passera.
+- _Utan den:_ Veracodes siffra: 45% av AI-genererad kod misslyckas i säkerhetstester.
 
-  > "It turns durability from a property of code into a habit of the organization. It makes engineers think in failure modes, not happy paths."
+**6. Automatiserad resonering mot specifikationer**
 
-Slide-poäng: Mekanismer konverterar goda intentioner till konsekventa resultat.
+- _Varför:_ Tester verifierar beteende. Automatiserad resonering verifierar _korrekthet_ — matematiskt.
+- _Hur:_ Formella metoder som bevisar att kod uppfyller sin specifikation. Vogels och Byron Cook diskuterar detta i The Kernel-intervjun "Proving the Promise."
+- _Utan den:_ Du litar på att testerna täcker alla fall. De gör de aldrig.
 
-**Vogels om kodgranskning i AI-eran:**
+Amy Herzogs Kernel-artikel "Guardrails, Not Speedbumps" fångar hela principen: mekanismer ska vara räcken som håller dig på vägen, inte farthinder som saktar ner dig. Målet är inte att bromsa AI — det är att styra den.
 
-Slide 1: Varför kodgranskning är viktigare nu
+_(Humor: "Sex mekanismer. Jag vet vad ni tänker — 'det låter som byråkrati.' Men tänk på det så här: en fallskärm är också en mekanism. Ingen klagar på att den saktar ner fallet. Speciellt inte de som hoppade utan en.")_
 
-> "Models can generate code faster than we can understand it. So the review becomes the control point to restore balance."
+#### Avslutning: Wrap-up — Från SkyNet till stolthet
 
-> "It is where we bring human judgment back into the loop, and make sure that the software actually does what we expect it to do."
+_Erik plockar upp The Kernel från fåtöljen — samma tidning han höll i öppningsscenen._
 
-Slide 2: Människa-till-människa-granskning
+Vi började kvällen med en AI som frågade om den skulle skicka SkyNets försvarsmoduler till produktion. Ingen hade granskat koden. Ingen visste vad systemet gjorde. Det enda vi visste var att det kallade sig SkyNet.
 
-- Vogels uppmanade explicit till _mer_ human-to-human code reviews
-- > "When senior and junior engineers work through code together, it becomes one of the most effective learning mechanisms we have."
+Det var Vibe Coding driven till sin logiska slutpunkt. Och det var roligt — precis för att det är obehagligt nära verkligheten.
 
-- Seniora ingenjörer: mönsterigenkänning och hårt förvärvat omdöme
-- Juniora ingenjörer: fräscha ögon, ser ofta detaljer andra missar
+Men vi har också sett motsatsen. AI som hittar 27 år gamla buggar i OpenSSL. AI som upptäcker zero-days i Vim och Emacs. AI som hjälper Rwanda placera mödravårdskliniker baserat på realtidsdata. Skillnaden är aldrig verktyget. Skillnaden är människan som håller i det.
 
-> "This is how we transfer knowledge, and how we grow the next generation of builders."
+**Vogels ramverk i fem rader (slide):**
 
-> "AI will change many things, but the craft is still learned person to person."
+1. Var nyfiken — sluta aldrig fråga varför
+2. Tänk i system — din lokala fix påverkar allt
+3. Kommunicera med precision — tvetydighet är dyrare än du tror
+4. Äg det du bygger — du kan inte skylla på AI:n
+5. Bredda ditt T — djup utan bredd är en laserpekare i ett mörkt rum
 
-Kopplingen till The Kernel: Amy Herzogs artikel "Guardrails, Not Speedbumps" — säkerhet ska vara räcken som håller dig på vägen, inte farthinder som saktar ner dig. Samma princip som Andon Cord.
+**Det osynliga arbetet — varför det spelar roll:**
 
-**Praktiska mekanismer för renässansutvecklaren (sammanfattning för slide):**
+Vogels avslutade sin sista keynote med något som inte handlade om teknik. Det handlade om stolthet.
 
-- Spec-driven development: krav → design → uppgifter _innan_ AI genererar kod
-- Kodgranskning människa-till-människa — viktigare, inte mindre viktig, i AI-eran
-- Durability reviews / verifieringschecklistor vid varje release
-- Andon Cord-principen: vem som helst kan stoppa bandet
-- Automatiserad testning i CI/CD-pipelines
-- Automatiserad resonering (automated reasoning) mot specifikationer
+En Amazon-kund klickar på en knapp och paketet kommer. Tänker de på katalogteamet? Supply chain? Databasingenjörerna? Aldrig. Dina kunder kommer aldrig att säga att dina databasingenjörer gör fantastiskt arbete.
 
-#### Avslutning: Det osynliga arbetet
+Men _du_ vet. Och det är poängen.
 
-Vogels avslutade sin sista keynote med att tala om stolthet i det osynliga arbetet. Han tog ett vardagligt exempel:
+De osynliga systemen som håller uppe natten igenom. De rena deployerna. De rollbacks som ingen märker. Det mesta vi bygger kommer ingen någonsin att se. Och den enda anledningen till att vi gör det bra är vår egen professionella stolthet.
 
-> "When you build something like an app, do customers ever think about all the work that goes underneath? An Amazon customer will click a button and the package arrives. Do they think about the people that maintain the catalog, that do the supply chain? Your customers are never going to tell you that your database engineers are doing amazing work."
+Det är renässansutvecklaren. Inte någon som kodar snabbare för att de har ett bättre verktyg. Någon som vägrar leverera arbete de inte fullt ut har förstått. Någon som gör saker ordentligt — även när ingen tittar.
 
-Och sedan kärnan:
+Colm MacCárthaighs Kernel-artikel "AWS is a Magic Trick" handlar om exakt detta: magin bakom kulisserna, samarbetet som ingen ser.
 
-> "I believe it is important for all of us to have pride in our work. In the unseen systems that stay up for the night. In clean deployments. The rollbacks that nobody notices. Most of what we build, nobody will ever see. And the only reason why we do this well is our own professional pride in operational excellence."
+**Metallica-citatet (Vogels T-shirt på sin sista keynote):**
 
-> "That is what defines the best builders. They do the things properly, even when nobody's watching."
+> _"Trust I seek and I find in you. An open mind for a different view. And nothing else matters."_
 
-**Vogels sammanfattning av ramverket (slide):**
+Tillit, öppenhet, olika perspektiv. Renässansutvecklaren i tre rader.
 
-1. Var nyfiken och fortsätt lära dig
-2. Tänk i system
-3. Kommunicera med precision
-4. Var en ägare — du bygger det, du äger det
-5. Bli en polymat — bredda ditt T
+**Vogels sista ord:** _"Werner, out."_
 
-**Vogels T-shirt och Metallica-citatet:**
+**Eriks avslutning:**
 
-Vogels bar en T-shirt på sin sista keynote med Metallica-text (från "Nothing Else Matters"):
+_Erik lägger ner The Kernel på fåtöljen. Tar en sista klunk espresso — koppen som stått kall sedan prologen._
 
-> "Trust I seek and I find in you. An open mind for a different view. And nothing else matters."
+"Och om ni vill se hur det ser ut i praktiken — att bygga med specifikationer, mekanismer och ägarskap istället för att hoppas på det bästa — då ses vi i workshopen om tio minuter."
 
-Tillit, öppenhet, olika perspektiv. Det är renässansutvecklaren i tre rader.
-
-**De sista orden:**
-
-> "When I look at the work that you deliver every day, I see that commitment everywhere. So for that, I am immensely proud of you. Thank you for all that you do."
-
-_Paus._
-
-> "Two more words."
-
-> "Werner, out."
-
-_(Mikrofonen faller. Ljuset släcks.)_
-
-Efter 14 år hade han förtjänat den utgången.
-
----
-
-**Kopplingen till The Kernel och öppningsscenen:**
-
-Här kan Erik knyta ihop säcken genom att plocka upp The Kernel igen — tidningen han höll i öppningsscenen. Colm MacCárthaighs artikel "AWS is a Magic Trick" handlar om exakt det Vogels avslutade med: det osynliga arbetet, samarbetet bakom kulisserna, magin som ingen ser.
-
-Och SkyNet-scenen från prologen? Den var det osynliga arbetets _motsats_ — kod som ingen förstod, skickad till produktion utan granskning, utan ägarskap, utan stolthet. Renässansutvecklaren är den som vägrar göra det.
+_(Humor: "Och om ni undrar vad som hände med SkyNet — jag stängde ner den. Men jag läste koden först. Det visade sig att den bara hade byggt en väldigt ambitiös att-göra-lista. Typiskt AI.")_
 
 ---
 
