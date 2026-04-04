@@ -126,8 +126,7 @@ Kompilatorer dödade inte programmerare — de skapade mjukvaruarkitekter. Molne
 AI kommer inte att döda utvecklare. Men det kommer att döda utvecklare som _bara_ kan skriva kod.
 
 > _(Humor för Mensa-publiken: "Det här mönstret borde vara bekant. Intelligens utan bredd är som en laserpekare i ett mörkt rum — imponerande ljusstyrka, men du ser bara en prick. Och om den pricken råkar vara Angular 1... ja, då har du ett problem.")_
-
-> _(Alternativ humor: "Sverige har alltid varit tidigt ute med att adoptera ny teknik och sent ute med att sluta oroa sig för den. Vi fick NMT 1981 och oroade oss för strålning till 2015. Vi fick hemdatorer 1998 och oroade oss för att barnen skulle bli passiva — de grundade Minecraft istället.")_
+> _(Alternativ humor: "Sverige har alltid varit tidigt ute med att adoptera ny teknik och sent ute med att sluta oroa sig för den. Vi fick NMT 1981 och oroade oss för strålning till 2015. Vi fick hemdatorer 1998 och oroade oss för att barnen skulle bli passiva — några grundade Minecraft istället.")_
 
 #### Akt 2: Fyra villkor för en renässans
 
@@ -181,7 +180,7 @@ Slide-poäng: Varje verktyg sänkte tröskeln för skapande och höjde taket fö
 
 Slide-poäng: Alla fyra villkoren är uppfyllda. Men renässansen varade i över tvåhundra år. De första decennierna gjorde de flesta fortfarande medeltida saker. Vi är förmodligen i den fasen just nu.
 
-_(Humor: "Så om du fortfarande skriver YAML-filer för hand klockan elva på kvällen — grattis, du är medeltida. Men det är okej, Leonardo började också som lärling i Verrocchios verkstad.")_
+> _(Humor: "Så om du fortfarande skriver YAML-filer för hand klockan elva på kvällen — grattis, du är medeltida. Men det är okej, Leonardo började också som lärling i Verrocchios verkstad.")_
 
 #### Akt 3: Verifieringsskuld — AI-åldern nya tekniska skuld
 
@@ -435,7 +434,7 @@ Nordiska exempel:
 
 - **Linus Torvalds — polymaten personifierad:** Inte bara Linux. I april 2005 förlorade Linux-kärnans utvecklare tillgång till sitt versionskontrollsystem BitKeeper på grund av licenstvister. Torvalds försvann över en helg och kom tillbaka med Git — skrivet på tio dagar. Hans motivation: han hatade alla existerande versionskontrollsystem ("I had used CVS both as an end user and as a developer and absolutely hated the experience with a passion"). Git firade 20 år 2025 och används idag av praktiskt taget alla mjukvaruutvecklare i världen. Två helt olika domäner — operativsystemkärnor och distribuerad versionskontroll — båda revolutionerade av samma person. Han skapade även Subsurface, en applikation för dykloggning. Torvalds kallar sig själv "I'm an egotistical bastard, and I name all my projects after myself" (Linux, Git). ([GitHub Blog, 2025](https://github.blog/open-source/git/git-turns-20-a-qa-with-linus-torvalds/))
 
-_(Humor: "Polymati för en Mensa-publik borde vara hemmaplan. Ni är ju redan T-formade — problemet är att T:et ibland ser mer ut som ett I med en väldigt ambitiös hatt.")_
+> _(Humor: "Polymati för en Mensa-publik borde vara hemmaplan. Ni är ju redan T-formade — problemet är att T:et ibland ser mer ut som ett I med en väldigt ambitiös hatt.")_
 
 #### Akt 5: Från teori till handling — Mekanismer, inte intentioner
 
@@ -447,7 +446,7 @@ Jeff Bezos satt i kundtjänst (alla Amazon-chefer var tvungna att göra det två
 
 Toyotas Andon Cord, Amazons version: ingen produkt ska lämna linjen med en känd defekt. Inte för att folk _vill_ leverera defekter — utan för att utan en mekanism gör de det ändå.
 
-_(Humor: "Goda intentioner i mjukvaruutveckling är som nyårslöften. Alla har dem den 1 januari. Den 15 januari har alla glömt dem. En mekanism är att gymmet drar 500 kronor från ditt konto varje månad oavsett om du dyker upp. Plötsligt dyker du upp.")_
+> _(Humor: "Goda intentioner i mjukvaruutveckling är som nyårslöften. Alla har dem den 1 januari. Den 15 januari har alla glömt dem. En mekanism är att gymmet drar 500 kronor från ditt konto varje månad oavsett om du dyker upp. Plötsligt dyker du upp.")_
 
 **De sex mekanismerna — med konkreta exempel:**
 
@@ -464,7 +463,7 @@ _(Humor: "Goda intentioner i mjukvaruutveckling är som nyårslöften. Alla har 
 - _Hur:_ Seniora ingenjörer granskar med juniora. Seniora ser mönster, juniora ser detaljer.
 - _Utan den:_ Amazon december 2025 — AI-assisterad kod pushades till produktion, raderade en hel miljö, 13 timmar nere. Amazon införde sedan att juniora inte får pusha AI-kod utan senior-godkännande.
 
-_(Humor: "Kodgranskning. Alla hatar det. Det är som att vara 12 år och stå framför klassen. Men det är skillnaden mellan 'vi hittade buggen i review' och 'vi hittade buggen i produktion klockan tre på natten.' En av de situationerna involverar kaffe. Den andra involverar panik och kall pizza.")_
+> _(Humor: "Kodgranskning. Alla hatar det. Det är som att vara 12 år och stå framför klassen. Men det är skillnaden mellan 'vi hittade buggen i review' och 'vi hittade buggen i produktion klockan tre på natten.' En av de situationerna involverar kaffe. Den andra involverar panik och kall pizza.")_
 
 **3. Durability reviews / verifieringschecklistor**
 
@@ -492,7 +491,7 @@ _(Humor: "Kodgranskning. Alla hatar det. Det är som att vara 12 år och stå fr
 
 Amy Herzogs Kernel-artikel "Guardrails, Not Speedbumps" fångar hela principen: mekanismer ska vara räcken som håller dig på vägen, inte farthinder som saktar ner dig. Målet är inte att bromsa AI — det är att styra den.
 
-_(Humor: "Sex mekanismer. Jag vet vad ni tänker — 'det låter som byråkrati.' Men tänk på det så här: en fallskärm är också en mekanism. Ingen klagar på att den saktar ner fallet. Speciellt inte de som hoppade utan en.")_
+> _(Humor: "Sex mekanismer. Jag vet vad ni tänker — 'det låter som byråkrati.' Men tänk på det så här: en fallskärm är också en mekanism. Ingen klagar på att den saktar ner fallet. Speciellt inte de som hoppade utan en.")_
 
 #### Avslutning: Wrap-up — Från SkyNet till stolthet
 
@@ -540,7 +539,7 @@ _Erik lägger ner The Kernel på fåtöljen. Tar en sista klunk espresso — kop
 
 "Och om ni vill se hur det ser ut i praktiken — att bygga med specifikationer, mekanismer och ägarskap istället för att hoppas på det bästa — då ses vi i workshopen om tio minuter."
 
-_(Humor: "Och om ni undrar vad som hände med SkyNet — jag stängde ner den. Men jag läste koden först. Det visade sig att den bara hade byggt en väldigt ambitiös att-göra-lista. Typiskt AI.")_
+> _(Humor: "Och om ni undrar vad som hände med SkyNet — jag stängde ner den. Men jag läste koden först. Det visade sig att den bara hade byggt en väldigt ambitiös att-göra-lista. Typiskt AI.")_
 
 ---
 
