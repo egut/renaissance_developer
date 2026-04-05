@@ -21,7 +21,7 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 > The Renaissance Developer
 > Från "Code Monkey" till Polymath i AI-åldern
 >
-> Erik [efternamn] | Mensa [datum]
+> Erik Günther | Mensa [datum]
 
 **Talarnoteringar:** Ingen — sliden visas medan publiken samlas. Bakgrundsmusik valfritt (lugn, ambient). Syftet är att tidiga besökare ser att de är på rätt plats.
 
@@ -48,13 +48,14 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 
 **Sektion:** Prolog
 **Visuell beskrivning:** Svart bakgrund. En terminal/IDE-prompt i monospace-font, som om det vore en riktig dialogruta. Grön eller vit text mot svart. Stilrent, lite hotfullt.
+**Ljud som säger:** "SkyNet's defence modules are ready. Should it be sent to production?
 **Text på slide:**
 
 > "SkyNet's defence modules are ready.
 > Should it be sent to production?"
 > [Yes] [No]
 
-**Talarnoteringar:** Erik sitter i fåtöljen med The Kernel i handen. Tittar upp från tidningen. Tar en sista klunk espresso. Lägger ner koppen. Säger: "Ja... det där är ungefär vad som händer när man vibe-kodar utan kontroll." Paus. Reser sig.
+**Talarnoteringar:** Erik sitter i fåtöljen med The Kernel i handen. Tittar upp från tidningen. Tar en sista klunk espresso. Ställer ner koppen. Säger: "Ja... det där är ungefär vad som händer när man vibe-kodar utan kontroll." Paus. Reser sig.
 
 ---
 
@@ -68,7 +69,7 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 > Amazons CTO i 20 år
 > Sista keynoten, december 2025
 
-**Talarnoteringar:** Erik håller upp The Kernel mot publiken. "Den här tidningen handlar om motsatsen. Om att faktiskt förstå vad man bygger. Werner Vogels, Amazons CTO i 20 år, skrev sin sista keynote om just det. Och det är därför vi är här ikväll." Övergång till Akt 1.
+**Talarnoteringar:** Erik håller upp The Kernel mot publiken. "Den här tidningen handlar om motsatsen. Om att faktiskt förstå vad man bygger. Werner Vogels, Amazons CTO i 20 år, skrev sin sista keynote om just det. Och det är därför vi är här." Övergång till Akt 1.
 
 ---
 
@@ -724,6 +725,21 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 
 ---
 
+### Slide 49b — Kontrasten: IKEA och Billie
+
+**Sektion:** Akt 4 — Egenskap 3 — Nordiskt (kontrast)
+**Visuell beskrivning:** IKEA-logotyp + en chatbot-ikon med en grön checkmark. Alternativt: en delad bild — vänster: Billie-chatbot hanterar rutinfrågor, höger: en inredningsrådgivare hjälper en kund.
+**Text på slide:**
+
+> IKEA Billie: 47% av alla ärenden
+> Ingen sparkades
+> 8 500 omskolade → inredningsrådgivare
+> Resultat: 1,3 miljarder euro i ny försäljning
+
+**Talarnoteringar:** "Samma land, helt annat resultat. IKEA lanserade chatboten Billie 2021. Den hanterade 47 procent av alla kundförfrågningar — 3,2 miljoner interaktioner. Men IKEA sparkade ingen. Istället omskolade de 8 500 kundtjänstmedarbetare till inredningsrådgivare. Billie tog rutinfrågorna. Människorna fick göra det som människor gör bäst: förstå vad kunden egentligen behöver. Resultatet? 1,3 miljarder euro i försäljning via fjärr-inredningskonsultationer. Klarna outsourcade problemet. IKEA omdefinierade det."
+
+---
+
 ### Slide 50 — Humor: Kommunikation & Mensa
 
 **Sektion:** Akt 4 — Egenskap 3 — Humor
@@ -794,6 +810,21 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 > PayPal köpte: 2,2 miljarder dollar
 
 **Talarnoteringar:** "Jacob de Geer och Magnus Nilsson. Bakgrunden: de Geers fru drev ett litet företag och försökte få tillgång till kortbetalning från bankerna. 'Completely hopeless and too expensive.' De ägde inte bara koden — de ägde problemet: att små företag var utestängda från betalningsinfrastruktur. PayPal köpte dem 2018 för 2,2 miljarder dollar. Ägarskap i Vogels mening."
+
+---
+
+### Slide 54b — Nordiskt exempel: Trelleborgs kommun
+
+**Sektion:** Akt 4 — Egenskap 4 — Nordiskt
+**Visuell beskrivning:** Trelleborgs kommunvapen eller en stiliserad bild av en digital ansökan med en grön checkmark. Alternativt: en delad bild — vänster: pappershög (före), höger: digital skärm med "Beslut inom 1 dag" (efter).
+**Text på slide:**
+
+> Trelleborg (2016)
+> Första kommun: automatiserat socialbidrag
+> 75% digitalt, beslut inom 1 dag
+> Men: vem äger konsekvenserna?
+
+**Talarnoteringar:** "Trelleborg blev 2016 första svenska kommun att automatisera handläggning av försörjningsstöd. 75 procent av ansökningarna kom digitalt, alla fick beslut inom en arbetsdag. OECD lyfte det som innovationsexempel — handläggare fick tid att hjälpa folk ut i arbetsmarknaden istället för att administrera papper. Men det finns också kritik: systemet anklagades för bristande transparens och att medborgare förlorade bidrag. Poängen är inte att Trelleborg misslyckades — det är att ägarskap av AI i offentlig sektor kräver att någon äger hela kedjan: tekniken, beslutslogiken, transparensen, och konsekvenserna. Du kan inte automatisera bort ansvaret."
 
 ---
 
