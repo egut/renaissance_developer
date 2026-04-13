@@ -199,18 +199,18 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 
 ---
 
-### Slide 11 — ABC 80 (Swedish Computer Revolution)
+### Slide 11 — Commodore 64 (Home Computer Revolution)
 
 **Section:** Act 1 — Swedish Complements
 **Format:** [PHOTO-STORY]
-**Feeling:** Nostalgia, national pride — "this is our story." Warm energy.
-**Visual:** Color photograph of an ABC 80 computer (the iconic Swedish machine with the green-labeled keyboard and built-in cassette player), sitting on a 1970s-era wooden desk. A Swedish programming cookbook ("Programkokboken") lies open beside it. Warm tungsten lighting, as if in a Swedish living room circa 1980. Slight film grain to evoke the era. Text in white, 40pt, upper-left corner with a subtle dark text-shadow for legibility.
+**Feeling:** Nostalgia, universal recognition — "everyone had one of these." Warm energy.
+**Visual:** Color photograph of a Commodore 64 computer with its iconic beige-brown casing and rainbow-striped logo, sitting on a 1980s-era wooden desk. A programming book lies open beside it, a cassette tape drive connected. Warm tungsten lighting, as if in a Scandinavian living room circa 1985. Slight film grain to evoke the era. The upper-left area should have slightly darker space for text overlay. Nostalgic, warm, vintage aesthetic. 16:9 aspect ratio.
 **Text on slide:**
 
-> ABC 80 (1978)
+> Commodore 64 (1982)
 > "Computers will ruin children"
 
-**Speaker notes:** "Sweden's own computer revolution. Libraries had manuals and programming cookbooks. The worry was that children would become passive. Instead it launched the generation that built Spotify, Klarna, and King. The home computer reform of 1998 — 850,000 computers in three years. Sweden got 28 broadband subscriptions per 100 inhabitants in 2005, vs. the US at 17. It laid the foundation for Europe's Silicon Valley."
+**Speaker notes:** "The home computer revolution. The Commodore 64 — the best-selling single computer model of all time, over 17 million units. In Sweden, the worry was that children would become passive. Instead it launched the generation that built Spotify, Klarna, and King. Then came the Swedish home computer reform of 1998 — 850,000 computers in three years. Critics said waste. Sweden got 28 broadband subscriptions per 100 inhabitants in 2005, vs. the US at 17. It laid the foundation for Europe's Silicon Valley."
 
 ---
 
@@ -1268,7 +1268,7 @@ Every property follows the same 5-slide rhythm: Title → Quote → Main Example
 
 ### Editorial Cuts (from 89 → 74 slides)
 
-**Act 1:** Cut drag-and-drop, frameworks, code completion (Erik mentions verbally). Kept COBOL, Cloud, AI + ABC 80, NMT.
+**Act 1:** Cut drag-and-drop, frameworks, code completion (Erik mentions verbally). Kept COBOL, Cloud, AI + Commodore 64, NMT.
 
 **Act 3:** Cut Big Sleep as separate slide (merged into speaker notes of 27-year slide). Cut Claude/Vim as separate slide (merged into speaker notes).
 

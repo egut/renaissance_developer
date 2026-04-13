@@ -116,7 +116,7 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 
 ---
 
-### Slide 8 — Molnet (2000-tal)
+### Slide 8 — Molnet (2010-tal)
 
 **Sektion:** Akt 1 — Panik-tidslinje
 **Visuell beskrivning:** Stiliserad molnikon eller ett foto av ett serverrum som töms. Blå toner.
@@ -165,6 +165,19 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 > "Vem behöver ringa från en bil?"
 
 **Talarnoteringar:** "Världens första automatiska mobiltelefonnät. Sverige och Norge. 'Det förstör det sociala umgänget.' Ericsson och Nokia byggde imperier på den tekniken. Idag har vi fler mobilabonnemang än invånare."
+
+---
+
+### Slide 11b — Från featurephone till smartphone
+
+**Sektion:** Akt 1 — Svenska komplement
+**Visuell beskrivning:** Delad bild: vänster sida en Nokia 3310 eller liknande featurephone, höger sida en iPhone. Tydlig kontrast mellan gammalt och nytt. Alternativt: en graf som visar Nokias marknadsandel i fritt fall.
+**Text på slide:**
+
+> Featurephone → Smartphone (2007)
+> "Nobody needs a computer in their pocket"
+
+**Talarnoteringar:** "Och mobilpaniken slutade inte med NMT. När Apple lanserade iPhone 2007 skrattade Steve Ballmer på kamera: '500 dollars? That is the most expensive phone in the world.' Nokias chefsstrategist jämförde byte till iPhone med finska pojkar som valde att kissa i byxorna för att hålla sig varma. Inom fem år kollapsade Nokias marknadsandel från 49 procent till under 3. Smartphonen ersatte inte bara featurephone:n — den skapade en helt ny ekonomi. App Store lanserades 2008 med 500 appar; idag genererar den över en biljon dollar årligen. Telefonen blev en fickdator, kamera, bank, GPS — och plattformen för Spotify, Uber och Klarna. Paniken var att ingen behövde en dator i fickan. Verkligheten var att ingen kunde leva utan en. Och för Sverige var det förödande för Sony Ericsson men skapade ekosystemet som gjorde svenska app-bolag globalt dominanta. Samma mönster."
 
 ---
 
