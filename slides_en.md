@@ -271,10 +271,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in cream-white serif, 44pt, centered. Attribution in 22pt. Same styling as all quote slides — consistency builds rhythm. Thin gold rule between quote and attribution.
 **Text on slide:**
 
-> "Creativity and technology
-> evolve together.
-> Curiosity leads to
-> learning and invention."
+> "Creativity and technology evolve together. Curiosity leads to learning and invention."
 > — Werner Vogels
 
 **Speaker notes:** Let the quote land. Brief pause.
@@ -413,8 +410,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in bold white sans-serif (not serif — this quote demands directness), 52pt, centered. Attribution in 24pt. The font weight is heavier than other quote slides — this one hits harder. Thin red (not gold) horizontal rule between quote and attribution, signaling danger.
 **Text on slide:**
 
-> "That's not software engineering,
-> that's gambling."
+> "That's not software engineering, that's gambling."
 > — Werner Vogels
 
 **Speaker notes:** "Vogels — Amazon's CTO for 20 years — used his final keynote to warn about something he called verification debt. He wasn't talking about bad code. He was talking about code that looks perfect but that nobody understands."
@@ -604,9 +600,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in cream-white serif, 44pt, centered. Same quote slide styling. Thin gold rule.
 **Text on slide:**
 
-> "Learning is the only thing
-> the mind never exhausts,
-> never fears, and never regrets."
+> "Learning is the only thing the mind never exhausts, never fears, and never regrets."
 > — Leonardo da Vinci
 
 **Speaker notes:** Let the quote stand. Brief pause. "Without curiosity, you stop at what you already know — and in an industry where tools change every three years, that's a death sentence in slow motion."
@@ -683,9 +677,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in cream-white serif, 44pt, centered. Standard quote slide styling.
 **Text on slide:**
 
-> "You can never understand
-> anything in isolation.
-> Everything is connected."
+> "You can never understand anything in isolation. Everything is connected."
 > — Donella Meadows
 
 **Speaker notes:** Let the quote stand. Brief pause.
@@ -758,9 +750,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in cream-white serif, 44pt, centered. Standard quote slide styling.
 **Text on slide:**
 
-> "The greatest problem in communication
-> is the illusion that
-> it has been accomplished."
+> "The greatest problem in communication is the illusion that it has been accomplished."
 > — George Bernard Shaw
 
 **Speaker notes:** Let the quote stand. Brief pause.

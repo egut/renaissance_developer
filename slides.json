@@ -1,0 +1,668 @@
+[
+  {
+    "slide_number": 1,
+    "title": "Title Slide (pre-show)",
+    "section": "Title",
+    "format": "STANDARD",
+    "feeling": "Anticipation, calm — the audience settles in, a sense of something significant about to begin.",
+    "text_on_slide": "The Renaissance Developer\nFrom Code Monkey to Polymath\nin the Age of AI\n\nErik Günther | Mensa",
+    "image_prompt": "An abstract, empty minimalist presentation background with absolutely NO text, NO letters, and NO words. A smooth, deep navy-to-black gradient filling the entire frame. In the extreme bottom-right corner, a very faint, subtle watermark graphic of Leonardo da Vinci's Vitruvian Man, cropped to show only the upper torso and outstretched arms, rendered in very low opacity pale gold. The center, left, and upper areas must be completely empty, blank, and smooth navy-to-black gradient. Clean, elegant, premium corporate presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 2,
+    "title": "Video Intro (Kiro demo)",
+    "section": "Video Intro / Prolog",
+    "format": "STANDARD",
+    "feeling": "Intrigue building to unease — the audience watches AI work faster than any human could follow.",
+    "text_on_slide": "▶ VIDEO: Kiro IDE builds SkyNet\n(Erik creates this separately)",
+    "image_prompt": "A full-screen cinematic black background with a centered thin white play button icon — a triangle inside a circle. The overall feel is a film title card before the feature starts. Minimal, dark, cinematic framing. Large empty area in the lower center for text overlay. Clean, elegant, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 3,
+    "title": "The SkyNet Prompt",
+    "section": "Prolog",
+    "format": "IMAGE-ONLY",
+    "feeling": "Tension, dark humor — a laugh that catches in the throat. Peak unease.",
+    "text_on_slide": "\"SkyNet's defence modules are ready.\nShould it be sent to production?\"\n[Yes] [No]",
+    "image_prompt": "A pure black background with a realistic retro terminal dialog box in the center. Green phosphor text glowing on black with a slight CRT scanline effect at very low opacity. The dialog box has a thin green border with rounded corners. Two rectangular terminal-style buttons at the bottom with green borders. A slight green glow emanates from the text area, as if from an old CRT monitor. No other elements. Dark, moody, retro-tech aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 4,
+    "title": "The Kernel / Werner Vogels Intro",
+    "section": "Prolog",
+    "format": "PHOTO-STORY",
+    "feeling": "Gravitas, respect — this is the intellectual anchor for the evening. Calm energy.",
+    "text_on_slide": "Werner Vogels\nAmazon CTO, 20 years\nFinal keynote — December 2025",
+    "image_prompt": "A high-quality, close-up studio-style photograph of a folded newspaper titled 'The Kernel' in a classic blackletter font, lying on a dark walnut table shot from a 30-degree overhead angle. The main headline reads 'THE DAWN OF THE RENAISSANCE DEVELOPER' in bold sans-serif capital letters. Below the headline is a sketch-style illustration of Da Vinci's Vitruvian Man holding modern tech tools. On the right side, a small column with the text 'LLMS AS PARTS OF SYSTEMS' and a small portrait of a man with glasses. The newspaper has realistic paper texture and sharp printing. To the right of the newspaper, a small espresso cup on a saucer, slightly out of focus. Warm side-lighting from the left creates a soft shadow on the table. Background is dark and blurred. The upper-left quadrant should remain dark and empty, providing generous negative space for text overlay. Warm, editorial, premium photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 5,
+    "title": "About Erik Günther",
+    "section": "About Erik",
+    "format": "STANDARD",
+    "feeling": "Warmth, credibility — the audience trusts this person. Calm, grounded energy.",
+    "text_on_slide": "About Erik Günther\n16 years with AWS\nCurrently: Ericsson, BNEW RCE AI development\n\nThe survivors are never the fastest coders,\nbut the deepest thinkers.",
+    "image_prompt": "Left third of the frame: a warm, professional headshot-style portrait area with shallow depth of field against a neutral dark background. Right two-thirds: a clean dark charcoal background with generous empty space for text overlay. Subtle, faded corporate tech logos at very low opacity in the bottom-right corner, small and unobtrusive. Clean layout with generous padding. Warm, professional, corporate presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 6,
+    "title": "Act 1 Quote",
+    "section": "Act 1 — Opening Quote",
+    "format": "QUOTE",
+    "feeling": "Gravitas, recognition — the audience nods. Calm, anchoring energy.",
+    "text_on_slide": "\"The only thing we have to fear\nis fear itself.\"\n— Franklin D. Roosevelt",
+    "image_prompt": "A pure black background with a very subtle, barely perceptible dark texture. A thin gold horizontal rule element positioned slightly below center, spanning about 60% of the width. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 7,
+    "title": "The Panic That Never Comes True",
+    "section": "Act 1",
+    "format": "STANDARD",
+    "feeling": "Amusement, recognition — \"I've seen this movie before.\" Building energy.",
+    "text_on_slide": "The Panic That Never Comes True\n(but always feels real)",
+    "image_prompt": "A sepia-toned composite image of sensationalist newspaper headlines from different eras, layered at slight angles like a collage on a desk. Headlines are slightly blurred and overlapping, evoking decades of technology panic. Over this collage, a dark gradient overlay from the bottom covering the lower half. The bottom-center area should have ample dark empty space for text overlay. Vintage, editorial, warm sepia presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 8,
+    "title": "COBOL (1960s)",
+    "section": "Act 1 — Panic Timeline",
+    "format": "STANDARD",
+    "feeling": "Nostalgia, gentle irony — \"look how wrong they were.\" Calm energy.",
+    "text_on_slide": "1960: COBOL\n\"Now anyone can code\"",
+    "image_prompt": "Black-and-white archival-style photograph of a woman operating a large 1960s mainframe computer. She is seated at the console, punch cards visible in a tray beside her. Warm overhead lighting. The bottom third of the image should fade into darkness with a gradient overlay, creating empty space for text overlay in the bottom-left area. Vintage, documentary photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 9,
+    "title": "The Cloud (2010s)",
+    "section": "Act 1 — Panic Timeline",
+    "format": "STANDARD",
+    "feeling": "Wry recognition — the audience lived through this one. Building energy.",
+    "text_on_slide": "2010: The Cloud\n\"Engineers will be fired\"",
+    "image_prompt": "Photograph of an empty server room — rows of open, dark server racks with cables dangling, overhead fluorescent lights casting cold blue-white light. The room feels abandoned, like a tech graveyard. Shot from a low angle looking down the aisle. A dark gradient overlay covers the bottom third, creating empty space for text overlay in the bottom-left area. Cold, industrial, slightly eerie aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 10,
+    "title": "AI (2020s)",
+    "section": "Act 1 — Panic Timeline",
+    "format": "STANDARD",
+    "feeling": "Tension mixed with humor — \"here we go again, but bigger.\" Peak energy for the timeline.",
+    "text_on_slide": "2024: AI\n\"This time it's for real\"",
+    "image_prompt": "A dark, moody photograph of a developer's desk at night: a single monitor glowing with a blurred chat-style AI conversation, blue-purple light spilling onto the desk. An energy drink can and scattered sticky notes nearby. The developer is absent — just an empty chair and the glowing screen. Shot from behind the chair. Neon-tinged color palette. The upper-right quadrant should have darker empty space for text overlay. Moody, cinematic, tech-noir aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 11,
+    "title": "Commodore 64 (Home Computer Revolution)",
+    "section": "Act 1 — Swedish Complements",
+    "format": "PHOTO-STORY",
+    "feeling": "Nostalgia, universal recognition — \"everyone had one of these.\" Warm energy.",
+    "text_on_slide": "Commodore 64 (1982)\n\"Computers will ruin children\"",
+    "image_prompt": "Color photograph of a Commodore 64 computer with its iconic beige-brown casing and rainbow-striped logo, sitting on a 1980s-era wooden desk. A programming book lies open beside it, a cassette tape drive connected via cable. Warm tungsten lighting, as if in a Scandinavian living room circa 1985. Slight film grain to evoke the era. The upper-left area should remain darker, providing empty negative space for text overlay. Nostalgic, warm, vintage home computing photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 12,
+    "title": "NMT (World's First Mobile Network)",
+    "section": "Act 1 — Swedish Complements",
+    "format": "PHOTO-STORY",
+    "feeling": "Pride, amusement — \"we built the future and worried about it.\" Warm energy.",
+    "text_on_slide": "NMT 1981\n\"Who needs to call from a car?\"",
+    "image_prompt": "Photograph of an early 1980s brick-style mobile phone handset held in someone's hand wearing a period-appropriate suit sleeve. Background: a blurred vintage Volvo interior through the car window. Muted Scandinavian color palette — greys, blues, forest greens. The bottom-right area should have darker empty space for text overlay. Vintage, Scandinavian, documentary photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 13,
+    "title": "Act 1 Takeaway",
+    "section": "Act 1 — Takeaway",
+    "format": "DIAGRAM",
+    "feeling": "Clarity, insight — the pattern clicks. Reflective energy.",
+    "text_on_slide": "Every time tools lower the barrier\nto writing code,\nthey raise the bar\nfor designing systems.",
+    "image_prompt": "Clean dark background. Center of the image: a simple seesaw or balance diagram rendered in minimal line art. The left side descends with an orange downward arrow element. The right side ascends with a teal-green upward arrow element. The fulcrum is a simple geometric shape. No 3D effects. Labels and text will be added in PowerPoint. The bottom third should have empty dark space for text overlay. Clean, minimal, infographic presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 14,
+    "title": "Act 1 Humor Slide",
+    "section": "Act 1 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, release — tension breaks. Light energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a laser pointer beam hitting a wall in a dark room, illuminating a single tiny bright dot. The dot lands on a faded, old-fashioned web framework logo sticker on the wall. The rest of the room is pitch black. Shot with shallow depth of field so the dot is sharp and everything else falls away. Dramatic, humorous, minimal aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 15,
+    "title": "Act 2 Quote",
+    "section": "Act 2 — Opening Quote",
+    "format": "QUOTE",
+    "feeling": "Wonder, intellectual excitement — \"this is bigger than I thought.\" Building energy.",
+    "text_on_slide": "\"Creativity and technology\nevolve together.\nCuriosity leads to\nlearning and invention.\"\n— Werner Vogels",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 16,
+    "title": "Four Conditions for a Renaissance",
+    "section": "Act 2",
+    "format": "STANDARD",
+    "feeling": "Awe, intellectual ambition — \"we're living in a Renaissance.\" Building energy.",
+    "text_on_slide": "Four Conditions for a Renaissance",
+    "image_prompt": "Raphael's 'The School of Athens' fresco filling the entire frame — the grand architectural perspective with philosophers gathered in debate. A dark gradient overlay at about 50% opacity covers the image, darkening it significantly. The upper third should have the most empty dark space for text overlay. The painting's own vanishing point draws the eye through the composition. Classical, intellectual, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 17,
+    "title": "Renaissance Tools",
+    "section": "Act 2 — Renaissance Tools",
+    "format": "STANDARD",
+    "feeling": "Discovery, connection — \"tools have always been the catalyst.\" Building energy.",
+    "text_on_slide": "Pencil: lowered friction for ideas\nPerspective: from flat to depth\nPrinting Press: knowledge at scale",
+    "image_prompt": "A horizontal triptych layout on a dark background. Three panels of equal width separated by thin gold vertical lines. Left panel: a detailed pencil sketch in the style of Leonardo's bird anatomy studies, sepia-toned. Center panel: a Renaissance painting showing clear vanishing point perspective, sepia-toned. Right panel: a Gutenberg printing press woodcut illustration, sepia-toned. Below each panel, empty space for caption text overlay. All images unified in warm sepia tones. Classical, elegant, editorial presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 18,
+    "title": "Erik's IDE Journey",
+    "section": "Act 2 — Tool Evolution",
+    "format": "DIAGRAM",
+    "feeling": "Recognition, humor — \"I've lived this.\" Warm, personal energy.",
+    "text_on_slide": "Emacs → Sublime → VS Code → Kiro\nEach generation changed\nnot just HOW we code, but WHAT we build",
+    "image_prompt": "Dark background. A horizontal timeline arrow running left to right across the center of the image. Four evenly spaced nodes on the timeline, each represented by a small glowing circle. The last node has a subtle sparkle effect. The arrow continues past the last node with a dotted line suggesting the future. Labels and text will be added in PowerPoint. The bottom third should have empty dark space for text overlay. Clean, minimal, tech-forward diagram aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 19,
+    "title": "Condition 1 & 2",
+    "section": "Act 2 — Mapping to Today",
+    "format": "REVEAL",
+    "feeling": "Recognition, momentum — the pieces are falling into place. Building energy.",
+    "text_on_slide": "1. The old order crumbles\n2. New tools explode",
+    "image_prompt": "Split slide with a thin vertical gold line dividing left and right halves. Left half: dark background with an illustration of a factory assembly line breaking apart — conveyor belt cracking, pieces floating away in space. Right half: dark background with an explosion of abstract tool icons — geometric shapes, circuit patterns, and tech symbols radiating outward from a central point. Both halves use the same dark charcoal background. Labels and text will be added in PowerPoint. Clean, modern, conceptual presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 20,
+    "title": "Condition 3 & 4",
+    "section": "Act 2 — Mapping to Today",
+    "format": "REVEAL",
+    "feeling": "Excitement, convergence — \"multiple golden ages at once.\" Peak energy.",
+    "text_on_slide": "3. Knowledge becomes cheap\n4. Golden ages converge",
+    "image_prompt": "Same split layout as a reveal slide for visual consistency. Left half: an open physical book morphing into a glowing screen — the pages dissolving into luminous pixels. Right half: three overlapping translucent circles in different colors (gold, blue, green) forming a Venn diagram. The overlap zone glows white. Both halves on dark background. Labels and text will be added in PowerPoint. Clean, modern, conceptual presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 21,
+    "title": "All Conditions Met",
+    "section": "Act 2 — Summary",
+    "format": "STANDARD",
+    "feeling": "Conviction, clarity — \"this is real.\" Confident energy.",
+    "text_on_slide": "✓ Old order crumbles\n✓ New tools explode\n✓ Knowledge becomes cheap\n✓ Golden ages converge",
+    "image_prompt": "Dark background with a subtle deep navy gradient. Four faint green checkmark icons arranged vertically in the center-left area, evenly spaced. Below the checkmarks, a thin gold horizontal rule. The center and right areas should have generous empty space for text overlay. Clean, confident, premium corporate presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 22,
+    "title": "Act 2 Takeaway",
+    "section": "Act 2 — Takeaway",
+    "format": "STANDARD",
+    "feeling": "Humility, perspective — \"we're at the very beginning.\" Reflective energy.",
+    "text_on_slide": "All four conditions met.\nWe're in the first decade\nof the Renaissance.",
+    "image_prompt": "A long horizontal timeline stretching across the image, drawn as a thin white line on a dark background. At the far left, a small bright glowing dot. The line extends far to the right, fading into the distance. The composition emphasizes how early we are — the dot is tiny against the vast timeline. Large empty space in the center and upper area for text overlay. Minimal, contemplative, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 23,
+    "title": "Act 2 Humor",
+    "section": "Act 2 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, self-deprecation — \"we've all been there.\" Light, warm energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of someone hunched over a laptop at 11 PM, the screen showing a configuration file with hundreds of lines. Empty coffee cups surround the laptop. The person's face is lit only by the screen glow, expression exhausted. Shot from slightly above, documentary style. Warm but tired color palette. Late-night coding, relatable, documentary photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 24,
+    "title": "Act 3 Quote",
+    "section": "Act 3 — Opening Quote",
+    "format": "QUOTE",
+    "feeling": "Alarm, authority — this is the warning shot. Sharp, focused energy.",
+    "text_on_slide": "\"That's not software engineering,\nthat's gambling.\"\n— Werner Vogels",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin red horizontal rule element positioned slightly below center, spanning about 60% of the width — signaling danger instead of the usual gold. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Bold, stark, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 25,
+    "title": "Verification Debt Explained",
+    "section": "Act 3 — Definition",
+    "format": "DIAGRAM",
+    "feeling": "Understanding, unease — \"I recognize this problem.\" Building energy.",
+    "text_on_slide": "Generation: instant\nUnderstanding: takes time\nThe gap = Verification Debt",
+    "image_prompt": "Dark background. Two horizontal arrows running left to right, stacked vertically. Top arrow: thick, bright green with a rocket icon — representing speed. Bottom arrow: thin, amber-orange with a magnifying glass icon — representing slowness. Between the two arrows, a red shaded gap area with a warning triangle icon. The gap widens from left to right, showing debt growing over time. Clean vector graphics, no 3D. Labels and text will be added in PowerPoint. The bottom area should have empty space for text overlay. Clean, technical, infographic presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 26,
+    "title": "Hallucination",
+    "section": "Act 3 — Hallucination",
+    "format": "STANDARD",
+    "feeling": "Unease, wariness — \"I can't trust what looks correct.\" Tense energy.",
+    "text_on_slide": "Hallucination\n\"Plausible, but not grounded\nin reality\" — Vogels",
+    "image_prompt": "A code editor screenshot in dark theme showing a function that looks perfectly normal — clean syntax, proper indentation, professional-looking code. One line is subtly highlighted in red with a small floating warning annotation bubble. The code looks confident and correct but contains a subtle error. Slight vignette darkening the edges. The upper portion should have empty dark space for text overlay. Moody, technical, developer-focused aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 27,
+    "title": "The 45% Statistic",
+    "section": "Act 3 — Data",
+    "format": "NUMBER",
+    "feeling": "Shock, urgency — \"this is worse than I thought.\" Peak alarm energy.",
+    "text_on_slide": "45%\nof AI-generated code fails security tests",
+    "image_prompt": "A pure black background with dramatic, moody side lighting creating a subtle gradient. The center of the image is completely empty and dark, providing a large area for a massive number overlay. A deep, serious crimson red glow subtly illuminates the edges. Nothing else competes for attention. The image is stark and warning-like. Bold, dramatic, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 28,
+    "title": "The Turning Point",
+    "section": "Act 3 — Turning Point",
+    "format": "STANDARD",
+    "feeling": "Hope, pivot — \"but there's another way.\" Energy shifts from alarm to possibility.",
+    "text_on_slide": "The same AI that creates the debt\ncan eliminate it",
+    "image_prompt": "A split composition divided diagonally from bottom-left to upper-right. Left-lower triangle: dark red-tinted abstract chaos — tangled lines, broken connections, visual noise representing disorder. Right-upper triangle: clean teal-green-tinted order — straight lines, clear connections, structured patterns representing control. The diagonal divide is sharp and dramatic. Large empty center area for text overlay. Bold, conceptual, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 29,
+    "title": "27-Year-Old Bug",
+    "section": "Act 3 — AI with Guidance",
+    "format": "NUMBER",
+    "feeling": "Awe, vindication — \"AI can find what humans couldn't.\" Peak positive energy.",
+    "text_on_slide": "27 years\nA bug in OpenSSL\nno human ever found",
+    "image_prompt": "A pure black background with subtle cool blue side lighting. The center of the image is completely empty and dark, providing a large area for number overlay. A faint digital circuit pattern at very low opacity traces the edges of the frame. Nothing else competes for attention. The image is stark and awe-inspiring. Minimal, dramatic, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 30,
+    "title": "The Paradox Resolved",
+    "section": "Act 3 — Conclusion",
+    "format": "REVEAL",
+    "feeling": "Clarity, conviction — the thesis crystallizes. Confident, resolved energy.",
+    "text_on_slide": "Without guidance: gambling\nWith guidance: superpower\nThe difference = The Renaissance Developer",
+    "image_prompt": "Two-state reveal background. Left half: red-tinted dark background with a dice icon rendered in subtle line art — representing gambling and chance. Right half: green-tinted dark background with a magnifying glass icon in subtle line art — representing precision and discovery. Between the two halves, a thin white vertical line. Below both halves, a gold-tinted strip spanning the full width. Labels and text will be added in PowerPoint. Bold, conceptual, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 31,
+    "title": "Act 3 Takeaway",
+    "section": "Act 3 — Takeaway",
+    "format": "STANDARD",
+    "feeling": "Resolve, pride — \"I want to be that person.\" Reflective, determined energy.",
+    "text_on_slide": "The difference is never the tool.\nIt's the Renaissance Developer\nholding it.",
+    "image_prompt": "Dark background with a subtle brushed dark metal texture. The entire center area is empty and clean, providing generous space for text overlay. Nothing else on the image. The simplicity forces focus on the words that will be overlaid. Minimal, textured, premium corporate presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 32,
+    "title": "Act 3 Humor",
+    "section": "Act 3 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, relief — tension breaks after a heavy section. Light energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a restaurant table with an elaborate, beautifully plated dish. The dish looks stunning — artistic presentation, garnishes, microgreens, sauce drizzles. But a small elegant table card next to it displays something absurd in elegant script. Warm restaurant lighting, shallow depth of field focused on the table card. The contrast between beautiful presentation and absurd content creates humor. Warm, editorial, food photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 33,
+    "title": "Act 4 Quote",
+    "section": "Act 4 — Opening Quote",
+    "format": "QUOTE",
+    "feeling": "Gravitas, anticipation — \"now we get to the framework.\" Calm, anchoring energy.",
+    "text_on_slide": "\"Tools change,\nbut the fundamentals endure.\"\n— Werner Vogels (The Kernel)",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 34,
+    "title": "Five Properties of the Future Developer",
+    "section": "Act 4",
+    "format": "STANDARD",
+    "feeling": "Anticipation, structure — \"here's the map.\" Focused energy.",
+    "text_on_slide": "Five Properties\nof the Future Developer",
+    "image_prompt": "Dark background. Center: a stylized modern geometric interpretation of the Vitruvian Man silhouette in thin gold line art. The figure's five extremities each have faint radiating lines extending outward at very low opacity. The figure is elegant and abstract, not a direct copy of Leonardo's original. The upper third should have empty dark space for title text overlay. Clean, modern, premium presentation aesthetic with Renaissance undertones. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 35,
+    "title": "Property 1: Curiosity",
+    "section": "Act 4 — Property 1 Title",
+    "format": "STANDARD",
+    "feeling": "Spark, awakening — \"this is where it all starts.\" Fresh, rising energy.",
+    "text_on_slide": "Property 1\nCuriosity",
+    "image_prompt": "Dark background. A small, elegant magnifying glass icon rendered in gold line art, positioned in the lower center. A single thin gold horizontal line extends across the middle of the frame. The upper half and center are completely empty dark space for text overlay. Minimal, clean — the emptiness carries weight. Premium, elegant, dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 36,
+    "title": "Da Vinci Quote",
+    "section": "Act 4 — Property 1 Quote",
+    "format": "QUOTE",
+    "feeling": "Timelessness, inspiration — \"this has always been true.\" Calm, deep energy.",
+    "text_on_slide": "\"Learning is the only thing\nthe mind never exhausts,\nnever fears, and never regrets.\"\n— Leonardo da Vinci",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 37,
+    "title": "Renaissance Curiosity: Da Vinci + Michelangelo",
+    "section": "Act 4 — Property 1",
+    "format": "REVEAL",
+    "feeling": "Awe, inspiration — \"genius is just relentless curiosity.\" Building energy.",
+    "text_on_slide": "Da Vinci: 500 sketches to understand flight\nMichelangelo: said yes to a technique he'd never tried\nDiscomfort = growth",
+    "image_prompt": "Two-state reveal background. Left half: Leonardo's anatomical sketches of birds in flight — the famous wing studies, warm sepia tone, detailed pen-and-ink style. Right half: a detail from the Sistine Chapel ceiling — 'The Creation of Adam' showing the iconic reaching hands. A thin vertical gold line divides the halves. Below both images, empty dark space for text overlay. Classical, Renaissance, warm sepia presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 38,
+    "title": "Nordic: Notch & Minecraft",
+    "section": "Act 4 — Property 1 — Nordic",
+    "format": "STANDARD",
+    "feeling": "Pride, warmth — \"one of ours.\" Warm, personal energy.",
+    "text_on_slide": "Notch: Commodore 128 in Edsbyn\n→ Minecraft → $2.5 billion\nCuriosity, not technical brilliance",
+    "image_prompt": "Left side: a Commodore 128 computer photographed in warm tungsten light, sitting on a wooden desk — evoking a Swedish childhood bedroom in the late 1980s. Right side: a Minecraft landscape with the iconic blocky world and a vibrant sunset. The two images are connected by a subtle dotted arrow running left to right, suggesting a journey. The bottom-center area should have a dark semi-transparent bar providing empty space for text overlay. Warm, nostalgic, gaming-meets-retro aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 39,
+    "title": "Curiosity Humor",
+    "section": "Act 4 — Property 1 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, self-recognition — \"that's me at 3 AM.\" Light, warm energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph shot from over someone's shoulder at 3 AM (a clock visible on the wall showing 3:07). They're deep in a Wikipedia article about medieval siege engines — diagrams of trebuchets and catapults visible on screen. Multiple browser tabs are open. A half-eaten bag of chips beside them. Blue screen glow on their face. Documentary-style, slightly voyeuristic angle. Late-night, relatable, warm photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 40,
+    "title": "Property 2: Systems Thinking",
+    "section": "Act 4 — Property 2 Title",
+    "format": "STANDARD",
+    "feeling": "Expansion, interconnection — \"everything is linked.\" Calm, widening energy.",
+    "text_on_slide": "Property 2\nSystems Thinking",
+    "image_prompt": "Dark background. A small icon of interconnected nodes — five dots connected by lines forming a network pattern — rendered in gold line art, positioned in the lower center. A single thin gold horizontal line extends across the middle. The upper half and center are completely empty dark space for text overlay. Same layout as other property title slides for consistency. Premium, elegant, dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 41,
+    "title": "Meadows Quote",
+    "section": "Act 4 — Property 2 Quote",
+    "format": "QUOTE",
+    "feeling": "Depth, interconnection — \"I need to see the whole.\" Reflective energy.",
+    "text_on_slide": "\"You can never understand\nanything in isolation.\nEverything is connected.\"\n— Donella Meadows",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 42,
+    "title": "Yellowstone Wolves",
+    "section": "Act 4 — Property 2",
+    "format": "IMAGE-ONLY",
+    "feeling": "Awe, understanding — \"one change cascades through everything.\" Building energy.",
+    "text_on_slide": null,
+    "image_prompt": "A stunning wildlife photograph of a grey wolf pack in Yellowstone — three wolves moving through a snow-dusted meadow at golden hour. The Lamar Valley stretches behind them with bare aspens and a winding river. Warm golden light from the left, long shadows. National Geographic quality wildlife photography. Majestic, natural, awe-inspiring landscape aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 43,
+    "title": "Nordic: Spotify's Squad Model",
+    "section": "Act 4 — Property 2 — Nordic",
+    "format": "STANDARD",
+    "feeling": "Recognition, cautionary insight — \"even brilliant systems have second-order effects.\" Reflective energy.",
+    "text_on_slide": "Spotify: autonomous squads\nBrilliant systems thinking\nBut: teams built the same thing\nwithout knowing about each other",
+    "image_prompt": "Dark background. Left side: a simplified organizational chart showing small colored squares grouped into clusters inside larger boxes, with horizontal and diagonal lines connecting across groups. Clean, geometric, using a bright green accent color. Right side: a red warning callout area showing duplicated building blocks — the same component appearing twice. The bottom area should have empty space for text overlay. Labels and text will be added in PowerPoint. Clean, corporate, infographic presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 44,
+    "title": "Systems Thinking Humor",
+    "section": "Act 4 — Property 2 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, self-awareness — \"I do this.\" Light energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a person standing in front of a classic conspiracy theory board — a corkboard covered in photos, newspaper clippings, and sticky notes, all connected by red string in an impossibly complex web. The person is pointing at one connection with intense focus. The board is absurdly over-connected — everything links to everything. Shot straight-on, warm overhead lighting, slightly comedic framing. Humorous, documentary, warm photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 45,
+    "title": "Property 3: Communication",
+    "section": "Act 4 — Property 3 Title",
+    "format": "STANDARD",
+    "feeling": "Sharpening focus — \"words are code now.\" Alert, precise energy.",
+    "text_on_slide": "Property 3\nCommunication",
+    "image_prompt": "Dark background. A small icon of a speech bubble with a blinking cursor inside it — merging language and code — rendered in gold line art, positioned in the lower center. A single thin gold horizontal line extends across the middle. The upper half and center are completely empty dark space for text overlay. Same layout as other property title slides. Premium, elegant, dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 46,
+    "title": "Shaw Quote",
+    "section": "Act 4 — Property 3 Quote",
+    "format": "QUOTE",
+    "feeling": "Wry recognition — \"I've experienced this.\" Calm, knowing energy.",
+    "text_on_slide": "\"The greatest problem in communication\nis the illusion that\nit has been accomplished.\"\n— George Bernard Shaw",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 47,
+    "title": "The Panda Problem",
+    "section": "Act 4 — Property 3",
+    "format": "REVEAL",
+    "feeling": "Delight, insight — \"one comma changes everything.\" Light but pointed energy.",
+    "text_on_slide": "\"A panda eats shoots and leaves\"\nvs.\n\"A panda eats, shoots and leaves\"",
+    "image_prompt": "Two-state reveal background. Left half: a peaceful watercolor-style illustration of a giant panda sitting among bamboo stalks, contentedly eating shoots. Soft greens and whites. Right half: a cartoon-style illustration of a panda in a trench coat and fedora, standing in a restaurant doorway holding a smoking revolver, overturned chairs behind it. A thin vertical gold line divides the halves. Below both images, empty dark space for text overlay. Whimsical, illustrative, humorous presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 48,
+    "title": "Nordic: Klarna vs IKEA",
+    "section": "Act 4 — Property 3 — Nordic",
+    "format": "REVEAL",
+    "feeling": "Contrast, judgment — \"same country, opposite outcomes.\" Sharp, decisive energy.",
+    "text_on_slide": "Klarna: 700 staff → AI chatbot\nCustomer satisfaction dropped\n——\nIKEA Billie: 47% of queries handled\n8,500 retrained → €1.3B new revenue",
+    "image_prompt": "Two-state reveal background. Left half: a pink-tinted dark background evoking a fintech brand. A large red downward arrow icon in the center. Right half: a blue-and-yellow-tinted dark background evoking a Scandinavian retail brand. A large green upward arrow icon in the center. The visual contrast between failure (red, descending) and success (green, ascending) is immediate. Labels and text will be added in PowerPoint. Bold, corporate, contrast-driven presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 49,
+    "title": "Communication Humor",
+    "section": "Act 4 — Property 3 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, self-recognition — \"precision is my blessing and my curse.\" Light energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a person at a minimalist Scandinavian café counter, leaning forward intensely toward a bewildered barista. The customer is gesturing with both hands as if explaining something complex. On the counter: a simple espresso cup. Behind the barista: a basic menu board. The barista's expression is politely confused. Shot from the side, warm café lighting, shallow depth of field on the customer's animated hands. Warm, candid, Scandinavian café photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 50,
+    "title": "Property 4: Ownership",
+    "section": "Act 4 — Property 4 Title",
+    "format": "STANDARD",
+    "feeling": "Weight, responsibility — \"this is the hard one.\" Serious, grounding energy.",
+    "text_on_slide": "Property 4\nOwnership",
+    "image_prompt": "Dark background. A small icon of a key rendered in gold line art, positioned in the lower center. A single thin gold horizontal line extends across the middle. The upper half and center are completely empty dark space for text overlay. Same layout as other property title slides for consistency. Premium, elegant, dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 51,
+    "title": "Vogels Ownership Quote",
+    "section": "Act 4 — Property 4 Quote",
+    "format": "QUOTE",
+    "feeling": "Authority, directness — \"no hiding behind tools.\" Firm energy.",
+    "text_on_slide": "\"The work is yours,\nnot that of the tools.\"\n— Dr. Werner Vogels",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 52,
+    "title": "You Build It, You Run It + Amazon Incident",
+    "section": "Act 4 — Property 4",
+    "format": "IMAGE-ONLY",
+    "feeling": "Visceral recognition, dread — \"I know that feeling.\" Tense, personal energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a smartphone on a bedside table at 3:00 AM. The phone screen is lit up with an incoming call notification. The room is dark except for the phone's glow casting harsh white light on rumpled sheets and a half-empty water glass. An alarm clock in the background shows 3:00. Shot from the pillow's perspective — intimate, first-person. Cool blue-white color temperature. Tense, intimate, documentary photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 53,
+    "title": "Netherlands: When No One Owns the Consequences",
+    "section": "Act 4 — Property 4 — Nordic/International",
+    "format": "NUMBER",
+    "feeling": "Gravity, moral weight — \"algorithms affect real lives.\" Somber, still energy.",
+    "text_on_slide": "26,000\ninnocent families destroyed\nby an algorithm no one owned",
+    "image_prompt": "A pure black background with no distractions. Subtle somber lighting — a faint cool grey gradient from the edges. The center of the image is completely empty and dark, providing a large area for number overlay. The starkness creates a memorial quality. Nothing else competes for attention. Somber, stark, memorial-like presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 54,
+    "title": "Ownership Humor",
+    "section": "Act 4 — Property 4 — Humor",
+    "format": "STANDARD",
+    "feeling": "Dark humor, recognition — \"it's always 3 AM, it's always Friday.\" Tension-breaking energy.",
+    "text_on_slide": "Trolley Problem 2.0:\nAnswer at 3 AM\nor hope it's someone else's\nmicroservice?",
+    "image_prompt": "Dark background. Center: a stylized smartphone screen showing an incoming call notification at 3:00 AM. The phone has a green accept button and a red decline button — mirroring a binary choice. Below the phone, generous empty dark space for text overlay. The phone glows softly against the dark background. Moody, humorous, tech-themed presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 55,
+    "title": "Property 5: Polymathy",
+    "section": "Act 4 — Property 5 Title",
+    "format": "STANDARD",
+    "feeling": "Expansion, possibility — \"breadth is power.\" Open, expansive energy.",
+    "text_on_slide": "Property 5\nPolymathy",
+    "image_prompt": "Dark background. A small icon of a T-shape with branches growing from the horizontal bar, like a stylized tree, rendered in gold line art, positioned in the lower center. A single thin gold horizontal line extends across the middle. The upper half and center are completely empty dark space for text overlay. Same layout as other property title slides. Premium, elegant, dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 56,
+    "title": "Da Vinci Polymathy Quote",
+    "section": "Act 4 — Property 5 Quote",
+    "format": "QUOTE",
+    "feeling": "Beauty, aspiration — \"this is what mastery looks like.\" Elevated, calm energy.",
+    "text_on_slide": "\"Study the science of art.\nStudy the art of science.\nDevelop your senses —\nespecially learn how to see.\"\n— Leonardo da Vinci",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 57,
+    "title": "I-Shaped vs T-Shaped",
+    "section": "Act 4 — Property 5",
+    "format": "REVEAL",
+    "feeling": "Clarity, aspiration — \"I want to be T-shaped.\" Decisive energy.",
+    "text_on_slide": "I-shaped: deep but narrow\nT-shaped: deep AND broad",
+    "image_prompt": "Two-state reveal background. Left half: a large letter 'I' rendered in grey on a dark background. It looks narrow and limited. Right half: a large letter 'T' rendered in gold on a dark background. The T is visually larger and more commanding than the I. Below both letters, empty dark space spanning the full width for text overlay. Labels and text will be added in PowerPoint. Clean, typographic, premium presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 58,
+    "title": "Nordic: Linus Torvalds — The Polymath",
+    "section": "Act 4 — Property 5 — Nordic",
+    "format": "STANDARD",
+    "feeling": "Admiration, pride — \"two revolutions, one person.\" Warm, impressed energy.",
+    "text_on_slide": "Linus Torvalds\nLinux (1991) + Git (2005)\nTwo revolutions, one person\n\"Just a hobby, won't be big\"",
+    "image_prompt": "Dark background. Left side: the Linux penguin mascot (Tux) rendered in clean vector art. Right side: the Git logo in its characteristic orange-red. Between them: a plus symbol in white. The composition is simple — two iconic tech logos side by side. Below both logos, generous empty dark space for text overlay. Clean, tech-iconic, powerful presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 59,
+    "title": "Polymathy Humor",
+    "section": "Act 4 — Property 5 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, affection — \"that's us.\" Light, closing energy for Act 4.",
+    "text_on_slide": null,
+    "image_prompt": "A humorous illustration: a large letter 'T' where the horizontal bar has been replaced by an absurdly oversized, ornate crown or top hat — far too large for the vertical bar supporting it. The letter 'I' stands next to it looking plain and sensible. The T looks magnificent but slightly ridiculous. Clean white figures on a dark background, like a New Yorker cartoon style. Whimsical, clever, editorial cartoon aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 60,
+    "title": "Act 5 Quote",
+    "section": "Act 5 — Opening Quote",
+    "format": "QUOTE",
+    "feeling": "Urgency, pragmatism — \"enough theory, let's build.\" Sharp, action-oriented energy.",
+    "text_on_slide": "\"Good intentions don't work.\nMechanisms do.\"\n— Werner Vogels",
+    "image_prompt": "A pure black background with a very subtle dark texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Consistent with other quote slides. Elegant, minimal, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 61,
+    "title": "The Bezos Table Story",
+    "section": "Act 5 — Bezos",
+    "format": "STANDARD",
+    "feeling": "Frustration turning to insight — \"everyone knew, no one acted.\" Building energy.",
+    "text_on_slide": "Bezos in customer service:\n\"She's going to return that table\"\n70% came back broken\nEveryone knew. No one acted.",
+    "image_prompt": "A photograph of a damaged cardboard shipping box with a broken table leg poking through the torn side. The box sits on a warehouse floor under harsh fluorescent lighting. Packing peanuts spill out. A shipping label is visible but blurred. The image is unglamorous and real. The bottom third should have a dark semi-transparent overlay providing empty space for text overlay. Industrial, documentary, real-world photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 62,
+    "title": "The Andon Cord: Mechanism Beats Intention",
+    "section": "Act 5 — Bezos Solution",
+    "format": "STANDARD",
+    "feeling": "Satisfaction, clarity — \"so simple, so effective.\" Resolved energy.",
+    "text_on_slide": "The Andon Cord\nAnyone can stop the line\nNo permission needed\nProblem disappeared",
+    "image_prompt": "A close-up photograph of a red industrial pull cord hanging in a factory setting — the kind used on assembly lines. The cord is in sharp focus against a blurred industrial background of metal and machinery. Warm overhead lighting creates a slight glow around the red cord. It's simple, physical, unmistakable. The upper-left quadrant should have a dark semi-transparent overlay providing empty space for text overlay. Industrial, focused, premium photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 63,
+    "title": "The Six Mechanisms (Rapid-Fire Diagram)",
+    "section": "Act 5 — All Mechanisms",
+    "format": "DIAGRAM",
+    "feeling": "Completeness, structure — \"here's the full toolkit.\" Confident, comprehensive energy.",
+    "text_on_slide": "1. Spec-driven development\n2. Human code review\n3. Durability reviews\n4. Andon Cord\n5. Automated testing\n6. Automated reasoning",
+    "image_prompt": "Dark background. A circular flow diagram with six nodes arranged in a ring, connected by arrows flowing clockwise. Each node is a rounded rectangle with a small icon. The nodes use different accent colors: gold, teal, blue, red, green, purple. Center of the ring: empty space for a central label. Clean vector art, no gradients or 3D effects. The circular layout emphasizes these work together as a system. Labels and text will be added in PowerPoint. Clean, technical, infographic presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 64,
+    "title": "Stripe Minions: Mechanisms in Action",
+    "section": "Act 5 — Success Example",
+    "format": "STANDARD",
+    "feeling": "Proof, confidence — \"it works at scale.\" Energized, optimistic energy.",
+    "text_on_slide": "Stripe \"Minions\"\nAutonomous AI agents in production\nMechanisms at every step\nWorking at scale on critical payments",
+    "image_prompt": "Dark background with a subtle deep indigo-purple gradient evoking a fintech brand. Center: a simplified pipeline diagram showing five stages left to right, connected by arrows. Each stage is represented by a rounded rectangle with a small green checkmark above it. The visual communicates controlled automation — every step verified. Below the pipeline, generous empty space for text overlay. Labels and text will be added in PowerPoint. Clean, modern, tech-company presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 65,
+    "title": "Guardrails, Not Speedbumps",
+    "section": "Act 5 — Summary",
+    "format": "IMAGE-ONLY",
+    "feeling": "Freedom with safety — \"speed AND control.\" Open, liberating energy.",
+    "text_on_slide": null,
+    "image_prompt": "An aerial photograph of a mountain road — a smooth, winding asphalt road cutting through dramatic alpine scenery. Metal guardrails line both sides, gleaming in sunlight. The road is open and inviting — no traffic, no obstacles. Beyond the guardrails: a steep drop into a forested valley far below. The guardrails don't slow you down, they let you drive fast with confidence. Shot from a drone, golden hour lighting, vivid greens and greys. Majestic, liberating, landscape photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 66,
+    "title": "Act 5 Humor",
+    "section": "Act 5 — Humor",
+    "format": "IMAGE-ONLY",
+    "feeling": "Laughter, wisdom — \"mechanisms are just common sense.\" Light, warm energy.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a skydiver in freefall — arms spread wide, jumpsuit flapping, blue sky and patchwork farmland far below. The parachute pack is clearly visible on their back, unopened. They look exhilarated and completely at ease. Shot from a fellow skydiver's helmet cam, wide angle, vivid colors. The implicit message: they're not worried because they have a mechanism. Exhilarating, vivid, action photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 67,
+    "title": "Metallica Quote",
+    "section": "Wrap-up — Opening",
+    "format": "QUOTE",
+    "feeling": "Warmth, trust, closure — \"this is what it all comes down to.\" Calm, emotional energy.",
+    "text_on_slide": "\"Trust I seek and I find in you.\nAn open mind for a different view.\nAnd nothing else matters.\"\n— Metallica",
+    "image_prompt": "A pure black background with a very subtle texture — like worn black cotton fabric at very low opacity, evoking a T-shirt texture. A thin gold horizontal rule element positioned slightly below center. The vast majority of the image is completely empty black space, especially the center area, to allow for quote text overlay. Warm, intimate, premium dark presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 68,
+    "title": "SkyNet Callback",
+    "section": "Wrap-up",
+    "format": "STANDARD",
+    "feeling": "Satisfaction, closure — \"we've come full circle.\" Resolved, confident energy.",
+    "text_on_slide": "\"Should it be sent to production?\"\n[Yes] **[No — I'll read the code first]**",
+    "image_prompt": "Identical to the SkyNet prompt slide — a pure black background with a realistic retro terminal dialog box in the center. Green phosphor text glowing on black with a slight CRT scanline effect. The dialog box has a thin green border with rounded corners. Two terminal-style buttons at the bottom — one greyed out, one highlighted with a bright green glow. A slight green glow emanates from the text area. The highlighted button area should have empty space for text overlay. Dark, moody, retro-tech callback aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 69,
+    "title": "The Framework in Five Lines",
+    "section": "Wrap-up",
+    "format": "DIAGRAM",
+    "feeling": "Completeness, clarity — \"I can remember this.\" Calm, structured energy.",
+    "text_on_slide": "1. Be curious — never stop asking why\n2. Think in systems — your fix affects everything\n3. Communicate with precision\n4. Own what you build\n5. Broaden your T",
+    "image_prompt": "Dark background. Five small colored icons arranged vertically on the left side with generous spacing: a gold magnifying glass, teal network nodes, blue speech bubble, red key, purple T-shape. A thin gold border frames the central area, giving it the feel of a manifesto or declaration. The right side and center have generous empty space for text overlay. Labels and text will be added in PowerPoint. Clean, structured, premium manifesto-style presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 70,
+    "title": "The Invisible Work",
+    "section": "Wrap-up",
+    "format": "IMAGE-ONLY",
+    "feeling": "Pride, quiet emotion — \"what we do matters, even if no one sees it.\" Deep, reflective energy. The emotional peak of the presentation.",
+    "text_on_slide": null,
+    "image_prompt": "A photograph of a data center at night — long rows of server racks stretching into the distance, lit by cool blue LED status lights. The room is empty of people. The servers hum silently. Shot from a low angle looking down the aisle, the blue lights creating a vanishing point that draws the eye deep into the image. The feeling is cathedral-like — vast, quiet, purposeful. Cathedral-like, contemplative, premium technology photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 71,
+    "title": "Werner, Out",
+    "section": "Wrap-up",
+    "format": "STANDARD",
+    "feeling": "Respect, farewell — honoring the source. Quiet, dignified energy.",
+    "text_on_slide": "\"Werner, out.\"",
+    "image_prompt": "Dark background with generous whitespace. A simple, elegant composition — nothing but a smooth dark gradient from deep charcoal to black. The entire center area is empty and clean, providing space for text overlay. The simplicity is the power. Minimal, dignified, premium corporate presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 72,
+    "title": "Erik's Closing",
+    "section": "Wrap-up",
+    "format": "PHOTO-STORY",
+    "feeling": "Warmth, connection, invitation — \"come build with me.\" Calm, personal energy.",
+    "text_on_slide": "Thank you.",
+    "image_prompt": "A warm photograph of a stage setup — a comfortable armchair with a magazine lying on the armrest, an espresso cup on its saucer nearby (clearly empty). Warm amber stage lighting. The scene feels familiar and intimate, like returning home after a journey. The circle closes visually. The bottom-center area should have empty space for a simple text overlay. Warm, intimate, theatrical photography aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 73,
+    "title": "Workshop Teaser",
+    "section": "Workshop",
+    "format": "STANDARD",
+    "feeling": "Excitement, invitation — \"let's do this.\" Forward-looking, energized.",
+    "text_on_slide": "Workshop: From Theory to Practice\nBuild with Kiro — spec-driven,\nwith mechanisms, not intentions\nRight after the break",
+    "image_prompt": "Dark background with a subtle gradient toward a deep teal color. Center: a modern, clean IDE logo placeholder rendered at medium size. Below it, generous empty space for invitation text overlay. Bottom-right corner: a placeholder area for a QR code. The slide feels like a movie's post-credits teaser — there's more to come. Modern, tech-forward, inviting presentation aesthetic. 16:9 aspect ratio."
+  },
+  {
+    "slide_number": 74,
+    "title": "Q&A",
+    "section": "Q&A",
+    "format": "STANDARD",
+    "feeling": "Openness, generosity — \"the floor is yours.\" Calm, welcoming energy.",
+    "text_on_slide": "Q&A\nErik Günther\n[contact info / QR code]\n\nFull PDF with all examples and references\navailable after the talk",
+    "image_prompt": "Dark background with a clean, inviting feel. The center area is mostly empty dark space for large text overlay. A subtle placeholder area in the lower portion for contact information and a QR code. No clutter, no distractions. The composition is open and welcoming. Clean, inviting, premium corporate presentation aesthetic. 16:9 aspect ratio."
+  }
+]
