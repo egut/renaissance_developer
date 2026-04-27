@@ -122,7 +122,7 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 **Visuell beskrivning:** Stiliserad molnikon eller ett foto av ett serverrum som töms. Blå toner.
 **Text på slide:**
 
-> 2000: Molnet
+> 2010: Molnet
 > "Ingenjörer sparkas"
 
 **Talarnoteringar:** "Molnet skulle döda ops. Istället skapade det SRE — Site Reliability Engineering. En helt ny disciplin. Mönstret upprepas."
@@ -142,16 +142,16 @@ Minst 30pt font. Max 6 ord per rad, max 6 rader. Inga bullet-listor om det inte 
 
 ---
 
-### Slide 10 — ABC 80 och hemdatorn
+### Slide 10 — Commodore 64 och hemdatorn
 
 **Sektion:** Akt 1 — Svenska komplement
-**Visuell beskrivning:** Foto av en ABC 80 (den klassiska svenska datorn med det gröna tangentbordet). Nostalgi.
+**Visuell beskrivning:** Foto av en Commodore 64 (den klassiska beige datorn med regnbågslogotypen). Nostalgi.
 **Text på slide:**
 
-> ABC 80 (1978)
+> Commodore 64 (1982)
 > "Datorn förstör barnen"
 
-**Talarnoteringar:** "Sveriges egen datorrevolution. Biblioteken hade manualer och programkokböcker. Oron var att barn skulle bli passiva. Istället blev det startskottet för generationen som byggde Spotify, Klarna och King. Hemdatorreformen 1998 — 850 000 datorer på tre år. Kritikerna sa slöseri. Sverige fick 28 bredbandsabonnemang per 100 invånare 2005, mot USA:s 17. Det lade grunden för Europas Silicon Valley."
+**Talarnoteringar:** "Commodore 64 — historiens mest sålda hemdator. I Sverige var den allestädes närvarande. Barn laddade spel från kassettband och knappade in BASIC-listningar från Datormagazin. Oron var att barn skulle bli passiva. Istället blev det startskottet för generationen som byggde Spotify, Klarna, King och Minecraft. Hemdatorreformen 1998 — 850 000 datorer på tre år. Kritikerna sa slöseri. Sverige fick 28 bredbandsabonnemang per 100 invånare 2005, mot USA:s 17. Det lade grunden för Europas Silicon Valley."
 
 ---
 

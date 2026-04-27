@@ -169,7 +169,7 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 
 ---
 
-### Slide 9 — The Cloud (2000s)
+### Slide 9 — The Cloud (2010s)
 
 **Section:** Act 1 — Panic Timeline
 **Format:** [STANDARD]
@@ -177,7 +177,7 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 **Visual:** Photograph of an empty server room — rows of open, dark server racks with cables dangling, overhead fluorescent lights casting cold blue-white light. The room feels abandoned, like a tech graveyard. Shot from a low angle looking down the aisle. Dark gradient overlay on the bottom third. Text in white sans-serif, 44pt, bottom-left aligned.
 **Text on slide:**
 
-> 2000: The Cloud
+> 2010: The Cloud
 > "Engineers will be fired"
 
 **Speaker notes:** "The cloud was supposed to kill ops. Instead it created SRE — Site Reliability Engineering. An entirely new discipline. The pattern repeats."

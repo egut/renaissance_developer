@@ -91,14 +91,14 @@ Vogels öppnade sin keynote med en kortfilm: från hålkortseran och framåt har
 
 - COBOL (1960-tal): "Nu kan vem som helst koda, programmerare är färdiga."
 - Drag-and-drop-programmering (1990-tal): "Ingen behöver skriva kod längre."
-- Molnet (2000-tal): "Ingenjörer sparkas."
+- Molnet (2010-tal): "Ingenjörer sparkas."
 - AI (2020-tal): "Den här gången är det på riktigt."
 
 Fyra decennier, samma manus, fyra olika rekvisita.
 
 **Svenska komplement — samma panik, andra domäner:**
 
-- **Hemdatorn och ABC 80 (sent 70-tal/80-tal):** Sveriges egen datorrevolution började med ABC 80 — "Advanced BASIC Computer" — ett samarbete mellan DIAB, Scandia Metric och Luxor i Motala. Biblioteken hade manualer och programkokböcker. Oron? Att barn skulle bli passiva, att datorn skulle ersätta "riktigt" lärande, att det var en leksak utan framtid. Istället blev det startskottet för en generation som byggde Spotify, Klarna och King. Och sedan kom _hemdatorreformen_ 1998 — 850 000 datorer köptes via arbetsgivare på tre år, nästan en fjärdedel av alla svenska hushåll fick en dator. Kritikerna sa att det var slöseri. Resultatet? Sverige fick 28 bredbandsabonnemang per 100 invånare år 2005, mot USA:s 17. Det lade grunden för att Sverige blev Europas Silicon Valley. ([The Swedish Games](https://theswedishgames.wordpress.com/2022/07/13/abc-80-1978/), [Reuters](https://www.reuters.com/business/finance/how-sweden-became-silicon-valley-europe-2021-08-11/))
+- **Hemdatorn och Commodore 64 (tidigt 80-tal):** Commodore 64, lanserad 1982, blev historiens mest sålda hemdator med uppskattningsvis 12,5–17 miljoner sålda enheter. I Sverige var C64:an allestädes närvarande — prisvärd, med 64 KB RAM och det legendariska SID-ljudchippet. Svenska barn laddade spel från kassettband, knappade in BASIC-listningar från _Datormagazin_ och bildade datorklubbar på skolor och bibliotek. Oron? Att barn skulle bli passiva, att datorn skulle ersätta "riktigt" lärande, att det var en leksak utan framtid. Istället blev det startskottet för en generation som byggde Spotify, Klarna, King och Mojang. Och sedan kom _hemdatorreformen_ 1998 — 850 000 datorer köptes via arbetsgivare på tre år, nästan en fjärdedel av alla svenska hushåll fick en dator. Kritikerna sa att det var slöseri. Resultatet? Sverige fick 28 bredbandsabonnemang per 100 invånare år 2005, mot USA:s 17. Det lade grunden för att Sverige blev Europas Silicon Valley. ([Reuters](https://www.reuters.com/business/finance/how-sweden-became-silicon-valley-europe-2021-08-11/), [Computer History Museum](https://www.computerhistory.org/revolution/personal-computers/17/300))
 
 - **Mobiltelefonen (1980–90-tal):** NMT öppnade 1981 i Sverige och Norge — världens första automatiska mobiltelefonnät. Reaktionen? "Vem behöver ringa från en bil?" och "Det förstör det sociala umgänget." Ericsson och Nokia byggde sina imperier på den tekniken. Idag har vi fler mobilabonnemang än invånare, och ingen ifrågasätter att telefonen förändrade allt — men _hur_ den förändrade allt var det ingen som förutsåg. ([Wikipedia: NMT](https://en.wikipedia.org/wiki/Nordic_Mobile_Telephone))
 
