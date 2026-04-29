@@ -1,0 +1,43 @@
+SERVICE LEVEL AGREEMENT
+
+Between: Acme Cloud Services ("Provider") and Customer ("Client")
+Effective Date: January 1, 2026
+
+1. SERVICE AVAILABILITY
+The Provider shall ensure that the Service is available 99.9% of the time,
+measured on a monthly basis. Downtime caused by scheduled maintenance
+shall not be included in availability calculations.
+
+2. RESPONSE TIMES
+Support requests shall be responded to in a timely manner. Critical issues
+shall be addressed with reasonable urgency. The Provider agrees to use
+best efforts to resolve all issues promptly.
+
+3. DATA HANDLING
+Customer data shall be stored securely and handled in accordance with
+applicable regulations. Data backups shall be performed at appropriate
+intervals. It shall be provided to the Customer upon request.
+
+4. LIABILITY
+The Provider's total liability under this Agreement shall not be
+unreasonable. In no event shall either party be liable for indirect,
+incidental, or consequential damages, except where such limitation is
+not unlikely to be enforceable under applicable law.
+
+5. MODIFICATIONS
+The Provider may modify the terms of this Agreement at its sole discretion
+upon providing notice to the Customer. Continued use of the Service after
+such modification constitutes acceptance.
+
+6. TERM AND RENEWAL
+This Agreement shall automatically renew for successive one-year periods.
+They may terminate this Agreement at any time for any reason.
+
+7. SUPPORT HOURS
+Technical support shall be available during business hours. Emergency
+support for critical issues shall be provided outside business hours
+on a best-efforts basis.
+
+8. COMPENSATION
+In the event of a service level breach, the Customer shall be entitled
+to adequate compensation as determined by the Provider.
