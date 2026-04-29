@@ -3,6 +3,11 @@
 **Språk:** Python · **Tid:** ~45 min · **Nivå:** Alla nivåer
 **Inga externa beroenden** — ingen databas, inga API-nycklar.
 
+Du behöver inte kunna Python. Med AI-verktyg som Kiro blir språkvalet
+mindre viktigt — det som avgör är om du kan formulera krav och verifiera
+resultat. Precis som COBOL inte eliminerade programmerare utan skapade
+en ny industri, gör AI att _systemtänkande_ trumfar syntax.
+
 ## Vad vi bygger
 
 En webbapplikation med ett REST API som låter användare söka recept baserat på
@@ -36,6 +41,9 @@ om det ser ut som ett enda verktyg. Tänk på det som roller:
 - **Kritikern** — Test-hooken. Kör tester automatiskt och rapporterar fel. Ingen kod passerar utan godkännande.
 - **Granskaren** — preToolUse-hooken (Bonus C). Granskar kvaliteten innan kod skrivs.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
+
+Som alla bra chefer behöver du inte kunna göra allas jobb. Men du
+behöver veta om de gör det bra.
 
 ---
 
@@ -212,6 +220,10 @@ Vibe coding har blivit riktigt bra. Men ställ dig dessa frågor:
 Koden _kanske_ fungerar. Men du har ingen kontroll. Ingen spec att
 verifiera mot. Inga tester som bevisar att det är rätt. Ingen som
 definierade vad "rätt" ens betyder. Det är **verification debt**.
+
+Det är lite som att beställa mat på ett språk du inte talar. Det som
+kommer till bordet ser fantastiskt ut. Du vet bara inte om det är biff
+eller kokta skosnören.
 
 Ångra ändringarna (Ctrl+Z / Cmd+Z) eller stäng sessionen. Nu gör vi
 det med kontroll.

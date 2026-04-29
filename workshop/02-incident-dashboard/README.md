@@ -3,6 +3,11 @@
 **Språk:** TypeScript / Node.js · **Tid:** ~60–90 min · **Nivå:** Medel
 **Inga externa beroenden** — mock-data, ingen riktig infrastruktur.
 
+Kan du inte TypeScript? Inget problem. Fråga Kiro — det är Curiosity-pelaren
+i praktiken. Att vi använder ett annat språk än i Koncept 1 är medvetet:
+det visar att språkvalet blir mindre viktigt när du har rätt verktyg.
+Det som avgör är systemtänkande, inte syntax.
+
 ## Vad du bygger
 
 Ett övervakningssystem som visar hälsostatus för fiktiva microservices.
@@ -34,6 +39,8 @@ Du orkestrerar en stab av specialiserade agenter:
 - **Kritikern** — Test-hooken. Verifierar att larm triggas korrekt.
 - **Granskaren** — preToolUse-hooken (Bonus C). Kontrollerar typning innan kod skrivs.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
+
+Tänk PagerDuty klockan 03:00. Ingen agent svarar i telefonen åt dig.
 
 ---
 
@@ -258,6 +265,10 @@ Testa:
 - Ser du statusfärger (grön/gul/röd) för varje service?
 - Vänta på en simulerad incident — triggas larmet?
 - Klicka "acknowledge" — stoppas eskaleringen?
+
+  (I verkligheten är det här knappen du trycker på klockan 03:00 i
+  pyjamas medan du lovar dig själv att byta karriär till florist.)
+
 - Vad händer om du ändrar tröskelvärdet i koden och sparar?
 
 ### Steg 7: Reflektion (3 min)

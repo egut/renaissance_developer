@@ -19,6 +19,18 @@ förkunskaper i Python och demonstrerar hela Kiro-flödet: Spec → Agenter → 
 Koncept 2 och 3 är hemövningar med stigande komplexitet. Välj det språk och den domän
 som intresserar dig mest.
 
+## Varför tre olika språk?
+
+Vi använder medvetet Python, TypeScript och Go — inte för att du ska lära dig tre
+språk, utan för att visa att **språkvalet blir mindre viktigt**. Det är samma mönster
+som i artikelns panik-tidslinje: från hålkort till COBOL trodde man att programmerare
+skulle bli överflödiga. Istället blev _systemtänkande_ viktigare än syntax.
+
+Med AI-verktyg som Kiro kan du arbeta i ett språk du aldrig sett förut. Det som
+avgör kvaliteten är inte om du kan Go:s syntax utantill — det är om du kan
+formulera krav, designa system och verifiera resultat. Renässansutvecklarens
+styrka ligger i bredden, inte i att memorera semikolon.
+
 ---
 
 ## Gemensamma förberedelser

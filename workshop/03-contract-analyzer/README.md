@@ -3,6 +3,12 @@
 **Språk:** Go · **Tid:** ~90–120 min · **Nivå:** Avancerad
 **Inga externa beroenden** — ingen databas, inga AI-API-nycklar.
 
+Tredje språket på tre koncept — och det är medvetet. Från hålkort till
+COBOL till AI: varje generation av verktyg har gjort det specifika
+språket mindre viktigt och systemtänkande mer viktigt. Om du aldrig
+skrivit Go förut är det en styrka, inte en svaghet — du bevisar att
+en renässansutvecklare inte begränsas av syntax.
+
 ## Vad du bygger
 
 Ett CLI-verktyg och webb-API som tar en textfil (t.ex. ett hyreskontrakt eller
@@ -44,6 +50,9 @@ Du orkestrerar en stab av specialiserade agenter:
 - **Granskaren** — preToolUse-hooken (Bonus G). Kontrollerar false positives.
 - **Bibliotekarien** — MCP. Ger staben tillgång till filer utanför projektet.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
+
+Sju roller, en människa. Leonardo hade det enklare — han behövde bara
+rita, skulptera, uppfinna, skriva, forska och dissekera lik.
 
 ---
 
@@ -410,10 +419,8 @@ I verkligheten kan MCP koppla Kiro till databaser, API:er, molntjänster
 — allt som har en MCP-server. Det är **Polymathy** i praktiken: fler
 verktyg i verktygslådan.
 
-**Ownership:** `autoApprove` är tom — du delegerar förmågan, inte
-ansvaret. Kiro frågar alltid innan den läser eller skriver via MCP.
-
-Du hittar MCP-konfigurationen i filträdet under `.kiro/settings/mcp.json`.
+**Ownership:** `autoApprove` är tom — Kiro frågar dig innan den använder
+verktyget. Det är **Ownership**: du delegerar förmågan, inte ansvaret.
 
 ### Steg 7: Testa med exempeldokument (10 min)
 
@@ -446,7 +453,8 @@ Granska resultatet:
   flaggades som "high risk"? Den tiden det tar att bygga den förståelsen
   är verification debt. Steering och specs minskar den — men eliminerar den inte.
 - Skulle du lita på det här verktyget för riktiga kontrakt? Varför inte?
-  (Ownership — verktyget ger förslag, du äger beslutet)
+  (Ownership — verktyget ger förslag, du äger beslutet. Precis som
+  stavningskontrollen inte gör dig till författare.)
 
 ---
 
