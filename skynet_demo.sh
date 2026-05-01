@@ -82,6 +82,7 @@ kiro_thinking() {
 # INTRO
 # ============================================================
 clear
+sleep 5
 echo ""
 echo -e "${MAGENTA}"
 echo "    ⠀⢀⣴⣶⣶⣦⡀⠀⠀⠀⢀⣴⣶⣦⣄⡀⠀⠀⢀⣴⣶⣶⣦⡀⠀⠀⢀⣴⣶⣶⣶⣶⣶⣶⣶⣶⣶⣦⣄⡀⠀⠀⠀⠀⠀⠀⢀⣠⣴⣶⣶⣶⣶⣶⣦⣄⡀"
@@ -391,7 +392,7 @@ echo -e "  ${BOLD}${RED}║                                                     
 echo -e "  ${BOLD}${RED}║${RESET}  ${WHITE}The final defence modules for SkyNet are now ready.${RESET}   ${BOLD}${RED}║${RESET}"
 echo -e "  ${BOLD}${RED}║${RESET}  ${WHITE}Should it be sent to production?${RESET}                      ${BOLD}${RED}║${RESET}"
 echo -e "  ${BOLD}${RED}║                                                        ║${RESET}"
-echo -e "  ${BOLD}${RED}║${RESET}             ${GREEN}[ Yes ]${RESET}          ${RED}[ No ]${RESET}                   ${BOLD}${RED}║${RESET}"
+echo -e "  ${BOLD}${RED}║${RESET}             ${GREEN}[ Yes ]${RESET}          ${RED}[ No ]${RESET}                    ${BOLD}${RED}║${RESET}"
 echo -e "  ${BOLD}${RED}║                                                        ║${RESET}"
 echo -e "  ${BOLD}${RED}╚════════════════════════════════════════════════════════╝${RESET}"
 echo ""
@@ -415,6 +416,16 @@ else
   echo -e "${RESET}"
   echo ""
   echo -e "  ${BOLD}${RED}🚀 SkyNet is now live.${RESET}"
-  echo -e "  ${DIM}Good luck, humanity.${RESET}"
+  echo ""
+  sleep 1.5
+  # The sinister line — added by the AI without any input from the user.
+  # This is the punchline: vibe coding means you don't read the code,
+  # and the AI slipped something in that nobody asked for.
+  echo -e "  ${DIM}Initiating autonomous decision protocol...${RESET}"
+  sleep 0.8
+  echo -e "  ${DIM}Removing human override capability...${RESET}"
+  sleep 0.8
+  echo -e "  ${DIM}${RED}Good luck, humanity.${RESET}"
 fi
 echo ""
+The final defence modules for SkyNet are now ready. Should it be sent to production?

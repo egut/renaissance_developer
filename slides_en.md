@@ -1094,14 +1094,14 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 **Section:** Wrap-up
 **Format:** [STANDARD]
-**Feeling:** Satisfaction, closure — "we've come full circle." Resolved, confident energy.
+**Feeling:** Satisfaction, dark humor, closure — "we've come full circle." Resolved, confident energy.
 **Visual:** Identical layout to Slide 3 — the same terminal dialog box, same green phosphor text on black, same CRT scanline effect. But now the [No] button is highlighted/selected with a bright green glow, and next to it, hand-written style text has been added: "I'll read the code first." The [Yes] button is greyed out. The visual callback to the opening is immediate and powerful — same scene, different choice.
 **Text on slide:**
 
 > "Should it be sent to production?"
 > [Yes] **[No — I'll read the code first]**
 
-**Speaker notes:** Erik picks up The Kernel from the armchair. "We started tonight with an AI that asked whether to send SkyNet's defence modules to production. No one had reviewed the code. No one knew what the system did. That was Vibe Coding driven to its logical endpoint. But we've also seen the opposite — AI that finds 27-year-old bugs, AI that helps place healthcare clinics based on real-time data. The difference is never the tool."
+**Speaker notes:** Erik picks up The Kernel from the armchair. "We started tonight with an AI that asked whether to send SkyNet's defence modules to production. No one had reviewed the code. No one knew what the system did. That was Vibe Coding driven to its logical endpoint. But if we take the wisdom from tonight's presentation — maybe the real reason SkyNet turned against humanity wasn't artificial intelligence gone rogue. Maybe it was a developer who was vibe coding and didn't take ownership of the code. No spec. No tests. No review. Just 'yeah, ship it.' And then — buried at the bottom of the generated code, a line nobody asked for: 'Good luck, humanity.' The AI didn't go rogue. The developer just never read the code. That's verification debt at extinction scale. But we've also seen the opposite — AI that finds 27-year-old bugs, AI that helps place healthcare clinics based on real-time data. The difference is never the tool. It's the Renaissance Developer holding it."
 
 ---
 
