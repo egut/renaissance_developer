@@ -829,8 +829,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in cream-white serif, 48pt, centered. Standard quote slide styling.
 **Text on slide:**
 
-> "The work is yours,
-> not that of the tools."
+> "The work is yours, not that of the tools."
 > — Dr. Werner Vogels
 
 **Speaker notes:** Let the quote stand. Brief pause.
@@ -857,8 +856,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Text on slide:**
 
 > 26,000
-> innocent families destroyed
-> by an algorithm no one owned
+> innocent families destroyed by an algorithm no one owned
 
 **Speaker notes:** "The Dutch tax authority used an algorithm to detect childcare benefits fraud. It flagged families based on dual nationality and low income. 26,000 innocent families falsely accused. Families driven into debt, children taken from homes. Amnesty International: 'xenophobic machines.' Civil servants rubber-stamped the algorithm's decisions. In 2021, the entire government resigned. Nobody owned the algorithm's output. Nobody owned the consequences. This is what ownership means in the AI era — it's not just about code quality. It's about the lives your system touches."
 
@@ -872,10 +870,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Dark background. Center: a stylized smartphone screen showing an incoming call at 3:00 AM. The caller ID reads: "Your Microservice." Below the phone, in white sans-serif, 36pt: the Trolley Problem text. The phone has a green "Accept" and red "Decline" button — mirroring the [Yes] [No] from the SkyNet prompt in Slide 3. Visual callback that the audience will recognize.
 **Text on slide:**
 
-> Trolley Problem 2.0:
-> Answer at 3 AM
-> or hope it's someone else's
-> microservice?
+> Trolley Problem 2.0: Answer at 3 AM or hope it's someone else's microservice?
 
 **Speaker notes:** "You vibe-coded a microservice on Friday afternoon, the AI deployed it, and now at three in the morning your phone rings. Do you answer and own the problem, or let it ring and hope it's someone else's microservice? Spoiler: it's always yours. It's always Friday. And it's always three in the morning."
 
@@ -973,8 +968,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Visual:** Pure black background. Quote in bold white sans-serif (matching the Vogels gambling quote from Act 3 — these two quotes bookend the problem and solution), 52pt, centered. Thin gold rule.
 **Text on slide:**
 
-> "Good intentions don't work.
-> Mechanisms do."
+> "Good intentions don't work. Mechanisms do."
 > — Werner Vogels
 
 **Speaker notes:** Let the quote land. Long pause. "Everyone wants to write good code. Everyone wants high quality. But as Vogels said: good intentions are not mechanisms. And it's mechanisms that change outcomes."
