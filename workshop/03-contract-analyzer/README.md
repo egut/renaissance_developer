@@ -43,10 +43,12 @@ delar samverkar i ett system.
 
 Du orkestrerar en stab av specialiserade agenter:
 
-- **Regelverket** — Steering. Dina riktlinjer som alla agenter måste följa.
+- **Regelverket** — Steering (kodkvalitet + säkerhet). Dina riktlinjer som alla agenter måste följa.
+- **Dokumenteraren** — Steering (fileMatch). Håller dokumentation i sync med analysregler.
 - **Arkitekten** — Specen. Du definierar vad "risk" och "tvetydighet" betyder.
 - **Byggaren** — Task-agenten. Implementerar analyzer, CLI och webbsida.
 - **Kritikern** — Test-hooken + Trunk. Kör tester och linting automatiskt.
+- **Revisorn** — Verifieringsagenten. Jämför koden mot spec och steering.
 - **Granskaren** — preToolUse-hooken (Bonus G). Kontrollerar false positives.
 - **Bibliotekarien** — MCP. Ger staben tillgång till filer utanför projektet.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
@@ -234,7 +236,7 @@ go mod tidy
 
 Några exempel på frågor du kan ställa:
 
-> *"Jag har aldrig skrivit Go förut. Kan du förklara vad `func (a *Analyzer) Analyze(text string) Result` betyder?"\*
+> _"Jag har aldrig skrivit Go förut. Kan du förklara vad `func (a *Analyzer) Analyze(text string) Result` betyder?"_
 
 > _"Vad är skillnaden mellan en slice och en array i Go?"_
 
@@ -273,7 +275,7 @@ kiro workshop/03-contract-analyzer
 ### Steg 2: Skapa Steering — reglerna först (10 min)
 
 Innan vi skriver en spec eller en rad kod skapar vi riktlinjer — **Regelverket**
-i din AI-stab. Det är som att skriva spelreglerna innan matchen börjar.
+i din AI-stab.
 
 Men först, om du inte gjort Koncept 1: testa vad som händer utan regler.
 Öppna chatten och skriv:
@@ -306,6 +308,18 @@ Det är **verification debt** — och det växer med varje rad du inte förstår
 
 Kiro skapar filen i `.kiro/steering/`. Öppna den och granska — stämmer
 reglerna? Vill du lägga till något?
+
+Skapa sedan en andra steering-fil — **Dokumenteraren**:
+
+> _"Skapa en steering-fil med fileMatch för analyzer/\*.go som säger:
+> När en analysregel läggs till eller ändras, uppdatera alltid
+> dokumentationen med regelns ID, beskrivning, severity och exempel.
+> Varje regel ska ha en förklaring som en icke-jurist förstår."_
+
+Nu har du två steering-filer: en för kodkvalitet och säkerhet (gäller
+alltid), en för dokumentation (gäller bara analyzer-filer). Det här
+är **Regelverket** och **Dokumenteraren** i din AI-stab — permanenta
+riktlinjer som alla andra agenter måste följa.
 
 Det här är **Ownership** från start: du definierar kvalitetskraven innan
 en enda rad kod existerar.
@@ -350,11 +364,32 @@ Skapa även en test-hook:
 
 > _"Skapa en hook som kör 'go test ./...' varje gång en .go-fil sparas"_
 
-### Steg 6: Konfigurera MCP — Ge Kiro tillgång till externa filer (10 min)
+### Steg 6: Verifieringsagent — Koden mot specen (5 min)
+
+I det avancerade konceptet tar vi verifieringen ett steg längre. Be Kiro:
+
+> \_"Skapa en postToolUse hook för write-operationer som verifierar att
+> ändringen följer vår spec och våra steering-regler. Kontrollera:
+>
+> 1. Matchar analysreglerna specens definitioner av 'tvetydighet' och 'risk'?
+> 2. Har nya regler godoc-kommentarer och table-driven tests?
+> 3. Är regex kompilerade som paketvariabler?"\_
+
+Det här kombinerar tre mekanismer: specen (vad), steering (hur) och
+automatisk verifiering (bevis). **Revisorn** i din AI-stab — den som
+jämför leveransen mot både kontraktet och regelverket.
+
+Vogels mekanism nummer 6: "Automated reasoning against specifications."
+
+### Steg 7: Konfigurera MCP — Ge Kiro tillgång till externa filer (10 min)
 
 MCP (Model Context Protocol) låter dig koppla externa verktyg till Kiro.
 Utan MCP kan Kiro bara se filer i ditt projekt. Med MCP kan du ge Kiro
 tillgång till filer, API:er och andra resurser utanför projektet.
+
+Det här steget kräver att **Node.js** är installerat (för `npx`). Om du
+inte har det, se installationsguide i
+[Koncept 2](../02-incident-dashboard/README.md#1-installera-nodejs).
 
 Vi lägger till **Filesystem MCP-servern** — den ger Kiro möjlighet att
 läsa kontrakt som ligger i en annan mapp utanför projektet.
@@ -422,7 +457,7 @@ verktyg i verktygslådan.
 **Ownership:** `autoApprove` är tom — Kiro frågar dig innan den använder
 verktyget. Det är **Ownership**: du delegerar förmågan, inte ansvaret.
 
-### Steg 7: Testa med exempeldokument (10 min)
+### Steg 8: Testa med exempeldokument (10 min)
 
 ```bash
 # CLI
@@ -444,7 +479,7 @@ Granska resultatet:
 - Är severity-nivåerna rimliga?
 - Saknas det mönster som borde fångas?
 
-### Steg 8: Reflektion (3 min)
+### Steg 9: Reflektion (3 min)
 
 - Hur hjälpte steering att hålla kodkvaliteten? Jämför med vibe coding i steg 2.
 - Var specen tillräckligt precis för att definiera "risk"?
@@ -458,7 +493,7 @@ Granska resultatet:
 
 ---
 
-## Kom du snabbt till steg 8? Här kommer mer.
+## Kom du snabbt till steg 9? Här kommer mer.
 
 ### Bonus A: MCP med Context7 — Sök dokumentation direkt i Kiro
 
@@ -579,9 +614,21 @@ bara när Kiro jobbar med analyzer-filer.
 
 ### Bonus G: Granskningsagent för juridisk korrekthet
 
-> _"Skapa en postToolUse hook för write-operationer på analyzer/_.go
+> _"Skapa en postToolUse hook för write-operationer på analyzer/\*.go
 > som granskar att nya analysregler inte ger false positives på
-> vanliga, ofarliga formuleringar."\*
+> vanliga, ofarliga formuleringar."_
+
+### Bonus H: Konsistensagenten — Regler som hänger ihop
+
+> \_"Skapa en fileEdited hook för analyzer/\*.go som verifierar att:
+>
+> 1. Varje analysregel har ett unikt ID (inga duplicerade AMB-xxx/RISK-xxx)
+> 2. Varje regel som refereras i patterns.go har ett matchande testfall
+> 3. Severity-nivåer är konsekventa (samma typ av problem = samma severity)
+> 4. Alla regler har en 'reason'-sträng som är begriplig för en icke-jurist"\_
+
+**Systems Thinking**: analysreglerna är ett system i sig. En inkonsekvent
+regel kan ge false positives som underminerar förtroendet för hela verktyget.
 
 ---
 

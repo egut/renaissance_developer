@@ -37,6 +37,8 @@ Du orkestrerar en stab av specialiserade agenter:
 - **Arkitekten** — Specen. Du definierar SLOs, tröskelvärden och larmregler.
 - **Byggaren** — Task-agenten. Implementerar simulator, API och dashboard.
 - **Kritikern** — Test-hooken. Verifierar att larm triggas korrekt.
+- **Revisorn** — Verifieringsagenten. Jämför koden mot specens SLO-definitioner.
+- **Säkerhetsvakten** — Steering-fil. Säkerhetsregler som gäller i alla interaktioner.
 - **Granskaren** — preToolUse-hooken (Bonus C). Kontrollerar typning innan kod skrivs.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
 
@@ -250,11 +252,50 @@ Be Kiro i chatten:
 
 Nu har du en automatisk feedback-loop.
 
-### Steg 6: Testa och granska (10 min)
+### Steg 6: Verifieringsagent — Koden mot specen (5 min)
+
+Tester fångar buggar, men fångar de att koden gör rätt sak? Be Kiro:
+
+> _"Skapa en postToolUse hook för write-operationer som verifierar att
+> ändringen följer vår spec. Jämför koden mot requirements och design
+> i specen — stämmer larmtrösklarna? Finns alla endpoints? Matchar
+> datamodellen?"_
+
+Det här är **Revisorn** i din AI-stab — den jämför leveransen mot
+kontraktet. Vogels mekanism nummer 6: "Automated reasoning against
+specifications."
+
+### Steg 7: Säkerhetsvakten via Steering (5 min)
+
+Hooks triggas vid specifika händelser. Men säkerhet bör gälla _alltid_,
+inte bara vid skrivning. Därför använder vi **steering** istället — en
+permanent riktlinje som gäller i alla interaktioner.
+
+Be Kiro:
+
+> \_"Skapa en steering-fil för säkerhet med följande regler:
+>
+> - All user input ska valideras och saniteras innan användning
+> - API-responses ska aldrig exponera stack traces eller intern information
+> - Rate limiting ska finnas på alla publika endpoints
+> - Inga hårdkodade hemligheter i koden
+> - Felmeddelanden ska vara informativa men inte avslöja implementation"\_
+
+Kiro skapar filen i `.kiro/steering/`. Från och med nu följer Kiro
+dessa regler i _alla_ interaktioner — inte bara vid skrivning.
+
+**Skillnaden mot en hook:** En hook triggas vid en specifik händelse
+(t.ex. "när en fil sparas"). Steering gäller alltid — i varje
+interaktion med Kiro. Säkerhetsvakten som steering betyder att Kiro
+_aldrig_ genererar osäker kod, inte bara att den fångas efteråt.
+
+### Steg 8: Testa och granska (10 min)
 
 ```bash
 # Starta servern
 npx tsx src/server.ts
+# (npx kör ett npm-paket utan global installation.
+#  tsx kör TypeScript-filer direkt utan kompileringssteg.)
 
 # Öppna i webbläsaren
 # http://localhost:3000
@@ -271,7 +312,7 @@ Testa:
 
 - Vad händer om du ändrar tröskelvärdet i koden och sparar?
 
-### Steg 7: Reflektion (3 min)
+### Steg 9: Reflektion (3 min)
 
 - Vad hände när du ändrade ett tröskelvärde? (Systems Thinking)
 - Var specen tillräckligt precis? Vad hade du velat definiera bättre?
@@ -284,7 +325,7 @@ Testa:
 
 ---
 
-## Kom du snabbt till steg 7? Här kommer mer.
+## Kom du snabbt till steg 9? Här kommer mer.
 
 ### Bonus A: Dependency chains — Systemtänkande på riktigt
 
@@ -374,6 +415,45 @@ från din utvecklingsmiljö.
 
 Du hittar installerade Powers i Kiro-sidopanelen. Varje Power kan
 ha egna verktyg, dokumentation och arbetsflöden.
+
+### Bonus I: Dokumenteraren — Håll docs i sync
+
+API-endpoints ändras, men README:n uppdateras aldrig. Skapa en
+steering-fil som löser det permanent:
+
+> _"Skapa en steering-fil med fileMatch för src/\*.ts som säger:
+> När en API-endpoint läggs till eller ändras, uppdatera alltid
+> API-dokumentationen i README.md med endpoint, metod, request/response-
+> format och statuskoder."_
+
+```markdown
+---
+inclusion: fileMatch
+fileMatchPattern: "src/*.ts"
+---
+
+# API-dokumentationsregler
+
+- När en endpoint läggs till eller ändras, uppdatera README.md
+- Dokumentera: endpoint, HTTP-metod, request body, response format, statuskoder
+- Håll exemplen körbar (copy-paste till curl)
+```
+
+**Dokumenteraren** som steering — inte en hook som triggas, utan en
+regel som alltid gäller. **Communication**-pelaren: koden är inte
+klar förrän den är dokumenterad.
+
+### Bonus J: Konsistensagenten — Vakta konfigurationen
+
+Om du gjort Bonus F (konfigurerbara larmtrösklar i YAML):
+
+> _"Skapa en fileEdited hook för data/\*.yaml som verifierar att
+> tröskelvärden är rimliga: WARNING < CRITICAL, latens > 0,
+> felfrekvens mellan 0-100%, och att alla services har definierade
+> trösklar."_
+
+**Systems Thinking**: en orimlig tröskel i en config-fil kan
+orsaka larmstorm eller — värre — tystnad när något faktiskt går fel.
 
 ---
 

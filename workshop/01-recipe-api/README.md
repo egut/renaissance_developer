@@ -1,6 +1,6 @@
 # Koncept 1: The Recipe API 🍳
 
-**Språk:** Python · **Tid:** ~45 min · **Nivå:** Alla nivåer
+**Språk:** Python · **Tid:** ~60 min · **Nivå:** Alla nivåer
 **Inga externa beroenden** — ingen databas, inga API-nycklar.
 
 Du behöver inte kunna Python. Med AI-verktyg som Kiro blir språkvalet
@@ -39,7 +39,9 @@ om det ser ut som ett enda verktyg. Tänk på det som roller:
 - **Arkitekten** — Specen. Du definierar krav och design. Arkitekten ser helheten.
 - **Byggaren** — Task-agenten. Implementerar en uppgift i taget, baserat på arkitektens ritning.
 - **Kritikern** — Test-hooken. Kör tester automatiskt och rapporterar fel. Ingen kod passerar utan godkännande.
-- **Granskaren** — preToolUse-hooken (Bonus C). Granskar kvaliteten innan kod skrivs.
+- **Revisorn** — Verifieringsagenten. Jämför koden mot specen och rapporterar avvikelser.
+- **Säkerhetsvakten** — preToolUse-hooken. Granskar säkerhetsaspekter innan kod skrivs.
+- **Granskaren** — preToolUse-hooken (Bonus C). Granskar kodkvalitet innan kod skrivs.
 - **Du** — Chefen. Du delegerar arbetet, men aldrig ansvaret.
 
 Som alla bra chefer behöver du inte kunna göra allas jobb. Men du
@@ -173,6 +175,38 @@ Dessa mappar skapas automatiskt när du använder funktionerna.
 - Öppna med `Cmd+L` (macOS) / `Ctrl+L` (Windows/Linux)
 - Här pratar du med Kiro — ställ frågor, be om ändringar, eller be den förklara kod
 - Använd `#` för att referera till filer: `#app.py` drar in filen som kontext
+- Använd `#Problems` för att visa Kiro aktuella fel i editorn
+- Använd `#Terminal` för att ge Kiro tillgång till terminaloutput
+
+### Be Kiro om hjälp
+
+Du kan alltid fråga Kiro i chatten. Några exempel:
+
+> _"Jag förstår inte vad den här koden gör. Kan du förklara?"_
+
+> _"Jag får ett felmeddelande. Vad ska jag göra?"_
+
+> _"Vad är ett REST API?"_
+
+> _"Vad betyder YAML?"_
+
+Kiro har tillgång till dina filer och kan se samma fel som du ser. Var inte rädd
+för att fråga "dumma" frågor — det är **Curiosity**-pelaren i praktiken.
+
+### Flera chattsessioner
+
+Du kan ha flera chattsessioner igång samtidigt i Kiro. Det kan vara användbart:
+
+- **En session för implementation** — där du jobbar med specen och tasks
+- **En session för frågor** — där du ställer frågor om saker du inte förstår
+
+Varför vill man det? Varje session har sin egen kontext. Om du ställer en
+fråga mitt i en implementation-session kan det "distrahera" agenten från
+det den höll på med. En separat fråge-session håller implementationen ren.
+
+Varför vill man ibland _inte_ det? Om din fråga handlar om just den kod
+som genereras i sessionen behöver agenten se den kontexten — då är det
+bättre att fråga i samma session.
 
 ### Hooks
 
@@ -185,6 +219,21 @@ Dessa mappar skapas automatiskt när du använder funktionerna.
 - Skapa filer i `.kiro/steering/` (markdown-format)
 - Dessa ger Kiro riktlinjer som alltid gäller — t.ex. kodstandard, språkval, projektregler
 - Mer om detta i bonusstegen nedan
+
+---
+
+## Ordlista — Begrepp vi använder
+
+Om du är ny till programmering, här är en snabb guide:
+
+- **REST API** — Ett sätt för program att prata med varandra via webben. Du skickar en förfrågan (t.ex. "ge mig recept med kyckling"), du får ett svar (en lista med recept). Webbsidan pratar med API:t bakom kulisserna.
+- **YAML** — Ett textformat för data. Tänk på det som en strukturerad lista som både människor och datorer kan läsa. Lättare att förstå än JSON eller XML.
+- **Hook** — En automatisk trigger: "när X händer, gör Y". Som en dörrklocka — när någon trycker, ringer det. I Kiro: "när en fil sparas, kör testerna."
+- **preToolUse / postToolUse** — "Innan Kiro gör något" / "efter att Kiro gjort något". En preToolUse-hook kontrollerar _innan_ kod skrivs. En postToolUse-hook kontrollerar _efter_.
+- **Spec** — En specifikation. Ett dokument som beskriver vad systemet ska göra, hur det ska fungera, och vilka steg som behövs för att bygga det. Tänk på det som en ritning.
+- **Edge case** — En ovanlig situation. Vad händer med en tom lista? En jättelång lista? Konstiga tecken? Edge cases är det som kraschar i produktion.
+- **Verification debt** — Skillnaden mellan att skriva kod själv (du förstår den medan du skriver) och att granska AI-genererad kod (du måste bygga förståelsen i efterhand). Ju mer kod AI:n genererar utan att du granskar, desto mer verification debt.
+- **Command Palette** — En sökbar meny för alla Kiro-kommandon. Öppna med `Cmd+Shift+P` (macOS) / `Ctrl+Shift+P` (Windows/Linux). Skriv vad du letar efter, t.ex. "hook" eller "spec".
 
 ---
 
@@ -225,14 +274,20 @@ Det är lite som att beställa mat på ett språk du inte talar. Det som
 kommer till bordet ser fantastiskt ut. Du vet bara inte om det är biff
 eller kokta skosnören.
 
-Ångra ändringarna (Ctrl+Z / Cmd+Z) eller stäng sessionen. Nu gör vi
-det med kontroll.
+Ångra ändringarna — enklast är att stänga chattsessionen (klicka X på
+sessionsfliken) och ta bort eventuella filer som Kiro skapade. Eller
+använd `Ctrl+Z` / `Cmd+Z` upprepade gånger. Nu gör vi det med kontroll.
 
 ### Steg 3: Skapa en Spec (10 min)
 
-Öppna Spec-panelen (Kiro-ikonen i sidofältet) och skapa en ny spec.
+Öppna Spec-panelen (klicka på Kiro-ikonen i vänstra sidofältet, eller
+öppna Command Palette med `Cmd+Shift+P` / `Ctrl+Shift+P` och sök
+"Kiro: Open Specs"). Klicka "New Spec".
 
-Kopiera in innehållet från `spec-starter.md` — eller skriv din egen.
+Nu behöver du ge specen innehåll. Öppna filen `spec-starter.md` i
+editorn, markera allt (`Ctrl+A` / `Cmd+A`), kopiera (`Ctrl+C` / `Cmd+C`),
+och klistra in i spec-panelens textfält (`Ctrl+V` / `Cmd+V`). Eller
+skriv din egen spec från grunden — det är ännu bättre.
 
 Det här är **Communication**-pelaren i praktiken. Du formulerar krav så tydligt
 att misstolkningar elimineras. Iterera på specen, inte på koden.
@@ -247,6 +302,10 @@ Granska varje fas. Justera. Det här är din spec, inte AI:ns.
 
 ### Steg 4: Låt agenterna implementera (15 min)
 
+I spec-panelen ser du nu en lista med tasks. Klicka på den första
+tasken och tryck "Run" (eller be Kiro i chatten: _"Kör första tasken"_).
+Kiro börjar generera kod.
+
 Kör tasks en i taget. Observera hur **Byggaren** (task-agenten):
 
 - Genererar kod baserat på specen
@@ -257,22 +316,75 @@ Kör tasks en i taget. Observera hur **Byggaren** (task-agenten):
 
 ### Steg 5: Sätt upp hooks — Kritikern (5 min)
 
-Skapa en hook som kör tester automatiskt när filer sparas.
-Det här är **Kritikern** i din AI-stab — den granskar allt automatiskt.
+Nu skapar vi en hook — en automatisk trigger som kör tester varje gång
+du sparar en fil. Det här är **Kritikern** i din AI-stab.
 
-I Kiro: Command Palette → "Open Kiro Hook UI"
+Öppna Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) och sök
+"Open Kiro Hook UI".
 
-Eller be Kiro i chatten:
+Eller be Kiro i chatten (ofta enklare):
 
 > _"Skapa en hook som kör pytest när Python-filer ändras"_
 
+Kiro skapar en hook-fil i `.kiro/hooks/`. Från och med nu körs testerna
+automatiskt varje gång du sparar en `.py`-fil.
+
 Det här är **Systematic Thinking** — en automatisk feedback-loop: Build → Test → Fix.
 
-### Steg 6: Testa och granska (10 min)
+### Steg 6: Verifieringsagent — Koden mot specen (5 min)
+
+Tester fångar buggar. Men fångar de att koden gör _rätt sak_? En
+verifieringsagent jämför koden mot specen och rapporterar avvikelser.
+
+Be Kiro i chatten:
+
+> _"Skapa en postToolUse hook för write-operationer som verifierar att
+> ändringen följer vår spec. Jämför koden mot requirements och design
+> i specen och rapportera om något saknas eller avviker."_
+
+Vad betyder det? "postToolUse" = efter att Kiro skrivit en fil.
+"write-operationer" = varje gång Kiro skapar eller ändrar en fil.
+Alltså: varje gång Kiro skriver kod, kontrollerar agenten automatiskt
+att koden matchar det specen sa.
+
+Det skapar en hook som triggas varje gång Kiro skriver en fil. Agenten
+läser specen, läser den ändrade filen, och kontrollerar att de stämmer
+överens.
+
+Det här är Vogels mekanism nummer 6: **"Automated reasoning against
+specifications"** — inte bara testa att koden fungerar, utan verifiera
+att den gör det specen sa att den skulle göra.
+
+I din AI-stab är det här **Revisorn** — den som jämför leveransen mot
+kontraktet.
+
+### Steg 7: Säkerhetsvakten (3 min)
+
+Appen tar user input via API:t — användare skickar in ingredienser.
+Vad händer om någon skickar in skadlig data istället? Be Kiro:
+
+> _"Skapa en preToolUse hook för write-operationer som granskar att
+> koden hanterar user input säkert: validering av indata, inga
+> SQL/NoSQL-injektioner, inga path traversal-risker i filhantering,
+> och att felmeddelanden inte läcker intern information."_
+
+"preToolUse" = _innan_ Kiro skriver en fil. Alltså: Kiro kontrollerar
+säkerheten innan koden ens skapas. Om den hittar problem, varnar den dig.
+
+Det här är **Säkerhetsvakten** — den granskar säkerhetsaspekter innan
+kod skrivs. Skiljer sig från tester (som hittar buggar) och Revisorn
+(som jämför mot specen) genom att den resonerar om _attacker_.
+
+**Ownership**: Du äger säkerheten, inte bara funktionaliteten.
+
+### Steg 8: Testa och granska (10 min)
 
 ```bash
 # Kör appen
+# macOS/Linux:
 python3 app.py
+# Windows:
+python app.py
 
 # Öppna i webbläsaren
 # http://localhost:5000
@@ -287,7 +399,7 @@ Testa i webbläsaren:
 
 **Ownership**: Är du nöjd med resultatet? Skulle du sätta ditt namn på den här koden?
 
-### Steg 7: Reflektion (3 min)
+### Steg 9: Reflektion (3 min)
 
 - Vilken pelare var svårast att tillämpa?
 - Var behövde du korrigera AI:n?
@@ -299,7 +411,7 @@ Testa i webbläsaren:
 
 ---
 
-## Kom du snabbt till steg 7? Här kommer mer.
+## Kom du snabbt till steg 9? Här kommer mer.
 
 Följande bonussteg visar hur du använder Kiro för att förstärka ägarskap,
 kvalitet och funktionalitet. Gör dem i valfri ordning.
@@ -475,6 +587,26 @@ Eller mer specifikt:
 
 Det här är Vogels mekanism nummer 2: "Human code review" — fast med AI
 som granskningspartner. Du äger fortfarande beslutet.
+
+---
+
+### Bonus G: Konsistensagenten — Vakta datan
+
+YAML-filerna är din "databas". Vad händer om någon lägger till ett recept
+med ett duplicerat namn? Eller en ingrediens som inte finns i ingredients.yaml?
+
+Be Kiro:
+
+> \_"Skapa en fileEdited hook för data/\*.yaml som verifierar:
+>
+> 1. Inga duplicerade receptnamn i recipes.yaml
+> 2. Alla ingredienser i recept finns i ingredients.yaml
+> 3. Näringsvärden är rimliga (kalorier 100-2000 per portion)
+> 4. Alla recept har minst en allergen-tagg eller en tom lista"\_
+
+Det här är **Konsistensagenten** — den vaktar att datan hänger ihop.
+**Systems Thinking** i praktiken: en ändring i en YAML-fil kan bryta
+hela systemet om den inte är konsistent med resten.
 
 ---
 
