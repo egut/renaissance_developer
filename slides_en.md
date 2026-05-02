@@ -169,7 +169,37 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 
 ---
 
-### Slide 9 — The Cloud (2010s)
+### Slide 9 — Commodore 64 (Home Computer Revolution)
+
+**Section:** Act 1 — Panic Timeline
+**Format:** [PHOTO-STORY]
+**Feeling:** Nostalgia, universal recognition — "everyone had one of these." Warm energy.
+**Visual:** Color photograph of a Commodore 64 computer with its iconic beige-brown casing and rainbow-striped logo, sitting on a 1980s-era wooden desk. A programming book lies open beside it, a cassette tape drive connected. Warm tungsten lighting, as if in a Scandinavian living room circa 1985. Slight film grain to evoke the era. The upper-left area should have slightly darker space for text overlay. Nostalgic, warm, vintage aesthetic. 16:9 aspect ratio.
+**Text on slide:**
+
+> 1982: Commodore 64
+> "Computers will ruin children"
+
+**Speaker notes:** "The home computer revolution. The Commodore 64 — the best-selling single computer model of all time, over 17 million units. In Sweden, the worry was that children would become passive. Instead it launched the generation that built Spotify, Klarna, and King. Then came the Swedish home computer reform of 1998 — 850,000 computers in three years. Critics said waste. Sweden got 28 broadband subscriptions per 100 inhabitants in 2005, vs. the US at 17. It laid the foundation for Europe's Silicon Valley."
+
+---
+
+### Slide 10 — NMT (World's First Mobile Network)
+
+**Section:** Act 1 — Panic Timeline
+**Format:** [PHOTO-STORY]
+**Feeling:** Pride, amusement — "we built the future and worried about it." Warm energy.
+**Visual:** Photograph of an early NMT mobile phone — the iconic Ericsson "brick" handset from the early 1980s, held in someone's hand. The hand is wearing a period-appropriate suit sleeve. Background: a blurred Volvo 240 interior through the car window. Muted Scandinavian color palette — greys, blues, forest greens. Text in white, 40pt, bottom-right, right-aligned.
+**Text on slide:**
+
+> 1990: The Mobile Phone
+> "Who needs to call from a car?"
+
+**Speaker notes:** "The world's first automatic mobile phone network — NMT, 1981, Sweden and Norway. 'It destroys social interaction.' Ericsson and Nokia built empires on that technology. Today we have more mobile subscriptions than inhabitants."
+
+---
+
+### Slide 11 — The Cloud (2010s)
 
 **Section:** Act 1 — Panic Timeline
 **Format:** [STANDARD]
@@ -184,7 +214,7 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 
 ---
 
-### Slide 10 — AI (2020s)
+### Slide 12 — AI (2020s)
 
 **Section:** Act 1 — Panic Timeline
 **Format:** [STANDARD]
@@ -196,36 +226,6 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 > "This time it's for real"
 
 **Speaker notes:** "And now AI. 'This time it's different.' Exactly the same words as every time. But the panic has always been wrong for the right reasons. The tools really do change everything. Just not in the way people think."
-
----
-
-### Slide 11 — Commodore 64 (Home Computer Revolution)
-
-**Section:** Act 1 — Swedish Complements
-**Format:** [PHOTO-STORY]
-**Feeling:** Nostalgia, universal recognition — "everyone had one of these." Warm energy.
-**Visual:** Color photograph of a Commodore 64 computer with its iconic beige-brown casing and rainbow-striped logo, sitting on a 1980s-era wooden desk. A programming book lies open beside it, a cassette tape drive connected. Warm tungsten lighting, as if in a Scandinavian living room circa 1985. Slight film grain to evoke the era. The upper-left area should have slightly darker space for text overlay. Nostalgic, warm, vintage aesthetic. 16:9 aspect ratio.
-**Text on slide:**
-
-> Commodore 64 (1982)
-> "Computers will ruin children"
-
-**Speaker notes:** "The home computer revolution. The Commodore 64 — the best-selling single computer model of all time, over 17 million units. In Sweden, the worry was that children would become passive. Instead it launched the generation that built Spotify, Klarna, and King. Then came the Swedish home computer reform of 1998 — 850,000 computers in three years. Critics said waste. Sweden got 28 broadband subscriptions per 100 inhabitants in 2005, vs. the US at 17. It laid the foundation for Europe's Silicon Valley."
-
----
-
-### Slide 12 — NMT (World's First Mobile Network)
-
-**Section:** Act 1 — Swedish Complements
-**Format:** [PHOTO-STORY]
-**Feeling:** Pride, amusement — "we built the future and worried about it." Warm energy.
-**Visual:** Photograph of an early NMT mobile phone — the iconic Ericsson "brick" handset from the early 1980s, held in someone's hand. The hand is wearing a period-appropriate suit sleeve. Background: a blurred Volvo 240 interior through the car window. Muted Scandinavian color palette — greys, blues, forest greens. Text in white, 40pt, bottom-right, right-aligned.
-**Text on slide:**
-
-> NMT 1981
-> "Who needs to call from a car?"
-
-**Speaker notes:** "The world's first automatic mobile phone network. Sweden and Norway. 'It destroys social interaction.' Ericsson and Nokia built empires on that technology. Today we have more mobile subscriptions than inhabitants."
 
 ---
 
@@ -1159,23 +1159,6 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 > Thank you.
 
 **Speaker notes:** Erik sets down The Kernel on the armchair. Takes a last sip of espresso — the cup that's been cold since the prolog. "And if you're wondering what happened to SkyNet — I shut it down. But I read the code first. Turns out it had just built a very ambitious to-do list. Typical AI." Pause for laughter. "Thank you."
-
----
-
-### Slide 73 — Workshop Teaser
-
-**Section:** Workshop
-**Format:** [STANDARD]
-**Feeling:** Excitement, invitation — "let's do this." Forward-looking, energized.
-**Visual:** Dark background with a subtle gradient toward Kiro's brand color (if available) or a deep teal. Center: the Kiro IDE logo, clean and modern, at 200px. Below it: the invitation text in white sans-serif, 32pt. Bottom-right corner: a QR code for workshop sign-up (placeholder). The slide feels like a movie's post-credits teaser — there's more to come.
-**Text on slide:**
-
-> Workshop: From Theory to Practice
-> Build with Kiro — spec-driven,
-> with mechanisms, not intentions
-> Right after the break
-
-**Speaker notes:** "And if you want to see what this looks like in practice — building with specifications, mechanisms, and ownership instead of hoping for the best — I'll see you in the workshop in ten minutes."
 
 ---
 
