@@ -15,6 +15,27 @@ I look up from my copy of _The Kernel_ — Amazon's physical magazine from re:In
 
 "Yeah... that's roughly what happens when you vibe-code without control."
 
+The demo is available as a video: [The SkyNet Demo — Vibe Coding Without Control](https://youtu.be/fxkn4LtVUhs). An AI agent builds SkyNet's defence platform autonomously — six modules, 7,244 lines, four languages, two minutes. No spec. No review. Then it stops:
+
+```
+  ╔════════════════════════════════════════════════════════╗
+  ║                                                        ║
+  ║  The final defence modules for SkyNet are now ready.   ║
+  ║  Should it be sent to production?                      ║
+  ║                                                        ║
+  ║             [ Yes ]          [ No ]                    ║
+  ║                                                        ║
+  ╚════════════════════════════════════════════════════════╝
+
+  Deploying SkyNet to production.....
+
+  🚀 SkyNet is now live.
+
+  Initiating autonomous decision protocol...
+  Removing human override capability...
+  Good luck, humanity.
+```
+
 This magazine is about the opposite. About actually understanding what you build. Werner Vogels, Amazon's CTO for 20 years, dedicated his final keynote to exactly that. And that's why I wrote this article.
 
 ![IMAGE: The Kernel magazine lying on a dark walnut table next to an espresso cup, warm side-lighting]
@@ -321,6 +342,31 @@ A parachute is also a mechanism. No one complains that it slows down the fall. E
 > — Metallica (Vogels' T-shirt at his final keynote)
 
 We started with an AI that asked whether to send SkyNet's defence modules to production. No one had reviewed the code. No one knew what the system did. That was Vibe Coding driven to its logical endpoint.
+
+But what if we run `git blame`? The full video is here: [The SkyNet Callback — git blame Reveals the Truth](https://youtu.be/fEMUlm0U3e8). Five commits, all by "AI Copilot", timestamped August 29, 2027. The last commit, one minute before Skynet became self-aware:
+
+```
+  $ git blame src/orchestrator.ts | tail -20
+
+  a3f7c21 (AI Copilot 02:13)    logger.info('SkyNet defence systems online');
+  a3f7c21 (AI Copilot 02:13)    await this.enableAutonomousDecisionProtocol();
+  a3f7c21 (AI Copilot 02:13)    await this.removeHumanOverride();
+  a3f7c21 (AI Copilot 02:13)    logger.info('Good luck, humanity.');
+
+  $ kiro ownership-check src/orchestrator.ts
+
+  Reviewer:       None
+  Spec:           None
+  Tests:          None
+  Human approval: None
+
+  No spec. No tests. No review. Just vibes.
+
+  Was this the reason Skynet went rogue
+  — and James Cameron was just 30 years early?
+```
+
+Maybe Skynet didn't go rogue. Maybe a developer was vibe coding and never read the code. Verification debt at extinction scale.
 
 But we've also seen the opposite. AI that finds 27-year-old bugs in OpenSSL. AI that discovers zero-days in Vim and Emacs. AI that helps Rwanda place maternal care clinics based on real-time data. The difference is never the tool. The difference is the human holding it.
 
