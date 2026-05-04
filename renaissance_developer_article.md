@@ -42,7 +42,7 @@ This magazine is about the opposite. About actually understanding what you build
 
 ## About the Author
 
-I'm Erik Günther. Sixteen years with AWS, currently working with Ericsson on AI development in BNEW RCE. I've seen paradigm shifts come and go — and the survivors are never the fastest coders, but the deepest thinkers. That's not my line originally. It's the thesis Werner Vogels spent his entire final keynote building toward. I'm just the one who's been living it.
+I'm Erik Günther. Sixteen years with AWS, currently working as a Principle Developer at Ericsson on AI development in BNEW RCE. I've seen paradigm shifts come and go — and the survivors are never the fastest coders, but the deepest thinkers. That's not my line originally. It's the thesis Werner Vogels spent his entire final keynote building toward. I'm just the one who's been living it.
 
 ---
 
@@ -51,7 +51,7 @@ I'm Erik Günther. Sixteen years with AWS, currently working with Ericsson on AI
 > _"The only thing we have to fear is fear itself."_
 > — Franklin D. Roosevelt (1933, but equally true about every technology panic since)
 
-Vogels opened his keynote with a short film: from the punch card era onward, every new tool has triggered cries that developers are doomed. Four decades, same script, four different props.
+Vogels opened his keynote with a short film: from the punch card era onward, every new technology has triggered cries that the current way of working is doomed. Six decades, same script, different props — and not just in software.
 
 **COBOL (1960s):** "Now anyone can code — programmers are finished." COBOL — Common Business-Oriented Language — was designed in 1959 by a committee led by Grace Hopper with the explicit goal of making programming accessible to business people. The syntax read like English: `MOVE CUSTOMER-NAME TO OUTPUT-RECORD`. The Department of Defense mandated it for all business applications. The prediction was clear: if managers could read the code, they wouldn't need programmers to write it. It didn't happen. What happened instead was an explosion of business software that _required_ a new class of systems developers to design, maintain, and evolve. COBOL didn't eliminate programmers — it created the enterprise software industry. And the language proved so durable that as of 2024, an estimated 95% of ATM transactions and 80% of in-person transactions still run on COBOL systems. The "dead language" processes $3 trillion in daily commerce. When the COVID-19 pandemic hit in 2020, US states scrambled to find COBOL programmers to fix overwhelmed unemployment systems — New Jersey's governor literally put out a public call for volunteers. The tool that was supposed to make programmers obsolete in 1960 made them indispensable in 2020. ([Reuters](https://www.reuters.com/article/us-health-coronavirus-technology-cobol-idUSKBN21P346), [Stack Overflow Blog](https://stackoverflow.blog/2020/04/20/brush-up-your-cobol-why-is-a-60-year-old-language-suddenly-in-demand/), [Computer History Museum](https://www.computerhistory.org/revolution/birth-of-the-computer/4/78))
 
@@ -149,7 +149,7 @@ Clare Liguori showed a concrete example during the keynote: the team asked Kiro 
 
 Vogels: _"These outputs look plausible, but they're not grounded in reality."_
 
-The data backs this up. Veracode's 2025 report found that **45% of AI-generated code examples fail security tests**, introducing OWASP Top 10 vulnerabilities. Distrust of AI code correctness has risen to 46%. Startups that vibe-coded report "hallucinated code, broken integrations, and demos that fell apart the moment real users touched them."
+The data backs this up. Veracode's 2025 report found that **45% of AI-generated code examples fail security tests**, introducing OWASP Top 10 vulnerabilities. Startups that vibe-coded report "hallucinated code, broken integrations, and demos that fell apart the moment real users touched them."
 
 ### But It Doesn't Have to Be This Way
 

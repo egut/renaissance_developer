@@ -92,7 +92,7 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 > Amazon CTO, 20 years
 > Final keynote — December 2025
 
-**Speaker notes:** Erik holds up The Kernel to the audience. "This magazine is about the opposite. About actually understanding what you build. Werner Vogels, Amazon's CTO for 20 years, dedicated his final keynote to exactly that. And that's why we're here tonight."
+**Speaker notes:** Erik holds up The Kernel to the audience. "This newspaper is about the opposite. About actually understanding what you build. Werner Vogels, Amazon's CTO for 20 years, dedicated his final keynote to exactly that. And that's why we're here tonight."
 
 ---
 
@@ -150,7 +150,7 @@ Every slide includes six fields: Section, Format, Feeling, Visual, Text on slide
 > The Panic That Never Comes True
 > (but always feels real)
 
-**Speaker notes:** "Vogels opened his keynote with a short film. From the punch card era onward, every new tool has triggered cries that developers are doomed. Four decades, same script, four different props."
+**Speaker notes:** "Vogels opened his keynote with a short film. From the punch card era onward, every new technology has triggered cries that the current way of working is doomed. Six decades, same script, different props — and not just in software."
 
 ---
 
@@ -253,9 +253,9 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Section:** Act 1 — Humor
 **Format:** [IMAGE-ONLY]
 **Feeling:** Laughter, release — tension breaks. Light energy.
-**Visual:** A photograph of a laser pointer beam hitting a wall in a dark room, illuminating a single tiny dot. The dot lands on a faded Angular 1 logo sticker on the wall. The rest of the room is pitch black. Shot with shallow depth of field so the dot is sharp and everything else falls away. No text overlay — Erik narrates.
+**Visual:** A photograph of a laser pointer beam hitting a wall in a dark room, illuminating a single tiny dot. The dot lands on a faded COBOL punch card pinned to the wall. The rest of the room is pitch black. Shot with shallow depth of field so the dot is sharp and everything else falls away. No text overlay — Erik narrates.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Intelligence without breadth is like a laser pointer in a dark room — impressive brightness, but you only see one dot. And if that dot happens to be Angular 1... well, you've got a problem."
+**Speaker notes:** "Intelligence without breadth is like a laser pointer in a dark room — impressive brightness, but you only see one dot. And if that dot is the only technology you know... you'd better hope it never goes out of fashion."
 
 ---
 
@@ -367,7 +367,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > ✓ Knowledge becomes cheap
 > ✓ Golden ages converge
 
-**Speaker notes:** "All four conditions are met. But the Renaissance lasted over two hundred years. In the first decades, most people were still doing medieval things. We're probably in that phase right now."
+**Speaker notes:** "All four conditions are met. We're living in a Renaissance — not a metaphor, a structural parallel."
 
 ---
 
@@ -382,6 +382,8 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > All four conditions met.
 > We're in the first decade
 > of the Renaissance.
+
+**Speaker notes:** "But the Renaissance lasted over two hundred years. In the first decades, most people were still doing medieval things. We're probably in that phase right now."
 
 **Speaker notes:** "All four conditions met. We're in the first decade of the Renaissance."
 
@@ -460,7 +462,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > 45%
 > of AI-generated code fails security tests
 
-**Speaker notes:** "Veracode's 2025 report. Nearly half of AI-generated code examples introduce OWASP Top 10 vulnerabilities. Distrust of AI code correctness has risen to 46%. Startups that vibe-coded report 'hallucinated code, broken integrations, demos that fell apart the moment real users touched them.'"
+**Speaker notes:** "Veracode's 2025 report — 80 coding tasks across more than 100 large language models. Nearly half of AI-generated code introduces OWASP Top 10 vulnerabilities. The AI produces functional code that looks correct, but it's insecure. Startups that vibe-coded report 'hallucinated code, broken integrations, demos that fell apart the moment real users touched them.'"
 
 ---
 
@@ -507,7 +509,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > With guidance: superpower
 > The difference = The Renaissance Developer
 
-**Speaker notes:** "This isn't a paradox — it's Vogels' point in a nutshell. AI without guidance creates verification debt. AI with guidance — specifications, mechanisms, human judgment — finds bugs humans missed for 27 years. The difference is never the tool. The difference is the Renaissance Developer holding it."
+**Speaker notes:** "This isn't a paradox — it's Vogels' point in a nutshell. AI without guidance creates verification debt. AI with guidance — specifications, mechanisms, human judgment — finds bugs humans missed for 27 years."
 
 ---
 
@@ -569,9 +571,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > Five Properties
 > of the Future Developer
 
-**Speaker notes:** "Vogels' framework has five properties. I won't repeat his keynote — I'll filter them through 16 years of experience with AWS and Ericsson's AI development."
-
----
+## **Speaker notes:** "Vogels' framework has five properties. I won't repeat his keynote — I'll filter them through 30 years as a develover whth the last years with AI development.
 
 ### — PROPERTY 1: CURIOSITY (Slides 35–39) —
 
@@ -646,7 +646,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, self-recognition — "that's me at 3 AM." Light, warm energy.
 **Visual:** A photograph shot from over someone's shoulder at 3 AM (clock visible on the wall showing 3:07). They're deep in a Wikipedia article about "Medieval Siege Engines" — the article is clearly visible on screen with diagrams of trebuchets and catapults. Multiple browser tabs are open. The person has a half-eaten bag of chips beside them. Blue screen glow on their face. Documentary-style, slightly voyeuristic angle. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Curiosity in a Mensa audience shouldn't be a problem. You're the only people I know who read the manual for the manual. The challenge is directing the curiosity — otherwise you end up in a Wikipedia hole at 3 AM learning everything about medieval siege engines instead of delivering the sprint goal."
+**Speaker notes:** "Curiosity in a Mensa audience is not the problem — it's the default setting. The challenge is directing it. Otherwise you end up in a Wikipedia hole at 3 AM learning everything about medieval siege engines instead of delivering the sprint goal."
 
 ---
 
@@ -719,7 +719,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, self-awareness — "I do this." Light energy.
 **Visual:** A photograph of a person standing in front of a classic "conspiracy theory board" — a corkboard covered in photos, newspaper clippings, and sticky notes, all connected by red string in an impossibly complex web. The person is pointing at one connection with intense focus. The board is absurdly over-connected — everything links to everything. Shot straight-on, warm overhead lighting, slightly comedic framing. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Systems thinking for Mensa members: you already see the connections others miss. The problem is you see ALL the connections. Including the ones that don't exist. Sometimes a retry policy is just a retry policy — not an existential crisis in system architecture."
+**Speaker notes:** "Systems thinking for Mensa members: you already see the connections others miss. The problem is you see ALL the connections. Including the ones that don't exist. You're the person who changes a retry timeout and immediately maps out how it could, in theory, cascade through seventeen services, trigger a billing anomaly, and somehow affect the coffee machine on floor three. Sometimes a retry policy is just a retry policy."
 
 ---
 
@@ -1158,7 +1158,7 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 > Thank you.
 
-**Speaker notes:** Erik sets down The Kernel on the armchair. Takes a last sip of espresso — the cup that's been cold since the prolog. "And if you're wondering what happened to SkyNet — I shut it down. But I read the code first. Turns out it had just built a very ambitious to-do list. Typical AI." Pause for laughter. "Thank you."
+**Speaker notes:** Erik sets down The Kernel on the armchair. Takes a last sip of espresso — the cup that's been cold since the prolog. "And if you're wondering what happened to SkyNet — don't worry, I ran the ownership check. No spec, no tests, no review. So I did what any Renaissance Developer would do: I read the code. Turns out it hadn't built a weapons platform. It had built a very ambitious to-do list. Typical AI." Pause for laughter. "Thank you."
 
 ---
 
