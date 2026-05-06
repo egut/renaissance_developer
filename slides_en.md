@@ -255,7 +255,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, release — tension breaks. Light energy.
 **Visual:** A photograph of a laser pointer beam hitting a wall in a dark room, illuminating a single tiny dot. The dot lands on a faded COBOL punch card pinned to the wall. The rest of the room is pitch black. Shot with shallow depth of field so the dot is sharp and everything else falls away. No text overlay — Erik narrates.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Intelligence without breadth is like a laser pointer in a dark room — impressive brightness, but you only see one dot. And if that dot is the only technology you know... you'd better hope it never goes out of fashion."
+**Speaker notes:**
+
+> **[Mensa variant]:** "Intelligence without breadth is like a laser pointer in a dark room — impressive brightness, but you only see one dot. And if that dot is the only technology you know... you'd better hope it never goes out of fashion."
+
+> **[Ericsson variant]:** "Intelligence without breadth is like knowing everything about 5G RAN but nothing about the customer's actual problem. You've got the most impressive signal in the room — but you're broadcasting on a frequency no one's listening to."
 
 ---
 
@@ -396,7 +400,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, self-deprecation — "we've all been there." Light, warm energy.
 **Visual:** A photograph of someone hunched over a laptop at 11 PM, the screen showing a YAML file with hundreds of lines. Empty coffee cups surround the laptop. The person's face is lit only by the screen glow, expression exhausted. Shot from slightly above, documentary style. Warm but tired color palette. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "So if you're still writing YAML files by hand at eleven PM — congratulations, you're medieval. But that's okay, Leonardo also started as an apprentice in Verrocchio's workshop. And I used Emacs until 2005, so I'm not one to talk."
+**Speaker notes:**
+
+> **[Mensa variant]:** "So if you're still writing YAML files by hand at eleven PM — congratulations, you're medieval. But that's okay, Leonardo also started as an apprentice in Verrocchio's workshop. And I used Emacs until 2005, so I'm not one to talk."
+
+> **[Ericsson variant]:** "If you're still writing Helm charts by hand at eleven PM, debugging a value that was overridden three layers up in a config hierarchy that no one fully understands — congratulations, you're medieval. But at Ericsson we call that 'Tuesday.'"
 
 ---
 
@@ -646,7 +654,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, self-recognition — "that's me at 3 AM." Light, warm energy.
 **Visual:** A photograph shot from over someone's shoulder at 3 AM (clock visible on the wall showing 3:07). They're deep in a Wikipedia article about "Medieval Siege Engines" — the article is clearly visible on screen with diagrams of trebuchets and catapults. Multiple browser tabs are open. The person has a half-eaten bag of chips beside them. Blue screen glow on their face. Documentary-style, slightly voyeuristic angle. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Curiosity in a Mensa audience is not the problem — it's the default setting. The challenge is directing it. Otherwise you end up in a Wikipedia hole at 3 AM learning everything about medieval siege engines instead of delivering the sprint goal."
+**Speaker notes:**
+
+> **[Mensa variant]:** "Curiosity in a Mensa audience is not the problem — it's the default setting. The challenge is directing it. Otherwise you end up in a Wikipedia hole at 3 AM learning everything about medieval siege engines instead of delivering the sprint goal."
+
+> **[Ericsson variant]:** "Curiosity at Ericsson is not the problem — we invented the mobile phone because someone asked 'what if the phone wasn't attached to the wall?' The challenge is directing it. Otherwise you end up in a three-hour architecture discussion about whether the new feature should use MQTT or AMQP — for a proof of concept that will live two weeks."
 
 ---
 
@@ -719,7 +731,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, self-awareness — "I do this." Light energy.
 **Visual:** A photograph of a person standing in front of a classic "conspiracy theory board" — a corkboard covered in photos, newspaper clippings, and sticky notes, all connected by red string in an impossibly complex web. The person is pointing at one connection with intense focus. The board is absurdly over-connected — everything links to everything. Shot straight-on, warm overhead lighting, slightly comedic framing. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Systems thinking for Mensa members: you already see the connections others miss. The problem is you see ALL the connections. Including the ones that don't exist. You're the person who changes a retry timeout and immediately maps out how it could, in theory, cascade through seventeen services, trigger a billing anomaly, and somehow affect the coffee machine on floor three. Sometimes a retry policy is just a retry policy."
+**Speaker notes:**
+
+> **[Mensa variant]:** "Systems thinking in a Mensa audience: you already see the connections others miss. The problem is you see them *faster* than you can explain them. You've already mapped out how a retry timeout cascades through seventeen services before the other person finishes their sentence. And then you say 'it's obvious' — which, to be fair, it was. To you. Three steps ago."
+
+> **[Ericsson variant]:** "Systems thinking at Ericsson: you already live this. You've spent decades building networks where one misconfigured node in Gothenburg takes down phone calls in Jakarta. We don't *theorize* about cascade failures. We get paged for them. The Yellowstone wolves are a cute metaphor. We have RAN nodes. And unlike the wolves, our cascade failures come with a customer escalation and a bridge call with 47 people where 44 are on mute."
 
 ---
 
@@ -797,8 +813,12 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Format:** [IMAGE-ONLY]
 **Feeling:** Laughter, self-recognition — "precision is my blessing and my curse." Light energy.
 **Visual:** A photograph of a person at a minimalist Scandinavian café counter, leaning forward intensely toward a bewildered barista. The customer is gesturing with both hands as if explaining something complex. On the counter: a simple espresso cup. Behind the barista: a basic menu board reading "Coffee. Latte. Cappuccino." The barista's expression is politely confused. Shot from the side, warm café lighting, shallow depth of field on the customer's animated hands. No text overlay.
-**Text on slide:** None — Erik narrates.
-**Speaker notes:** "Communication and Mensa — a classic combination. You can explain quantum mechanics in five minutes, but try ordering a simple coffee without specifying extraction temperature, grind size, and the water's mineral content. Precision is a superpower. Sometimes it's also a social handicap."
+**Text on slide:** None — Erik narrates.https://ericsson.ghe.com/BNEW-RCE-AI/github-actions/pull/8#pullrequestreview-101371687
+**Speaker notes:**
+
+> **[Mensa variant]:** "Communication and Mensa — here's the thing. You can compress a complex argument into five words. And in this room, those five words land perfectly. Everyone gets it. The problem is that outside this room, those same five words make people think you're either a genius or an idiot — and they usually start with idiot. It's not that you lack precision. You have *too much* precision, packed into too few words. The AI has the same problem, by the way. It generates a perfect answer to a question nobody asked."
+
+> **[Ericsson variant]:** "Communication at Ericsson — we have a special talent. We can take a simple idea and express it in a 200-page technical specification that no one reads, or in a three-letter acronym that no one understands. There is no middle ground. The AI actually fits right in — it also generates confident, well-structured text that requires a glossary and two weeks of onboarding to decode."
 
 ---
 
@@ -872,7 +892,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 
 > Trolley Problem 2.0: Answer at 3 AM or hope it's someone else's microservice?
 
-**Speaker notes:** "You vibe-coded a microservice on Friday afternoon, the AI deployed it, and now at three in the morning your phone rings. Do you answer and own the problem, or let it ring and hope it's someone else's microservice? Spoiler: it's always yours. It's always Friday. And it's always three in the morning."
+**Speaker notes:**
+
+> **[Mensa variant]:** "You vibe-coded a microservice on Friday afternoon, the AI deployed it, and now at three in the morning your phone rings. Do you answer and own the problem, or let it ring and hope it's someone else's microservice? Spoiler: it's always yours. It's always Friday. And it's always three in the morning."
+
+> **[Ericsson variant]:** "You vibe-coded a microservice on Friday afternoon, the AI deployed it, and now at three in the morning your phone rings. At Ericsson, you don't even check the caller ID — you already know it's a P1 on a node you've never heard of, in a country you can't spell, routed to you because someone put your team name in a YAML file in 2019. Do you answer? Of course you do. You're Swedish. You feel guilty even thinking about not answering."
 
 ---
 
@@ -952,7 +976,11 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Feeling:** Laughter, affection — "that's us." Light, closing energy for Act 4.
 **Visual:** A humorous illustration or photograph: a large letter "T" where the horizontal bar has been replaced by an absurdly oversized, ornate crown or top hat — far too large for the vertical bar supporting it. The "I" stands next to it looking plain and sensible. The T looks magnificent but slightly ridiculous. Clean white figures on dark background, like a New Yorker cartoon. No text overlay.
 **Text on slide:** None — Erik narrates.
-**Speaker notes:** "Polymathy for a Mensa audience should be home turf. You're already T-shaped — the problem is that the T sometimes looks more like an I with a very ambitious hat."
+**Speaker notes:**
+
+> **[Mensa variant]:** "Polymathy for a Mensa audience should be home turf. You're already T-shaped — the problem is that the T sometimes looks more like an I with a very ambitious hat."
+
+> **[Ericsson variant]:** "Polymathy at Ericsson should be natural — we've gone from copper wires to 5G, from switchboards to cloud-native. The problem is the org chart. You're T-shaped, but you sit in a silo shaped like an I. You know how three other teams could solve this together, but first you need to book a cross-functional alignment meeting, get it approved by two line managers, and fill in a JIRA epic. By then, the problem has solved itself. Or become someone else's problem. Which is also a solution."
 
 ---
 
