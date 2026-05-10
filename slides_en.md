@@ -733,9 +733,9 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Text on slide:** None — Erik narrates.
 **Speaker notes:**
 
-> **[Mensa variant]:** "Systems thinking in a Mensa audience: you already see the connections others miss. The problem is you see them *faster* than you can explain them. You've already mapped out how a retry timeout cascades through seventeen services before the other person finishes their sentence. And then you say 'it's obvious' — which, to be fair, it was. To you. Three steps ago."
+> **[Mensa variant]:** "Systems thinking in a Mensa audience: you already see the connections others miss. The problem is you see them _faster_ than you can explain them. You've already mapped out how a retry timeout cascades through seventeen services before the other person finishes their sentence. And then you say 'it's obvious' — which, to be fair, it was. To you. Three steps ago."
 
-> **[Ericsson variant]:** "Systems thinking at Ericsson: you already live this. You've spent decades building networks where one misconfigured node in Gothenburg takes down phone calls in Jakarta. We don't *theorize* about cascade failures. We get paged for them. The Yellowstone wolves are a cute metaphor. We have RAN nodes. And unlike the wolves, our cascade failures come with a customer escalation and a bridge call with 47 people where 44 are on mute."
+> **[Ericsson variant]:** "Systems thinking at Ericsson: you already live this. You've spent decades building networks where one misconfigured node in Gothenburg takes down phone calls in Jakarta. We don't _theorize_ about cascade failures. We get paged for them. The Yellowstone wolves are a cute metaphor. We have RAN nodes. And unlike the wolves, our cascade failures come with a customer escalation and a bridge call with 47 people where 44 are on mute."
 
 ---
 
@@ -816,7 +816,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 **Text on slide:** None — Erik narrates.https://ericsson.ghe.com/BNEW-RCE-AI/github-actions/pull/8#pullrequestreview-101371687
 **Speaker notes:**
 
-> **[Mensa variant]:** "Communication and Mensa — here's the thing. You can compress a complex argument into five words. And in this room, those five words land perfectly. Everyone gets it. The problem is that outside this room, those same five words make people think you're either a genius or an idiot — and they usually start with idiot. It's not that you lack precision. You have *too much* precision, packed into too few words. The AI has the same problem, by the way. It generates a perfect answer to a question nobody asked."
+> **[Mensa variant]:** "Communication and Mensa — here's the thing. You can compress a complex argument into five words. And in this room, those five words land perfectly. Everyone gets it. The problem is that outside this room, those same five words make people think you're either a genius or an idiot — and they usually start with idiot. It's not that you lack precision. You have _too much_ precision, packed into too few words. The AI has the same problem, by the way. It generates a perfect answer to a question nobody asked."
 
 > **[Ericsson variant]:** "Communication at Ericsson — we have a special talent. We can take a simple idea and express it in a 200-page technical specification that no one reads, or in a three-letter acronym that no one understands. There is no middle ground. The AI actually fits right in — it also generates confident, well-structured text that requires a glossary and two weeks of onboarding to decode."
 
