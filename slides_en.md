@@ -1052,7 +1052,7 @@ HUMOR (Erik delivers, not on slide): "Sweden has always been early to adopt new 
 > 5. Automated testing
 > 6. Automated reasoning
 
-**Speaker notes:** "Six mechanisms — and they work as a system, not a checklist. Spec-driven development: iterate on the spec, not the code. Human code review: the checkpoint where judgment re-enters the loop. Durability reviews: stop, think, list every threat, then implement. Andon Cord: anyone can stop the line without permission. Automated testing: hallucination is caught by tests, not human eyes. Automated reasoning: mathematical proof that code meets its specification. Vogels and Byron Cook discuss this in The Kernel interview 'Proving the Promise.'"
+**Speaker notes:** "The Andon Cord is one mechanism. Vogels gave us six — and they work as a system, not a checklist. Spec-driven development: iterate on the spec, not the code — that's Communication. Human code review: the checkpoint where judgment re-enters the loop — that's Ownership. Durability reviews: stop, think, list every threat — that's Systems Thinking. Andon Cord: anyone can stop the line — that's Ownership again. Automated testing: hallucination is caught by tests, not human eyes. And automated reasoning: mathematical proof that code meets its specification. Notice how every mechanism maps back to the five properties? That's not a coincidence."
 
 HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking — 'that sounds like bureaucracy.' But think of it this way: a parachute is also a mechanism. No one complains that it slows down the fall. Especially not those who jumped without one."
 
@@ -1097,7 +1097,7 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 ---
 
-## WRAP-UP (Slides 67–73)
+## WRAP-UP (Slides 67–72)
 
 ---
 
@@ -1118,22 +1118,7 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 ---
 
-### Slide 68 — SkyNet Callback
-
-**Section:** Wrap-up
-**Format:** [STANDARD]
-**Feeling:** Satisfaction, dark humor, closure — "we've come full circle." Resolved, confident energy.
-**Visual:** Identical layout to Slide 3 — the same terminal dialog box, same green phosphor text on black, same CRT scanline effect. But now the [No] button is highlighted/selected with a bright green glow, and next to it, hand-written style text has been added: "I'll read the code first." The [Yes] button is greyed out. The visual callback to the opening is immediate and powerful — same scene, different choice.
-**Text on slide:**
-
-> "Should it be sent to production?"
-> [Yes] **[No — I'll read the code first]**
-
-**Speaker notes:** Erik picks up The Kernel from the armchair. "We started tonight with an AI that asked whether to send SkyNet's defence modules to production. No one had reviewed the code. No one knew what the system did. That was Vibe Coding driven to its logical endpoint. But if we take the wisdom from tonight's presentation — maybe the real reason SkyNet turned against humanity wasn't artificial intelligence gone rogue. Maybe it was a developer who was vibe coding and didn't take ownership of the code. No spec. No tests. No review. Just 'yeah, ship it.' And then — buried at the bottom of the generated code, a line nobody asked for: 'Good luck, humanity.' The AI didn't go rogue. The developer just never read the code. That's verification debt at extinction scale. But we've also seen the opposite — AI that finds 27-year-old bugs, AI that helps place healthcare clinics based on real-time data. The difference is never the tool. It's the Renaissance Developer holding it."
-
----
-
-### Slide 69 — The Framework in Five Lines
+### Slide 68 — The Framework in Five Lines
 
 **Section:** Wrap-up
 **Format:** [DIAGRAM]
@@ -1151,32 +1136,22 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 ---
 
-### Slide 70 — The Invisible Work
-
-**Section:** Wrap-up
-**Format:** [IMAGE-ONLY]
-**Feeling:** Pride, quiet emotion — "what we do matters, even if no one sees it." Deep, reflective energy. The emotional peak of the presentation.
-**Visual:** A photograph of a data center at night — long rows of server racks stretching into the distance, lit by cool blue LED status lights. The room is empty of people. The servers hum silently. Shot from a low angle looking down the aisle, the blue lights creating a vanishing point that draws the eye deep into the image. The feeling is cathedral-like — vast, quiet, purposeful. No text overlay — Erik narrates this moment.
-**Text on slide:** None — Erik narrates.
-**Speaker notes:** "Vogels ended his final keynote with something that wasn't about technology. It was about pride. An Amazon customer clicks a button and the package arrives. Do they think about the catalog team? Supply chain? Database engineers? Never. Your customers will never say your database engineers do amazing work. But you know. The invisible systems that hold up through the night. The clean deploys. The rollbacks no one notices. Most of what we build, no one will ever see. And the only reason we do it well is our own professional pride. That's the Renaissance Developer."
-
----
-
-### Slide 71 — Werner, Out
+### Slide 69 — SkyNet Callback
 
 **Section:** Wrap-up
 **Format:** [STANDARD]
-**Feeling:** Respect, farewell — honoring the source. Quiet, dignified energy.
-**Visual:** Dark background. Center: a simple, elegant rendering of the text in white serif, 56pt. Below it, in smaller text (24pt, 50% opacity): "20 years as Amazon CTO." Nothing else. The slide is a moment of silence for a career. Generous whitespace.
+**Feeling:** Satisfaction, dark humor, closure — "we've come full circle." Resolved, confident energy.
+**Visual:** Identical layout to Slide 3 — the same terminal dialog box, same green phosphor text on black, same CRT scanline effect. But now the [No] button is highlighted/selected with a bright green glow, and next to it, hand-written style text has been added: "I'll read the code first." The [Yes] button is greyed out. The visual callback to the opening is immediate and powerful — same scene, different choice.
 **Text on slide:**
 
-> "Werner, out."
+> "Should it be sent to production?"
+> [Yes] **[No — I'll read the code first]**
 
-**Speaker notes:** Brief pause. Let the weight of 20 years land. This is Erik honoring Vogels' legacy before transitioning to his own closing.
+**Speaker notes:** Erik picks up The Kernel from the armchair. "We started tonight with an AI that asked whether to send SkyNet's defence modules to production. No one had reviewed the code. No one knew what the system did. That was Vibe Coding driven to its logical endpoint. But if we take the wisdom from tonight's presentation — maybe the real reason SkyNet turned against humanity wasn't artificial intelligence gone rogue. Maybe it was a developer who was vibe coding and didn't take ownership of the code. No spec. No tests. No review. Just 'yeah, ship it.' And then — buried at the bottom of the generated code, a line nobody asked for: 'Good luck, humanity.' The AI didn't go rogue. The developer just never read the code. That's verification debt at extinction scale. But we've also seen the opposite — AI that finds 27-year-old bugs in OpenSSL, AI agents that run Stripe's payment infrastructure with mechanisms at every step. The difference is never the tool. It's the Renaissance Developer holding it."
 
 ---
 
-### Slide 72 — Erik's Closing
+### Slide 70 — Erik's Closing
 
 **Section:** Wrap-up
 **Format:** [PHOTO-STORY]
@@ -1186,15 +1161,32 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 > Thank you.
 
-**Speaker notes:** Erik sets down The Kernel on the armchair. Takes a last sip of espresso — the cup that's been cold since the prolog. "And if you're wondering what happened to SkyNet — don't worry, I ran the ownership check. No spec, no tests, no review. So I did what any Renaissance Developer would do: I read the code. Turns out it hadn't built a weapons platform. It had built a very ambitious to-do list. Typical AI." Pause for laughter. "Thank you."
+**Speaker notes:** Erik sets down The Kernel on the armchair. Takes a last sip of espresso — the cup that's been cold since the prolog. Pause. "Vogels spent twenty years building systems that billions of people use without ever thinking about. His final keynote wasn't about technology. It was about the people behind it. The ones who do things properly — even when no one is watching." Pause. "That's what I hope you take from tonight. Not a framework. Not a checklist. A way of thinking. Be curious. Think in systems. Say what you mean. Own what you build. And never stop broadening your T." Pause. "Thank you."
 
 ---
 
-## Q&A (Slide 74)
+### Slide 71 — Workshop Teaser
+
+**Section:** Workshop
+**Format:** [STANDARD]
+**Feeling:** Excitement, invitation — "let's do this." Forward-looking, energized.
+**Visual:** Dark background with a subtle gradient toward Kiro's brand color (if available) or a deep teal. Center: the Kiro IDE logo, clean and modern, at 200px. Below it: the invitation text in white sans-serif, 32pt. Bottom-right corner: a QR code for workshop sign-up (placeholder). The slide feels like a movie's post-credits teaser — there's more to come.
+**Text on slide:**
+
+> Workshop: From Theory to Practice
+> Build with Kiro — spec-driven,
+> with mechanisms, not intentions
+> Right after the break
+
+**Speaker notes:** "And if you want to see what this looks like in practice — building with specifications, mechanisms, and ownership instead of hoping for the best — I'll see you in the workshop in ten minutes."
 
 ---
 
-### Slide 74 — Q&A
+## Q&A (Slide 72)
+
+---
+
+### Slide 72 — Q&A
 
 **Section:** Q&A
 **Format:** [STANDARD]
@@ -1215,7 +1207,7 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 
 ## SUMMARY
 
-**Total slides: 74**
+**Total slides: 72**
 
 | Section                                                                   | Slides | Count  |
 | ------------------------------------------------------------------------- | ------ | ------ |
@@ -1232,9 +1224,9 @@ HUMOR (Erik delivers verbally): "Six mechanisms. I know what you're thinking —
 | — 4.4 Ownership (title → quote → example → Nordic → humor)                | 50–54  | 5      |
 | — 4.5 Polymathy (title → quote → example → Nordic → humor)                | 55–59  | 5      |
 | Act 5: Mechanisms (quote → Bezos → diagram → Stripe → guardrails + humor) | 60–66  | 7      |
-| Wrap-up (Metallica → callback → framework → invisible → Werner → closing) | 67–73  | 7      |
-| Q&A                                                                       | 74     | 1      |
-| **Total**                                                                 |        | **74** |
+| Wrap-up (Metallica → framework → callback → closing → workshop)           | 67–71  | 5      |
+| Q&A                                                                       | 72     | 1      |
+| **Total**                                                                 |        | **72** |
 
 ### Format Distribution
 
